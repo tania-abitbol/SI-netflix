@@ -6,17 +6,11 @@
   display: flex;
   font-size: 18px;
   .header__left{
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 72%;
     margin-left: 6.5%;
-    // .header__list{
-    //   display: flex;
-    //   flex-direction: row;
-    //   align-items: center;
-    // }
     .header__list{
       display: flex;
       flex-direction: row;
@@ -24,6 +18,10 @@
       width: 50%;
       text-align: center;
       margin-top: 26px;
+      a{
+      text-decoration: none;
+      color: $gris;
+      }
     }
   }
   .header__right{
@@ -32,7 +30,6 @@
    justify-content: space-around;
    width: 20%;
     margin-right: 6.5%;
-    border: 1px solid grey ;
     margin-left: 36%;
     align-items: center;
   }
