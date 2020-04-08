@@ -1,0 +1,25 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html src/screens/*.html && cp -R src/assets/ dist",
+    "build": "parcel build src/index.html src/screens/*.html && cp -R src/assets/ dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tania-abitbol/SI-netflix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tania-abitbol/SI-netflix/issues"
+  },
+  "homepage": "https://github.com/tania-abitbol/SI-netflix#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {}
+}
