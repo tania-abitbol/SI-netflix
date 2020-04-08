@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>GOFILMAX - Player</title> <!-- need to take this part with js for add the name of files -extension -->
-	<link rel="stylesheet" href="css/style.scss">
+	<link rel="stylesheet" href="src/scss/style.scss">
 </head>
+
 <body>
 	<!-- Header -->
 	<header>
-		
+		<!-- Logo -->
+		<img src="./src/assets/imgs/logo.png" alt="">
+		<nav>
+			<ul>©
+				<li>Home</li>
+				<li>TV Shows</li>
+				<li>Series</li>
+			</ul>
+
+		</nav>
 	</header>
 
 
 	<div class="video-container">
-	<video class="video" src="ressources/films/28 semaines plus tard.avi"></video>
-	<div class="progress">
-		<div class="bar"></div>
-	</div>
+		<video class="video" src="ressources/films/28 semaines plus tard.avi"></video>
+		<div class="progress">
+			<div class="bar"></div>
+		</div>
 		<div class="controller">
 			<button class="play">Play/Pause</button>
 			<button class="replay">replay</button>
@@ -27,7 +38,8 @@
 			<button class="volumneg">Volum -</button>
 		</div>
 	</div>
-	
-	<script src="./scripts/script.js"></script>
+
+	<script src="./src/scripts/script.js"></script>
 </body>
+
 </html>
