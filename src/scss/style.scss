@@ -1,11 +1,10 @@
-@import "reset/reset.scss";
-
 //Config
+@import "config/reset.scss";
+@import "config/variables.scss";
+@import "pages/main.scss";
 
-@import 'config/variables.scss';
-
-.video-container{
-  position:relative;
+.video-container {
+  position: relative;
   left: 10%;
   display: flex;
 }
@@ -19,28 +18,27 @@
 }
 
 .controller {
-
   position: absolute;
   width: 60%;
   bottom: 8.5%;
   display: flex;
   justify-content: space-between;
-	left: 30%;
-	transform: translateX(-50%);
+  left: 30%;
+  transform: translateX(-50%);
 }
 
 .progress {
   position: absolute;
   bottom: 12%;
-	width: 60%;
-	height: 10px;
-	background: black;
+  width: 60%;
+  height: 10px;
+  background: black;
 }
 
 .bar {
   height: 10px;
-	width: 100%;
-	transform: scaleX(0);
-	transform-origin: left;
-	background: red;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: red;
 }
