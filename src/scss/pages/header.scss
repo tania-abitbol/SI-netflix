@@ -1,0 +1,42 @@
+.header{
+  width: 100vw;
+  height: 129px;
+  background-color: $noir;
+  color: $gris;
+  display: flex;
+  font-size: 24px;
+  .yo{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin-left: 94px;
+    vertical-align: middle;
+    flex-grow: 2;
+    // .header__list{
+    //   display: flex;
+    //   flex-direction: row;
+    //   align-items: center;
+    // }
+    .hey{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 48%;
+      text-align: center;
+      margin-top: 26px;
+
+    }
+  }
+  .header__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding-left:48%;
+    // width: 50%;
+    margin-right: 94px;
+    flex-grow: 1;
+  }
+}
