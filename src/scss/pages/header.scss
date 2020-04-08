@@ -1,0 +1,30 @@
+.header{
+  width: 100vw;
+  height: 129px;
+  background-color: $noir;
+  color: $gris;
+  padding-top: 1%;
+ .header__nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 6%;
+ }
+ .header__list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 240px;
+   margin-right: 48%;
+   text-align: center;
+   margin-top: 3%;
+ }
+ .header__right{
+   padding-right: 6%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 12vw;
+   align-content: space-between;
+ }
+}
