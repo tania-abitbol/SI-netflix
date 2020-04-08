@@ -1,0 +1,48 @@
+.footer{
+    background-color: $noir;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+
+    .Logos__rs {
+        margin-top: 10px;
+        width: 32px;
+        height: 25,78px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 20px;
+
+    }
+
+    .rows {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+    }
+    
+    .footer__categories{
+        list-style: none;
+        display: flex;
+        padding-left: 20px;
+
+        
+        
+        
+        
+
+        .footer__category a {
+            display: flex;
+            text-decoration: none;
+            color: $gris;
+            
+
+        }
+
+    }
+}
