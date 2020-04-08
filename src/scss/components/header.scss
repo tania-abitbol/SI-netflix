@@ -1,0 +1,34 @@
+.header {
+  width: 100vw;
+  height: 129px;
+  background-color: $black;
+  color: $grey;
+  display: flex;
+  font-size: 24px;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__nav__left {
+      display: flex;
+      & > img {
+        margin-right: 10px;
+      }
+      &__links {
+        display: flex;
+        align-items: center;
+        & > li {
+          margin: 0 8px;
+        }
+      }
+    }
+    &__nav__right {
+      display: flex;
+      align-items: center;
+      & > img {
+        margin: 0 10px;
+      }
+    }
+  }
+}
