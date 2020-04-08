@@ -1,100 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>GOFILMAX - Player</title> <!-- need to take this part with js for add the name of files -extension -->
-	<link rel="stylesheet" href="scss/style.scss">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOFILMAX</title>
+  <link rel="stylesheet" href="scss/style.scss">
+  <script src="js/index.js" defer></script>
 </head>
 
 <body>
-	<!-- Header -->
-<!-- Header -->
-<header class="header">
-  <nav class="header__nav">
-    <!-- <img src="./assets/imgs/logo.png" alt="" class="header__logo"> -->
-    <ul class="header__nav__list">
-      <li>Home</li>
-      <li>TV Shows</li>
-      <li>Series</li>
-    </ul>
-   
-  </nav>
-</header>
 
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__nav__list">
+        <li>Home</li>
+        <li>Movies</li>
+        <li>Series</li>
+      </ul>
+    </nav>
+  </header>
 
-	<div class="video-container">
-		<video class="video" src=""></video>
-		<div class="progress">
-			<div class="bar"></div>
-		</div>
-		<div class="controller">
-			<button class="play">Play/Pause</button>
-			<button class="replay">replay</button>
-			<button class="moreSec">+10sec</button>
-			<button class="lessSec">-10sec</button>
-			<button class="volumpos">Volum +</button>
-			<button class="volumneg">Volum -</button>
-		</div>
-	</div>
+  <div class="video">
+    <video class="video__player" src=""></video>
+    <div class="video__progress">
+      <div class="video__progress__bar"></div>
+    </div>
+    <div class="video__controller">
+      <button class="video__controller--play">Play/Pause</button>
+      <button class="video__controller--replay">replay</button>
+      <button class="video__controller--addtime-forward">+10sec</button>
+      <button class="video__controller--addtime-backward">-10sec</button>
+      <button class="video__controller--increase-volume">Volume +</button>
+      <button class="video__controller--dicrease-volume">Volume -</button>
+    </div>
+  </div>
 
+  <footer class="footer">
+    <div class="footer__social-network">
+      <a href="https:/images/social-network/twitter.com"><img class="footer__social-network__twitter"
+          src="assets/images/twitter.png"></a>
+      <a href="https:/images/social-network/www.facebook.com/"><img class="footer__social-network__facebook"
+          src="assets/images/social-network/fb.png"></a>
+      <a href="https://www.instagram.com"><img class="footer__social-network__instagram"
+          src="assets/images/social-network/instagram.png"></a>
+      <a href="https:/imagesysocial-network/outube.com"><img class="footer__social-network__youtube"
+          src="assets/images/social-network/youtube.png"></a>
+    </div>
+    <div class="footer__rows">
+      <ul class="footer__rows__categories">
+        <li class="footer__rows__categories__items">
+          <a href="#">Audio and Subtitles</a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+      <ul class="footer__rows__categories">
+        <li class="footer__rows__categories__items">
+          <a href="#">Audiodescription</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Legal Notices</a>
+        </li>
+      </ul>
+      <ul class="footer__rows__categories">
+        <li class="footer__rows__categories__items">
+          <a href="#">Help Center</a>
+          <a href="#">Jobs</a>
+          <a href="#">Cookie Preferences</a>
+        </li>
+      </ul>
+      <ul class="footer__rows__categories">
+        <li class="footer__rows__categories__items">
+          <a href="#">Legal Mentions</a>
+          <a href="#">Terms of Use</a>
+        </li>
+      </ul>
+    </div>
 
-	<footer class="footer">
-
-		<div class="Logos__rs">
-            <a href="https://twitter.com"><img class="Logos__rs Logo__twitter" src="assets/imgs/twitter.png"></a>
-            <a href="https://www.facebook.com/"><img class="Logos__rs Logos__facebook" src="assets/imgs/f.png"></a>
-			<a href="https://www.instagram.com"><img class="Logos__rs Logos__instagram" src="assets/imgs/instagram.png"></a>
-            <a href="https://youtube.com"><img class="Logos__rs Logos__youtube" src="assets/imgs/youtube.png"></a>
-			
-        </div>
-
-		<div class="rows">
-			<ul class="footer__categories">
-
-			<li class="footer__category">
-					<a href="#">Audio and Substitles</a>
-					<a href="#">Privacy</a>
-					<a href="#">Contact Us</a>
-			</li>
-			
-			
-
-			</ul>
-			<ul class="footer__categories">
-
-				<li class="footer__category">
-					<a href="#">Audiodescription</a>
-					<a href="#">Investor Relations</a>
-					<a href="#">Legal Notices</a>
-				</li>
-			
-	
-			</ul>
-			<ul class="footer__categories">
-
-			<li class="footer__category">
-				<a href="#">Help Center</a>
-				<a href="#">Jobs</a>
-				<a href="#">Cookie Preferences</a>
-			</li>
-			
-	
-			</ul>
-			<ul class="footer__categories">
-
-				<li class="footer__category">
-					<a href="#">Legal Mentions</a>
-					<a href="#">Terms of Use</a>
-				</li>
-				
-		
-			</ul>
-		</div>
-
-	  </footer>
-	<script src="scripts/script.js"></script>
+  </footer>
 </body>
 
 </html>
