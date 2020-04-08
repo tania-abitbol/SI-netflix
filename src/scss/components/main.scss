@@ -1,0 +1,19 @@
+// Header
+
+.header {
+  width: 100vw;
+  height: 129px;
+  background-color: $black;
+  color: $grey;
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .header__nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-self: space-between;
+    width: auto;
+  }
+}
