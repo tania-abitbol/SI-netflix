@@ -1,2 +1,2 @@
 import "./slider.js";
-import "./player.js";
+import "../js/player.js";

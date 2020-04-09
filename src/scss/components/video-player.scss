@@ -1,35 +1,39 @@
 .video {
-  position: relative;
-  left: 10%;
+  position: absolute;
+  // left: 10%;
   display: flex;
-  &__player {
-    width: 60%;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid red;
+    &__player {
+     width: 100%;
+    height: 100%;
     display: flex;
     position: relative;
-    top: 20%;
   }
   &__controller {
+    border: 2px solid blue;
     position: absolute;
     width: 60%;
-    bottom: 8.5%;
+    // bottom: 8.5%;
     display: flex;
     justify-content: space-between;
-    left: 30%;
-    transform: translateX(-50%);
+    // left: 30%;
+    // transform: translateX(-50%);
   }
-  &__progress {
-    position: absolute;
-    bottom: 12%;
-    width: 60%;
-    height: 10px;
-    background: black;
-  }
-  &__bar {
-    height: 10px;
-    width: 100%;
-    transform: scaleX(0);
-    transform-origin: left;
-    background: red;
-  }
+  // &__progress {
+  //   position: absolute;
+  //   bottom: 12%;
+  //   width: 60%;
+  //   height: 10px;
+  //   background: black;
+  // }
+  // &__bar {
+  //   height: 10px;
+  //   width: 100%;
+  //   transform: scaleX(0);
+  //   transform-origin: left;
+  //   background: red;
+  // }
 }
+

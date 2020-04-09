@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VideoPlayer</title>
+  <link rel="stylesheet" href="../scss/style.scss">
+</head>
+
+<body>
+  <div class="video">
+    <video class="video__player" src="../assets/ma_nouvelle_vie_commence_maintenant.mp4" type="video/mp4"></video>
+    <div class="video__progress">
+      <div class="video__progress__bar"></div>
+    </div>
+    <div class="video__controller">
+      <button class="video__controller--play">Play/Pause</button>
+      <button class="video__controller--replay">replay</button>
+      <button class="video__controller--addtime-forward">+10sec</button>
+      <button class="video__controller--addtime-backward">-10sec</button>
+      <button class="video__controller--increase-volume">Volume +</button>
+      <button class="video__controller--dicrease-volume">Volume -</button>
+    </div>
+  </div>
+
+
+  <script src="../js/player.js" defer></script>
+</body>
+
+</html>

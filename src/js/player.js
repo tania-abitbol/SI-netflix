@@ -1,4 +1,5 @@
 const video = document.querySelector(".video");
+const videoContent = document.querySelector(".video__player");
 const play = document.querySelector(".video__controller--play");
 const volumpos = document.querySelector(".video__controller--dicrease-volume");
 const volumneg = document.querySelector(".video__controller--increase-volume");
@@ -8,8 +9,12 @@ const lessSec = document.querySelector(".video__controller--addtime-backward");
 const bar = document.querySelector(".video__progress__bar");
 
 play.addEventListener("click", () => {
-  if (video.paused) video.play();
-  else video.pause();
+if(videoContent.paused){
+  videoContent.play();
+}else{
+  videoContent.pause();
+  console.log('y')
+}
 });
 
 volumpos.addEventListener("click", () => {
