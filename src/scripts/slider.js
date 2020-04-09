@@ -3,9 +3,9 @@ const fleche_d = document.querySelector(".next");
 const all = document.querySelector(".slider");
 
 fleche_d.addEventListener("click", function () {
-  all.scrollLeft += 300;
+  all.scrollLeft += 330;
 });
 
 fleche_g.addEventListener("click", function () {
-  all.scrollLeft -= 300;
+  all.scrollLeft -= 330;
 });

@@ -2,7 +2,9 @@
 @import "config/reset.scss";
 @import "config/variables.scss";
 @import "pages/main.scss";
-@import 'pages/slider.scss';
+@import "pages/slider.scss";
+@import "pages/footer.scss";
+
 .video-container {
   position: relative;
   left: 10%;

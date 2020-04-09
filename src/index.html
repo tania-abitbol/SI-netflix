@@ -1,29 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Audio / Video</title>
-	<link rel="stylesheet" href="./../reset.css">
-	<link rel="stylesheet" href="./style.css">
-</head>
-<body>
-	
-	<div class="video-container">
-	<video class="video" src=""></video>
-	<div class="progress">
-		<div class="bar"></div>
-	</div>
-		<div class="controller">
-			<button class="play">Play/Pause</button>
-			<button class="replay">replay</button>
-			<button class="moreSec">+10sec</button>
-			<button class="lessSec">-10sec</button>
-			<button class="volumpos">Volum +</button>
-			<button class="volumneg">Volum -</button>
-		</div>
-	</div>
-	
-	<script src="./script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio / Video</title>
+    <link rel="stylesheet" href="./scss/config/reset.scss" />
+    <link rel="stylesheet" href="./scss/style.scss" />
+  </head>
+  <body>
+    <div class="video-container">
+      <video class="video" src=""></video>
+      <div class="progress">
+        <div class="bar"></div>
+      </div>
+      <div class="controller">
+        <button class="play">Play/Pause</button>
+        <button class="replay">replay</button>
+        <button class="moreSec">+10sec</button>
+        <button class="lessSec">-10sec</button>
+        <button class="volumpos">Volum +</button>
+        <button class="volumneg">Volum -</button>
+      </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+
+    <footer class="footer">
+      <div class="Logos__rs">
+        <a href="https://twitter.com"
+          ><img class="Logos__rs Logo__twitter" src="assets/imgs/twitter.png"
+        /></a>
+        <a href="https://www.facebook.com/"
+          ><img class="Logos__rs Logos__facebook" src="assets/imgs/f.png"
+        /></a>
+        <a href="https://www.instagram.com"
+          ><img
+            class="Logos__rs Logos__instagram"
+            src="assets/imgs/instagram.png"
+        /></a>
+        <a href="https://youtube.com"
+          ><img class="Logos__rs Logos__youtube" src="assets/imgs/youtube.png"
+        /></a>
+      </div>
+
+      <div class="rows">
+        <ul class="footer__categories">
+          <li class="footer__category">
+            <a href="#">Audio and Substitles</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="footer__categories">
+          <li class="footer__category">
+            <a href="#">Audiodescription</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Legal Notices</a>
+          </li>
+        </ul>
+        <ul class="footer__categories">
+          <li class="footer__category">
+            <a href="#">Help Center</a>
+            <a href="#">Jobs</a>
+            <a href="#">Cookie Preferences</a>
+          </li>
+        </ul>
+        <ul class="footer__categories">
+          <li class="footer__category">
+            <a href="#">Legal Mentions</a>
+            <a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="/scripts/script.js"></script>
+  </body>
 </html>
