@@ -1,5 +1,5 @@
 const video = document.querySelector(".video");
-const videoContent = document.querySelector(".video__player");
+const videoContent = document.querySelector(".video__played");
 const play = document.querySelector(".video__controller--play");
 const volumpos = document.querySelector(".video__controller--increase-volume");
 const volumneg = document.querySelector(".video__controller--dicrease-volume");
@@ -41,39 +41,12 @@ replay.addEventListener("click", () => {
 });
 
 moreSec.addEventListener("click", () => {
-  // if (video.currentTime + 10 >= video.duration) video.currentTime += 0;
-  // else video.currentTime += 10;
-  // video.play();
   videoContent.currentTime += 10;
 });
 
 lessSec.addEventListener("click", () => {
-  // if (video.currentTime - 10 <= 0) video.currentTime -= 0;
-  // else video.currentTime -= 10;
-  // video.play();
   videoContent.currentTime -= 10;
 });
-
-
-// videoContent.addEventListener('timeupdate', () =>{
-//   // var positionSouris = event.pageX;
-//   // var positionBar = bar.offsetWidth;
-//   // var positionProgress = progressBar.offsetLeft;
-//   var vid = videoContent.currentTime;
-//   // var x = positionSouris - positionProgress;
-//   // var pourcent = Math.ceil((x / positionBar)*100);
-//   var duration = videoContent.duration;
-//   // var vid = (duration * pourcent)/100;
-//   // if(!videoContent.ended){
-// bar.style.width = parseInt(vid * 100 / duration) + '%';
-
-// console.log(vid, bar.style.width, duration)
-// });
-
-// videoContent.addEventListener('timeupdate', () => {
-//   progressBar.value = video.currentTime;
-// });
-
 
 videoContent.addEventListener('timeupdate', () => {
   var vid = videoContent.currentTime;
@@ -96,9 +69,3 @@ videoContent.addEventListener('timeupdate', () => {
 //   console.log('Souris' + positionSouris, 'videoTime' + videoTime, 'current' + video.currentTime)
 // })
 
-// videoContent.addEventListener("timeupdate", () => {
-//   const progress = videoContent.currentTime / videoContent.duration; // 0 = Début, 1 = Fin
-//   bar.style.transform = "scaleX(" + progress + ")"; // On applique le nouveau style a notre bar
-//   console.log(bar.style.transform)
-//   console.log('prog' + progress)
-// });
