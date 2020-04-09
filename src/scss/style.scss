@@ -1,47 +1,9 @@
-//Config
-@import "config/reset.scss";
-@import "config/variables.scss";
-@import "pages/main.scss";
-@import "pages/header.scss";
-@import "pages/footer.scss";
+@import "global/reset.scss";
+@import "global/variables.scss";
+@import "components/main.scss";
+@import "components/footer.scss";
+@import "components/header.scss";
 
-
-.video-container {
-  position: relative;
-  left: 10%;
-  display: flex;
-}
-
-.video {
-  width: 60%;
-  height: 100vh;
-  display: flex;
-  position: relative;
-  top: 20%;
-}
-
-.controller {
-  position: absolute;
-  width: 60%;
-  bottom: 8.5%;
-  display: flex;
-  justify-content: space-between;
-  left: 30%;
-  transform: translateX(-50%);
-}
-
-.progress {
-  position: absolute;
-  bottom: 12%;
-  width: 60%;
-  height: 10px;
-  background: black;
-}
-
-.bar {
-  height: 10px;
-  width: 100%;
-  transform: scaleX(0);
-  transform-origin: left;
-  background: red;
+body {
+  font-family: Helvetica, sans-serif;
 }

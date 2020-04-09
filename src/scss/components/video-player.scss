@@ -1,0 +1,35 @@
+.video {
+  position: relative;
+  left: 10%;
+  display: flex;
+  &__player {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    top: 20%;
+  }
+  &__controller {
+    position: absolute;
+    width: 60%;
+    bottom: 8.5%;
+    display: flex;
+    justify-content: space-between;
+    left: 30%;
+    transform: translateX(-50%);
+  }
+  &__progress {
+    position: absolute;
+    bottom: 12%;
+    width: 60%;
+    height: 10px;
+    background: black;
+  }
+  &__bar {
+    height: 10px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: red;
+  }
+}
