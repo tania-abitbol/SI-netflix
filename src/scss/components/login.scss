@@ -1,49 +1,63 @@
 .login {
-  background-color: #07393c;
-  height: 750px;
-  color: blanchedalmond;
-
+  background-color: $blue-darker;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   &__logo {
-    width: 228px;
-    height: 105px;
-    display: flex;
-    margin: auto;
+    margin-bottom: 30px;
   }
+  &__title {
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    color: $grey;
+  }
+
   &__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    &__title {
-      font-weight: bold;
-      font-size: 24px;
-      display: flex;
-      justify-content: center;
-    }
     &__items {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      &__mail {
-        width: 406px;
-        height: 48px;
+      &__item {
+        & a {
+          color: $grey;
+          font-size: 14px;
+        }
+        & > label {
+          color: $grey;
+          font-size: 18px;
+          font-weight: 300;
+        }
+        &:not(:last-child) {
+          margin-bottom: 14px;
+        }
+        display: flex;
+        flex-direction: column;
+        &__input {
+          width: 406px;
+          padding: 14px;
+          &:not(:first-child) {
+            margin-bottom: 8px;
+          }
+        }
       }
-      &__password {
-        width: 406px;
-        height: 48px;
-      }
+      margin-bottom: 32px;
     }
-    &__page {
-      color: white;
+    &__submit {
       display: flex;
       justify-content: center;
-      margin-top: 10px;
+      & button {
+        cursor: pointer;
+        &:hover {
+          background-color: $blue;
+        }
+        padding: 10px 24px;
+        background-color: $blue-darker;
+        & > a {
+          font-size: 18px;
+          color: $grey;
+          text-decoration: none;
+        }
+      }
     }
-  }
-
-  .button {
-    color: white;
-    text-decoration: none;
   }
 }
