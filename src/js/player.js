@@ -11,21 +11,21 @@ const progressBar = document.querySelector(".video__progress__bar");
 videoContent.volume = 0.2;
 
 play.addEventListener("click", () => {
-if(videoContent.paused){
-  videoContent.play();
-  play.textContent = 'Pause'
-}else{
-  videoContent.pause();
-  play.textContent = 'Play'
-}
+  if (videoContent.paused) {
+    videoContent.play();
+    play.textContent = 'Pause'
+  } else {
+    videoContent.pause();
+    play.textContent = 'Play'
+  }
 });
 
 
 volumpos.addEventListener("click", () => {
-  if(videoContent.volume + 0.10 <= 1){
+  if (videoContent.volume + 0.10 <= 1) {
     videoContent.volume += 0.10;
     console.log('y')
-  }else{
+  } else {
     videoContent.volume = 1;
   }
   console.log(videoContent.volume)
@@ -74,14 +74,15 @@ lessSec.addEventListener("click", () => {
 //   progressBar.value = video.currentTime;
 // });
 
+
 videoContent.addEventListener('timeupdate', () => {
   var vid = videoContent.currentTime;
   var duration = videoContent.duration;
-  if (videoContent.currentTime !== videoContent.duration) { console.log('coucou') 
-    bar.style.width = parseInt(vid * 100 / duration) + '%';
-    console.log('yo')
+  if (videoContent.currentTime !== videoContent.duration) {
+    progressBar.style.width = vid / duration * 100 + '%';
+    console.log(bar.style.width)
   } else {
-    progress.style.width = '0%';
+    progressBar.style.width = '0%';
   }
 })
 

@@ -31,17 +31,11 @@
     bottom: 12%;
     width: 100%;
     height: 100px;
-    background-color: red;
-    // background: black;
-    // border: 4px solid purple;
-  
   &__bar {
     height: 100px;
     width: 0%;
-   
-    transform: scaleX(0);
     transform-origin: right;
-    background-color: 2px solid red;
+    background-color:  red;
   }
 }
 }
