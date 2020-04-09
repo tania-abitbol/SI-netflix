@@ -2,35 +2,35 @@
   background-color: $black;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  height: 150px;
-
+  padding: 30px 0;
   &__social-network {
-    margin-top: 10px;
-    width: 32px;
-    height: 25, 78px;
+    margin-bottom: 24px;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-right: 20px;
+    & > a {
+      margin: 0 15px;
+    }
   }
 
   &__rows {
-    margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 
-    &__footer__categories {
+    &__categories {
       list-style: none;
-      display: flex;
-      padding-left: 20px;
+      &:not(:first-child) {
+        padding-left: 20px;
+      }
 
-      &__item a {
-        display: flex;
-        text-decoration: none;
-        color: $grey;
+      &__item {
+        &:not(:last-child) {
+          margin-bottom: 6px;
+        }
+        & > a {
+          color: $grey;
+          text-decoration: none;
+        }
       }
     }
   }
