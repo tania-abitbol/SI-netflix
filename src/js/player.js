@@ -6,7 +6,8 @@ const volumneg = document.querySelector(".video__controller--dicrease-volume");
 const replay = document.querySelector(".video__controller--replay");
 const moreSec = document.querySelector(".video__controller--addtime-forward");
 const lessSec = document.querySelector(".video__controller--addtime-backward");
-const bar = document.querySelector(".video__progress__bar");
+const bar = document.querySelector('.video__progress')
+const progressBar = document.querySelector(".video__progress__bar");
 videoContent.volume = 0.2;
 
 play.addEventListener("click", () => {
@@ -53,7 +54,50 @@ lessSec.addEventListener("click", () => {
   videoContent.currentTime -= 10;
 });
 
-video.addEventListener("timeupdate", () => {
-  const progress = video.currentTime / video.duration; // 0 = Début, 1 = Fin
-  bar.style.transform = "scaleX(" + progress + ")"; // On applique le nouveau style a notre bar
-});
+
+// videoContent.addEventListener('timeupdate', () =>{
+//   // var positionSouris = event.pageX;
+//   // var positionBar = bar.offsetWidth;
+//   // var positionProgress = progressBar.offsetLeft;
+//   var vid = videoContent.currentTime;
+//   // var x = positionSouris - positionProgress;
+//   // var pourcent = Math.ceil((x / positionBar)*100);
+//   var duration = videoContent.duration;
+//   // var vid = (duration * pourcent)/100;
+//   // if(!videoContent.ended){
+// bar.style.width = parseInt(vid * 100 / duration) + '%';
+
+// console.log(vid, bar.style.width, duration)
+// });
+
+// videoContent.addEventListener('timeupdate', () => {
+//   progressBar.value = video.currentTime;
+// });
+
+videoContent.addEventListener('timeupdate', () => {
+  var vid = videoContent.currentTime;
+  var duration = videoContent.duration;
+  if (videoContent.currentTime !== videoContent.duration) { console.log('coucou') 
+    bar.style.width = parseInt(vid * 100 / duration) + '%';
+    console.log('yo')
+  } else {
+    progress.style.width = '0%';
+  }
+})
+
+// progressBar.addEventListener('click', (positionSouris) =>{
+
+//   var videoTime = parseInt(videoContent.currentTime * 100 / videoContent.duration) + '%'; //% progression video
+//   positionSouris = videoTime;
+//   if(positionSouris == videoContent.currentTime){
+//     videoTime = videoContent.currentTime
+//   }
+//   console.log('Souris' + positionSouris, 'videoTime' + videoTime, 'current' + video.currentTime)
+// })
+
+// videoContent.addEventListener("timeupdate", () => {
+//   const progress = videoContent.currentTime / videoContent.duration; // 0 = Début, 1 = Fin
+//   bar.style.transform = "scaleX(" + progress + ")"; // On applique le nouveau style a notre bar
+//   console.log(bar.style.transform)
+//   console.log('prog' + progress)
+// });
