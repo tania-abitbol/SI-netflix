@@ -23,12 +23,3 @@ fleche_d.addEventListener("click", function () {
 fleche_g.addEventListener("click", function () {
   all.scrollLeft -= 100;
 });
-
-fleche_d.addEventListener("click", function () {
-  alert("kcjeucgure");
-  all.scrollLeft += 100;
-});
-
-fleche_g.addEventListener("click", function () {
-  all.scrollLeft -= 100;
-});
