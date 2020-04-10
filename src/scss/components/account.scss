@@ -1,0 +1,21 @@
+.header {
+  width: 100vw;
+  height: 129px;
+  background-color: $black;
+  color: $grey;
+  display: flex;
+  font-size: 18px;
+  &__nav {
+    width: 100%;
+    padding: 0 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+      display: flex;
+      & > img {
+        margin-right: 10px;
+      }
+    }
+  }
+}
