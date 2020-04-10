@@ -4,6 +4,7 @@
   flex-direction: column-reverse;
   width: 100vw;
   height: 100vh;
+  
   &__played {
     width: 100%;
     height: 100%;
@@ -56,6 +57,17 @@
     &--play{
       display: none;
     }
+    &__container{
+      background-color: $black;
+      border-color: $black;
+      color: $grey;
+      width: 2%;
+      &--volume{
+        -webkit-appearance: none;
+        transform: rotate(270deg) translate(16%);
+        background-color: $blue;
+      }
+  }
   }
 
 }

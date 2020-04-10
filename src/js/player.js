@@ -3,8 +3,6 @@ const videoContent = document.querySelector(".video__played");
 const played = document.querySelector(".video__centralbutton--played");
 const pause = document.querySelector(".video__controller--pause");
 const play = document.querySelector(".video__controller--play");
-const volumpos = document.querySelector(".video__controller--increase-volume");
-const volumneg = document.querySelector(".video__controller--decrease-volume");
 const replay = document.querySelector(".video__controller--replay");
 const moreSec = document.querySelector(".video__controller--addtime-forward");
 const lessSec = document.querySelector(".video__controller--addtime-backward");
@@ -12,6 +10,9 @@ const mute = document.querySelector(".video__controller--mute");
 const bar = document.querySelector(".video__progress");
 const progressBar = document.querySelector(".video__progress__bar");
 const centralButtonPlay = document.querySelector(".video__centralbutton");
+const volume = document.querySelector('.video__controller__container--volume');
+const sound = document.querySelector('.video__controller--sound');
+console.log(volume)
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
@@ -28,13 +29,13 @@ const eventPause = () => {
   played.style.display = "block";
 };
 
-  centralButtonPlay.addEventListener("click", () => {
-    if (videoContent.paused === true) {
-      eventPlay();
-    } else if (videoContent.played.length) {
-      eventPause();
-    }
-  });
+centralButtonPlay.addEventListener("click", () => {
+  if (videoContent.paused === true) {
+    eventPlay();
+  } else if (videoContent.played.length) {
+    eventPause();
+  }
+});
 
 
 pause.addEventListener("click", () => {
@@ -43,22 +44,6 @@ pause.addEventListener("click", () => {
 
 play.addEventListener("click", () => {
   eventPlay();
-})
-
-volumpos.addEventListener("click", () => {
-  if (videoContent.volume + 0.1 <= 1) {
-    videoContent.volume += 0.1;
-  } else {
-    videoContent.volume = 1;
-  }
-});
-
-volumneg.addEventListener("click", () => {
-  if (videoContent.volume - 0.1 >= 0) {
-    videoContent.volume -= 0.1;
-  } else {
-    video.volume = 0; // 0 = mute, 1 = max
-  }
 })
 
 mute.addEventListener("click", () => {
@@ -86,3 +71,10 @@ videoContent.addEventListener("timeupdate", () => {
     progressBar.style.width = "0%";
   }
 });
+
+//Volume
+
+volume.addEventListener('change', (e) => {
+  videoContent.volume = e.currentTarget.value / 100;
+  console.log(e)
+})
