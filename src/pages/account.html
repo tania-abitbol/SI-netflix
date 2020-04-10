@@ -11,7 +11,7 @@
     <header class="header">
       <nav class="header__nav">
         <div class="header__nav__left">
-          <img src="../assets/images/logo.png" alt="" />
+          <a href="../index.html"><img src="../assets/images/logo.png" alt="" /></a>
           <ul class="header__nav__left__links">
             <li>Home</li>
             <li>TV Shows</li>
@@ -21,16 +21,167 @@
       </nav>
     </header>
     <div class="profil">
-      <ul class="profil__left">
-        <li class="profil__left__items">My list</li>
-        <li class="profil__left__items">View</li>
-        <li class="profil__left__items">Notification</li>
-      </ul>
-
-      <div class="profil__right">
-        <img src="../assets/images/user.svg" alt="" />
-        <img src="../assets/images/bottom-arrow.png" alt="" />
-      </div>
+      <nav class="profil__nav">
+        <div class="profil__nav__left">
+          <ul class="profil__vav__left__links">
+            <li>My List</li>
+            <li>View</li>
+          </ul>
+        </div>
+        <div class="profil__nav__right">
+          <a href="../pages/account.html"><img src="../assets/images/user.svg" /></a>
+          <img src="../assets/images/bottom-arrow.png" alt="#" />
+        </div>
+      </nav>
     </div>
+
+    <div class="space-client__title">
+      <h3>Change Email</h3>
+    </div>
+    <form class="space-client__form">
+      <div class="space-client__form__items">
+        <div class="space-client__form__items__item">
+          <label for="email">Email :</label>
+          <input
+            class="space-client__form__items__item__input"
+            name="email"
+            type="text"
+            placeholder="exemple@gmail.com"
+          />
+        </div>
+        <div class="space-client__form__items__item">
+          <label for="password">Password :</label>
+          <input
+            class="space-client__form__items__item__input"
+            name="password"
+            type="text"
+            placeholder="Password"
+          />
+        </div>
+      </div>
+
+      <div class="space-client__form__submit">
+        <button class="space-client__form__submit__button" type="submit">
+          <a href="../index.html">START</a>
+        </button>
+      </div>
+    </form>
+
+    <div class="space-client__title">
+      <h3>Select image to upload:</h3>
+    </div>
+    <form
+      class="space-client__form"
+      action="upload.php"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="fileToUpload" id="fileToUpload" />
+      <input type="submit" value="Upload Image" name="submit" />
+    </form>
+
+    <div class="space-client__title">
+      <h3>Change Password</h3>
+    </div>
+    <form class="space-client__form">
+      <div class="space-client__form__items">
+        <div class="space-client__form__items__item">
+          <label for="email"> :</label>
+          <input
+            class="space-client__form__items__item__input"
+            name="email"
+            type="text"
+            placeholder="exemple@gmail.com"
+          />
+        </div>
+        <div class="space-client__form__items__item">
+          <label for="password">Password :</label>
+          <input
+            class="space-client__form__items__item__input"
+            name="password"
+            type="text"
+            placeholder="Password"
+          />
+        </div>
+      </div>
+
+      <div class="space-client__form__submit">
+        <button class="space-client__form__submit__button" type="submit">
+          <a href="../index.html">START</a>
+        </button>
+      </div>
+    </form>
+
+    <footer class="footer">
+      <div class="footer__social-network">
+        <a href="https://twitter.com"
+          ><img
+            class="footer__social-network__twitter"
+            src="../assets/images/social-network/twitter.svg"
+        /></a>
+
+        <a href="https://www.facebook.com/"
+          ><img
+            class="footer__social-network__facebook"
+            src="../assets/images/social-network/facebook.svg"
+        /></a>
+
+        <a href="https://www.instagram.com"
+          ><img
+            class="footer__social-network__instagram"
+            src="../assets/images/social-network/instagram.svg"
+        /></a>
+
+        <a href="https://youtube.com"
+          ><img
+            class="footer__social-network__youtube"
+            src="../assets/images/social-network/youtube.svg"
+        /></a>
+      </div>
+
+      <div class="footer__rows">
+        <ul class="footer__rows__categories">
+          <li class="footer__rows__categories__item">
+            <a href="#">Audio and Subtitles</a>
+          </li>
+          <li class="footer__rows__categories__item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="footer__rows__categories__item">
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="footer__rows__categories">
+          <li class="footer__rows__categories__item">
+            <a href="#">Audiodescription</a>
+          </li>
+          <li class="footer__rows__categories__item">
+            <a href="#">Investor Relations</a>
+          </li>
+          <li class="footer__rows__categories__item">
+            <a href="#">Legal Notices</a>
+          </li>
+        </ul>
+        <ul class="footer__rows__categories">
+          <li class="footer__rows__categories__item">
+            <a href="#">Help Center</a>
+          </li>
+          <li class="footer__rows__categories__item">
+            <a href="#">Jobs</a>
+          </li>
+          <li class="footer__rows__categories__item">
+            <a href="#">Cookie Preferences</a>
+          </li>
+        </ul>
+        <ul class="footer__rows__categories">
+          <li class="footer__rows__categories__item">
+            <a href="#">Legal Mentions</a>
+          </li>
+          <li class="footer__rows__categories__item">
+            <a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

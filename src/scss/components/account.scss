@@ -1,9 +1,9 @@
-.header {
+.profil {
   width: 100vw;
   height: 129px;
-  background-color: $black;
-  color: $grey;
+  background-color: $grey;
   display: flex;
+  flex-direction: row;
   font-size: 18px;
   &__nav {
     width: 100%;
@@ -11,10 +11,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &__left {
+    &__right {
       display: flex;
+      align-items: center;
       & > img {
-        margin-right: 10px;
+        margin: 0 8px;
+      }
+      &__links {
+        display: flex;
+        align-items: center;
+        & > li {
+          margin: 0 8px;
+          color: $blue-darker;
+        }
       }
     }
   }
