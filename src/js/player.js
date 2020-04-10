@@ -82,15 +82,12 @@ videoContent.addEventListener("timeupdate", () => {
 //     progressBar.style.width = "0%";
 //   }
 // });
-// var pos = 0
-// function masquernotification(){
-//   window.setTimeout(masquernotification, 2000);
-// }
-
-// masquernotification();
 
 sound.addEventListener('click', () =>{
+  if( volume.style.display = 'none'){
   volume.style.display = 'block';
+  }
+  setTimeout(function(){volume.style.display = "none"},3000)
 })
 
 volume.addEventListener('change', (e) => {
