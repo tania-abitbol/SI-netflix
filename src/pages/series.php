@@ -1,32 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GOFILMAX</title>
-    <link rel="stylesheet" href="./../scss/style.scss" />
-    <script src="./../js/index.js" defer></script>
-  </head>
+<?php include("./components/header.php")?>
 
-  <body>
-    <header class="header">
-      <nav class="header__nav">
-        <div class="header__nav__left">
-          <img src="./../assets/images/logo.png" alt="" />
-          <ul class="header__nav__left__links">
-            <li><a href="./video-player.html">Home</a></li>
-            <li>TV Shows</li>
-            <li>Series</li>
-          </ul>
-        </div>
-
-        <div class="header__nav__right">
-          <img src="./../assets/images/search-icon.png" alt="" />
-          <img src="./../assets/images/user.svg" alt="" />
-          <img src="./../assets/images/bottom-arrow.png" alt="" />
-        </div>
-      </nav>
-    </header>
     <div class="illustration">
       <img src="./../assets/images/iphonetest.jpg" alt="first" class="illustration__img" />
     </div>
@@ -36,17 +9,14 @@
       <form class="form">
         <select class="type">
           <option value="">Genres</option>
-          <option>Science-fiction</option>
           <option>Action</option>
           <option>Adventure</option>
           <option>Horror</option>
-          <option>Thriller</option>
           <option>Drama</option>
           <option>Fantasy</option>
           <option>Animated</option>
           <option>Comedy</option>
-          <option>Historical</option>
-          <option>Romance</option>
+          <option>Chill</option>
         </select>
       </form>
     </div>
@@ -89,7 +59,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -100,7 +70,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -111,7 +81,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -122,7 +92,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -133,7 +103,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -144,7 +114,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -155,7 +125,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -166,7 +136,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -218,7 +188,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -229,7 +199,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -240,7 +210,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -251,7 +221,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -262,7 +232,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -273,7 +243,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -284,7 +254,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -295,136 +265,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
-            </div>
-            <div class="slider__item--details">
-              <div class="slider__item--title">
-                Arrow
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <h1 class="container--title">Trending Now</h1>
-    <div class="container">
-      <div class="slider__icon">
-        <div class="slider__icon--container">
-          <svg
-            class="prev"
-            width="30"
-            height="24"
-            viewBox="0 0 30 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13.25 7.01039V7.49376L13.7331 7.5101C22.5172 7.80737 29.5 14.5071 29.5001 22.625C29.5001 22.6944 29.4444 22.7501 29.375 22.7501C29.3057 22.7501 29.25 22.6944 29.25 22.625C29.25 21.7647 28.7658 20.9654 28.0089 20.2749C27.2472 19.5798 26.1579 18.9446 24.8119 18.4024C22.1166 17.3166 18.3027 16.5682 13.757 16.5044L13.25 16.4973V17.0043V21.3751C13.25 22.1329 12.6328 22.7501 11.875 22.7501C11.5388 22.7501 11.2106 22.6214 10.9533 22.3821L10.9523 22.3813L10.1455 21.6348L10.1454 21.6348L10.0956 21.5887C7.43192 19.124 3.03849 15.0588 0.787036 12.8014C0.616804 12.6289 0.5 12.3545 0.5 12C0.5 11.6453 0.616942 11.3711 0.786781 11.1995C3.04011 8.93961 7.43959 4.8689 10.1027 2.40478L10.1454 2.36525L10.1455 2.36522L10.9523 1.61877L10.9533 1.61792C11.2106 1.37863 11.5388 1.25 11.875 1.25C12.6328 1.25 13.25 1.8672 13.25 2.625V7.01039ZM28.0886 20.0452L29.2484 21.0611L28.9055 19.5579C27.3632 12.7963 20.8507 7.75 13.1251 7.75C13.0557 7.75 13 7.69431 13 7.62498V2.625C13 2.00364 12.4951 1.49998 11.875 1.49998C11.5151 1.49998 11.2603 1.67414 11.1227 1.80155C11.1227 1.80159 11.1226 1.80164 11.1226 1.80168L10.316 2.54848L10.3158 2.54862L10.3019 2.56145C7.65591 5.00936 3.22764 9.10607 0.966223 11.374C0.857809 11.4814 0.811144 11.6133 0.789623 11.6907C0.763117 11.786 0.74998 11.891 0.74998 12C0.74998 12.1091 0.763162 12.2141 0.78961 12.3092C0.811422 12.3877 0.857952 12.518 0.964325 12.6247C3.22391 14.8904 7.65041 18.9855 10.2976 21.4346L10.3158 21.4514L10.3159 21.4515L11.1226 22.1985C11.26 22.3256 11.5148 22.5 11.875 22.5C12.495 22.5 13 21.9963 13 21.375V16.375C13 16.3057 13.0557 16.25 13.125 16.25C16.5137 16.25 19.6271 16.6416 22.2139 17.3171C24.81 17.9951 26.8369 18.9488 28.0886 20.0452Z"
-              fill="black"
-              stroke="#F0EDEE"
-            />
-          </svg>
-        </div>
-        <div class="slider__icon--second">
-          <svg
-            class="next"
-            width="30"
-            height="24"
-            viewBox="0 0 30 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M16.75 7.01039V7.49376L16.2669 7.5101C7.48283 7.80737 0.5 14.5071 0.499943 22.625C0.499943 22.6944 0.555635 22.7501 0.62496 22.7501C0.694288 22.7501 0.749981 22.6944 0.749981 22.625C0.749981 21.7647 1.23423 20.9654 1.99106 20.2749C2.75277 19.5798 3.84215 18.9446 5.18806 18.4024C7.88344 17.3166 11.6973 16.5682 16.243 16.5044L16.75 16.4973V17.0043V21.3751C16.75 22.1329 17.3672 22.7501 18.125 22.7501C18.4612 22.7501 18.7894 22.6214 19.0467 22.3821L19.0477 22.3813L19.8545 21.6348L19.8546 21.6348L19.9044 21.5887C22.5681 19.124 26.9615 15.0588 29.213 12.8014C29.3832 12.6289 29.5 12.3545 29.5 12C29.5 11.6453 29.3831 11.3711 29.2132 11.1995C26.9599 8.93961 22.5604 4.8689 19.8973 2.40478L19.8546 2.36525L19.8545 2.36522L19.0477 1.61877L19.0467 1.61792C18.7894 1.37863 18.4612 1.25 18.125 1.25C17.3672 1.25 16.75 1.8672 16.75 2.625V7.01039ZM1.91143 20.0452L0.751612 21.0611L1.09449 19.5579C2.63677 12.7963 9.1493 7.75 16.8749 7.75C16.9443 7.75 17 7.69431 17 7.62498V2.625C17 2.00364 17.5049 1.49998 18.125 1.49998C18.4849 1.49998 18.7397 1.67414 18.8773 1.80155C18.8773 1.80159 18.8774 1.80164 18.8774 1.80168L19.684 2.54848L19.6842 2.54862L19.6981 2.56145C22.3441 5.00936 26.7724 9.10607 29.0338 11.374C29.1422 11.4814 29.1889 11.6133 29.2104 11.6907C29.2369 11.786 29.25 11.891 29.25 12C29.25 12.1091 29.2368 12.2141 29.2104 12.3092C29.1886 12.3877 29.142 12.518 29.0357 12.6247C26.7761 14.8904 22.3496 18.9855 19.7024 21.4346L19.6842 21.4514L19.6841 21.4515L18.8774 22.1985C18.74 22.3256 18.4852 22.5 18.125 22.5C17.505 22.5 17 21.9963 17 21.375V16.375C17 16.3057 16.9443 16.25 16.875 16.25C13.4863 16.25 10.3729 16.6416 7.78608 17.3171C5.18999 17.9951 3.16308 18.9488 1.91143 20.0452Z"
-              fill="black"
-              stroke="#F0EDEE"
-            />
-          </svg>
-        </div>
-      </div>
-      <div class="slider slider--large">
-        <div class="slider__inner">
-          <div class="slider__item">
-            <div class="slider__media">
-              <div class="slider__item--img"></div>
-            </div>
-            <div class="slider__item--details">
-              <div class="slider__item--title">
-                Arrow
-              </div>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <div class="slider__media">
-              <div class="slider__item--img"></div>
-            </div>
-            <div class="slider__item--details">
-              <div class="slider__item--title">
-                Arrow
-              </div>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <div class="slider__media">
-              <div class="slider__item--img"></div>
-            </div>
-            <div class="slider__item--details">
-              <div class="slider__item--title">
-                Arrow
-              </div>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <div class="slider__media">
-              <div class="slider__item--img"></div>
-            </div>
-            <div class="slider__item--details">
-              <div class="slider__item--title">
-                Arrow
-              </div>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <div class="slider__media">
-              <div class="slider__item--img"></div>
-            </div>
-            <div class="slider__item--details">
-              <div class="slider__item--title">
-                Arrow
-              </div>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <div class="slider__media">
-              <div class="slider__item--img"></div>
-            </div>
-            <div class="slider__item--details">
-              <div class="slider__item--title">
-                Arrow
-              </div>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <div class="slider__media">
-              <div class="slider__item--img"></div>
-            </div>
-            <div class="slider__item--details">
-              <div class="slider__item--title">
-                Arrow
-              </div>
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -476,7 +317,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -487,7 +328,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -498,7 +339,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -509,7 +350,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -520,7 +361,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -531,7 +372,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -542,7 +383,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -553,7 +394,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -565,7 +406,7 @@
       </div>
     </div>
 
-    <h1 class="container--title">Block Busters</h1>
+    <h1 class="container--title">Trending Now</h1>
     <div class="container">
       <div class="slider__icon">
         <div class="slider__icon--container">
@@ -605,7 +446,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -616,7 +457,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -627,7 +468,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -638,7 +479,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -649,7 +490,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -660,7 +501,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -671,7 +512,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -682,7 +523,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -694,7 +535,7 @@
       </div>
     </div>
 
-    <h1 class="container--title">Hollywood</h1>
+    <h1 class="container--title">SF</h1>
     <div class="container">
       <div class="slider__icon">
         <div class="slider__icon--container">
@@ -734,7 +575,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -745,7 +586,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -756,7 +597,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -767,7 +608,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -778,7 +619,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -789,7 +630,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -800,7 +641,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -811,7 +652,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -823,7 +664,7 @@
       </div>
     </div>
 
-    <h1 class="container--title">Award winning film</h1>
+    <h1 class="container--title">Action and Adventure</h1>
     <div class="container">
       <div class="slider__icon">
         <div class="slider__icon--container">
@@ -863,7 +704,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -874,7 +715,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -885,7 +726,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -896,7 +737,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -907,7 +748,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -918,7 +759,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -929,7 +770,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -940,7 +781,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -952,7 +793,7 @@
       </div>
     </div>
 
-    <h1 class="container--title">Thrillers</h1>
+    <h1 class="container--title">Childrens</h1>
     <div class="container">
       <div class="slider__icon">
         <div class="slider__icon--container">
@@ -992,7 +833,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1003,7 +844,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1014,7 +855,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1025,7 +866,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1036,7 +877,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1047,7 +888,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1058,7 +899,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1069,7 +910,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1081,7 +922,7 @@
       </div>
     </div>
 
-    <h1 class="container--title">Comedies</h1>
+    <h1 class="container--title">Animation</h1>
     <div class="container">
       <div class="slider__icon">
         <div class="slider__icon--container">
@@ -1121,7 +962,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1132,7 +973,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1143,7 +984,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1154,7 +995,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1165,7 +1006,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1176,7 +1017,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1187,7 +1028,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1198,7 +1039,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1210,7 +1051,7 @@
       </div>
     </div>
 
-    <h1 class="container--title">Thriller Movies</h1>
+    <h1 class="container--title">Family</h1>
     <div class="container">
       <div class="slider__icon">
         <div class="slider__icon--container">
@@ -1250,7 +1091,7 @@
         <div class="slider__inner">
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1261,7 +1102,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1272,7 +1113,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1283,7 +1124,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1294,7 +1135,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1305,7 +1146,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1316,7 +1157,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1327,7 +1168,7 @@
 
           <div class="slider__item">
             <div class="slider__media">
-              <div class="slider__item--img"></div>
+              <img class="slider__item--img" />
             </div>
             <div class="slider__item--details">
               <div class="slider__item--title">
@@ -1338,76 +1179,134 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class="footer__social-network">
-        <a href="https://twitter.com"
-          ><img
-            class="footer__social-network__twitter"
-            src="./../assets/images/social-network/twitter.svg"
-        /></a>
 
-        <a href="https://www.facebook.com/"
-          ><img
-            class="footer__social-network__facebook"
-            src="./../assets/images/social-network/facebook.svg"
-        /></a>
-
-        <a href="https://www.instagram.com"
-          ><img
-            class="footer__social-network__instagram"
-            src="./../assets/images/social-network/instagram.svg"
-        /></a>
-
-        <a href="https://youtube.com"
-          ><img
-            class="footer__social-network__youtube"
-            src="./../assets/images/social-network/youtube.svg"
-        /></a>
+    <h1 class="container--title">US Series</h1>
+    <div class="container">
+      <div class="slider__icon">
+        <div class="slider__icon--container">
+          <svg
+            class="prev"
+            width="30"
+            height="24"
+            viewBox="0 0 30 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.25 7.01039V7.49376L13.7331 7.5101C22.5172 7.80737 29.5 14.5071 29.5001 22.625C29.5001 22.6944 29.4444 22.7501 29.375 22.7501C29.3057 22.7501 29.25 22.6944 29.25 22.625C29.25 21.7647 28.7658 20.9654 28.0089 20.2749C27.2472 19.5798 26.1579 18.9446 24.8119 18.4024C22.1166 17.3166 18.3027 16.5682 13.757 16.5044L13.25 16.4973V17.0043V21.3751C13.25 22.1329 12.6328 22.7501 11.875 22.7501C11.5388 22.7501 11.2106 22.6214 10.9533 22.3821L10.9523 22.3813L10.1455 21.6348L10.1454 21.6348L10.0956 21.5887C7.43192 19.124 3.03849 15.0588 0.787036 12.8014C0.616804 12.6289 0.5 12.3545 0.5 12C0.5 11.6453 0.616942 11.3711 0.786781 11.1995C3.04011 8.93961 7.43959 4.8689 10.1027 2.40478L10.1454 2.36525L10.1455 2.36522L10.9523 1.61877L10.9533 1.61792C11.2106 1.37863 11.5388 1.25 11.875 1.25C12.6328 1.25 13.25 1.8672 13.25 2.625V7.01039ZM28.0886 20.0452L29.2484 21.0611L28.9055 19.5579C27.3632 12.7963 20.8507 7.75 13.1251 7.75C13.0557 7.75 13 7.69431 13 7.62498V2.625C13 2.00364 12.4951 1.49998 11.875 1.49998C11.5151 1.49998 11.2603 1.67414 11.1227 1.80155C11.1227 1.80159 11.1226 1.80164 11.1226 1.80168L10.316 2.54848L10.3158 2.54862L10.3019 2.56145C7.65591 5.00936 3.22764 9.10607 0.966223 11.374C0.857809 11.4814 0.811144 11.6133 0.789623 11.6907C0.763117 11.786 0.74998 11.891 0.74998 12C0.74998 12.1091 0.763162 12.2141 0.78961 12.3092C0.811422 12.3877 0.857952 12.518 0.964325 12.6247C3.22391 14.8904 7.65041 18.9855 10.2976 21.4346L10.3158 21.4514L10.3159 21.4515L11.1226 22.1985C11.26 22.3256 11.5148 22.5 11.875 22.5C12.495 22.5 13 21.9963 13 21.375V16.375C13 16.3057 13.0557 16.25 13.125 16.25C16.5137 16.25 19.6271 16.6416 22.2139 17.3171C24.81 17.9951 26.8369 18.9488 28.0886 20.0452Z"
+              fill="black"
+              stroke="#F0EDEE"
+            />
+          </svg>
+        </div>
+        <div class="slider__icon--second">
+          <svg
+            class="next"
+            width="30"
+            height="24"
+            viewBox="0 0 30 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.75 7.01039V7.49376L16.2669 7.5101C7.48283 7.80737 0.5 14.5071 0.499943 22.625C0.499943 22.6944 0.555635 22.7501 0.62496 22.7501C0.694288 22.7501 0.749981 22.6944 0.749981 22.625C0.749981 21.7647 1.23423 20.9654 1.99106 20.2749C2.75277 19.5798 3.84215 18.9446 5.18806 18.4024C7.88344 17.3166 11.6973 16.5682 16.243 16.5044L16.75 16.4973V17.0043V21.3751C16.75 22.1329 17.3672 22.7501 18.125 22.7501C18.4612 22.7501 18.7894 22.6214 19.0467 22.3821L19.0477 22.3813L19.8545 21.6348L19.8546 21.6348L19.9044 21.5887C22.5681 19.124 26.9615 15.0588 29.213 12.8014C29.3832 12.6289 29.5 12.3545 29.5 12C29.5 11.6453 29.3831 11.3711 29.2132 11.1995C26.9599 8.93961 22.5604 4.8689 19.8973 2.40478L19.8546 2.36525L19.8545 2.36522L19.0477 1.61877L19.0467 1.61792C18.7894 1.37863 18.4612 1.25 18.125 1.25C17.3672 1.25 16.75 1.8672 16.75 2.625V7.01039ZM1.91143 20.0452L0.751612 21.0611L1.09449 19.5579C2.63677 12.7963 9.1493 7.75 16.8749 7.75C16.9443 7.75 17 7.69431 17 7.62498V2.625C17 2.00364 17.5049 1.49998 18.125 1.49998C18.4849 1.49998 18.7397 1.67414 18.8773 1.80155C18.8773 1.80159 18.8774 1.80164 18.8774 1.80168L19.684 2.54848L19.6842 2.54862L19.6981 2.56145C22.3441 5.00936 26.7724 9.10607 29.0338 11.374C29.1422 11.4814 29.1889 11.6133 29.2104 11.6907C29.2369 11.786 29.25 11.891 29.25 12C29.25 12.1091 29.2368 12.2141 29.2104 12.3092C29.1886 12.3877 29.142 12.518 29.0357 12.6247C26.7761 14.8904 22.3496 18.9855 19.7024 21.4346L19.6842 21.4514L19.6841 21.4515L18.8774 22.1985C18.74 22.3256 18.4852 22.5 18.125 22.5C17.505 22.5 17 21.9963 17 21.375V16.375C17 16.3057 16.9443 16.25 16.875 16.25C13.4863 16.25 10.3729 16.6416 7.78608 17.3171C5.18999 17.9951 3.16308 18.9488 1.91143 20.0452Z"
+              fill="black"
+              stroke="#F0EDEE"
+            />
+          </svg>
+        </div>
       </div>
+      <div class="slider slider--large">
+        <div class="slider__inner">
+          <div class="slider__item">
+            <div class="slider__media">
+              <img class="slider__item--img" />
+            </div>
+            <div class="slider__item--details">
+              <div class="slider__item--title">
+                Arrow
+              </div>
+            </div>
+          </div>
 
-      <div class="footer__rows">
-        <ul class="footer__rows__categories">
-          <li class="footer__rows__categories__item">
-            <a href="#">Audio and Subtitles</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Privacy</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Contact Us</a>
-          </li>
-        </ul>
-        <ul class="footer__rows__categories">
-          <li class="footer__rows__categories__item">
-            <a href="#">Audiodescription</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Investor Relations</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Legal Notices</a>
-          </li>
-        </ul>
-        <ul class="footer__rows__categories">
-          <li class="footer__rows__categories__item">
-            <a href="#">Help Center</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Jobs</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Cookie Preferences</a>
-          </li>
-        </ul>
-        <ul class="footer__rows__categories">
-          <li class="footer__rows__categories__item">
-            <a href="#">Legal Mentions</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Terms of Use</a>
-          </li>
-        </ul>
+          <div class="slider__item">
+            <div class="slider__media">
+              <img class="slider__item--img" />
+            </div>
+            <div class="slider__item--details">
+              <div class="slider__item--title">
+                Arrow
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__media">
+              <img class="slider__item--img" />
+            </div>
+            <div class="slider__item--details">
+              <div class="slider__item--title">
+                Arrow
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__media">
+              <img class="slider__item--img" />
+            </div>
+            <div class="slider__item--details">
+              <div class="slider__item--title">
+                Arrow
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__media">
+              <img class="slider__item--img" />
+            </div>
+            <div class="slider__item--details">
+              <div class="slider__item--title">
+                Arrow
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__media">
+              <img class="slider__item--img" />
+            </div>
+            <div class="slider__item--details">
+              <div class="slider__item--title">
+                Arrow
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__media">
+              <img class="slider__item--img" />
+            </div>
+            <div class="slider__item--details">
+              <div class="slider__item--title">
+                Arrow
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__media">
+              <img class="slider__item--img" />
+            </div>
+            <div class="slider__item--details">
+              <div class="slider__item--title">
+                Arrow
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
-</html>
+    </div>
+<?php include("./components/footer.php")?>
+    

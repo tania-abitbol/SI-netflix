@@ -4,9 +4,8 @@
   "description": "# Groupe de Nuit/Semaine Charette Netflix like",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/index.html && cp -R src/ressources/ dist",
-    "prettier": " prettier --write --config .prettierrc \"src/**/*.{js,json,scss,html}\""
+    "prettier": " prettier --write --config .prettierrc \"src/**/*.{js,json,scss,html}\"",
+    "watch-sass": "node-sass -w src/styles/scss -o src/styles/css"
   },
   "repository": {
     "type": "git",
@@ -22,9 +21,8 @@
   "devDependencies": {
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
-    "parcel": "^1.12.4",
-    "prettier": "^2.0.4",
-    "sass": "^1.26.3"
+    "node-sass": "^4.13.1",
+    "prettier": "^2.0.4"
   },
   "husky": {
     "hooks": {

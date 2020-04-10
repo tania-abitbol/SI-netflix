@@ -1,3 +1,5 @@
+@import "../global/variables.scss";
+
 $slider-width: 250px;
 $slider-height: 140px;
 $slider-scale: 1.5;
@@ -300,11 +302,6 @@ $sliders-transition: 300ms;
         transform: translate3d($sliders-width/2, 0, 0);
       }
     }
-  }
-}
-
-.slide {
-  &__item {
   }
 }
 
