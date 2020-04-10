@@ -1,32 +1,79 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VideoPlayer</title>
-    <link rel="stylesheet" href="../scss/style.scss" />
-    <script src="../js/player.js" defer></script>
-  </head>
 
-  <body>
-    <div class="video">
-      <video
-        class="video__played"
-        src="../assets/ma_nouvelle_vie_commence_maintenant.mp4"
-        type="video/mp4"
-      ></video>
-      <div class="video__progress">
-        <div class="video__progress__bar"></div>
-      </div>
-      <div class="video__controller">
-        <button class="video__controller--play">Play</button>
-        <button class="video__controller--replay">Replay</button>
-        <button class="video__controller--addtime-forward">+10sec</button>
-        <button class="video__controller--addtime-backward">-10sec</button>
-        <button class="video__controller--increase-volume">Volume +</button>
-        <button class="video__controller--decrease-volume">Volume -</button>
-        <p class="video__controller--title">Série : Titre : Episode 4</p>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VideoPlayer</title>
+  <link rel="stylesheet" href="../scss/style.scss" />
+  <script src="../js/player.js" defer></script>
+</head>
+<!-- arrivée sur la page = play au milieu 
+  au click sur le play au milieu il s'éfface
+au click sur pause il devient l'icone play
+son mute et quand il monte on peut le régler avec une barre vertale qui s'affiche -->
+
+<body>
+  <div class="video">
+    <video class="video__played" src="../assets/ma_nouvelle_vie_commence_maintenant.mp4" type="video/mp4"></video>
+    <div class="video__progress">
+      <div class="video__progress__bar"></div>
     </div>
-  </body>
+
+    <div class="video__controller">
+      <button class="video__controller--played">
+        <svg width="138" height="138" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="69" cy="69" r="68.5" fill="#F0EDEE" stroke="#2C666E"/>
+          <path d="M54 90V48L94 69.7412L54 90Z" fill="#2C666E" stroke="black"/>
+          </svg>
+      </button>
+
+      <button class="video__controller--pause">
+        <svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.6665 0H15.4598C15.7581 0 15.9999 0.241825 15.9999 0.540084V21.5359C15.9999 21.8341 15.7581 22.0759 15.4598 22.0759H10.6665C10.3683 22.0759 10.1265 21.8341 10.1265 21.5359V0.540084C10.1265 0.241825 10.3683 0 10.6665 0Z" fill="#F0EDEE"/>
+        <path d="M0.540084 0H5.33333C5.63159 0 5.87342 0.241825 5.87342 0.540084V21.5359C5.87342 21.8341 5.63159 22.0759 5.33333 22.0759H0.540084C0.241825 22.0759 0 21.8341 0 21.5359V0.540084C0 0.241825 0.241825 0 0.540084 0Z" fill="#F0EDEE"/>
+        </svg>
+      </button>
+
+      <button class="video__controller--play">
+        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 25.2V0L24 13.0447L0 25.2Z" fill="#F0EDEE"/>
+          </svg>
+      </button>
+
+      <button class="video__controller--replay">
+        <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12 5.44V0L4.5 6.8L12 13.6V8.16C16.95 8.16 21 11.832 21 16.32C21 20.808 16.95 24.48 12 24.48C7.05 24.48 3 20.808 3 16.32H0C0 22.304 5.4 27.2 12 27.2C18.6 27.2 24 22.304 24 16.32C24 10.336 18.6 5.44 12 5.44Z"
+            fill="#F0EDEE" />
+          <path
+            d="M12.7484 19.176C12.6734 19.244 12.5234 19.312 12.4484 19.38C12.3734 19.448 12.2234 19.448 12.0734 19.448C11.8484 19.448 11.6234 19.38 11.4734 19.244C11.3234 19.108 11.1734 18.972 11.1734 18.7H9.89844C9.89844 18.972 10.0484 19.244 10.1234 19.448C10.1984 19.652 10.3484 19.856 10.5734 19.992C10.7984 20.128 10.9484 20.264 11.2484 20.332C11.5484 20.4 11.7734 20.468 12.0734 20.468C12.4484 20.468 12.7484 20.4 13.0484 20.332C13.3484 20.264 13.5734 20.128 13.7234 19.924C13.8734 19.72 14.0234 19.584 14.0984 19.312C14.1734 19.04 14.2484 18.836 14.2484 18.564C14.2484 18.292 14.1734 18.02 14.0984 17.748C14.0234 17.476 13.8734 17.34 13.7234 17.136C13.5734 16.932 13.3484 16.796 13.1234 16.728C12.8984 16.66 12.5984 16.592 12.2984 16.592H11.9984C11.8484 16.592 11.7734 16.66 11.6984 16.66C11.6234 16.66 11.5484 16.728 11.4734 16.728C11.3984 16.728 11.3984 16.796 11.3234 16.796L11.4734 15.572H14.0234V14.62H10.4234L10.0484 17.544L11.0234 17.816L11.1734 17.68C11.2484 17.612 11.3234 17.476 11.3984 17.476C11.4734 17.476 11.6234 17.408 11.6234 17.408H11.9234C12.0734 17.408 12.2984 17.408 12.3734 17.476C12.4484 17.544 12.5234 17.544 12.6734 17.68C12.8234 17.816 12.8234 17.884 12.8984 18.02C12.9734 18.156 12.9734 18.292 12.9734 18.428C12.9734 18.564 12.8984 18.7 12.8984 18.836C12.8984 18.972 12.8234 19.108 12.7484 19.176Z"
+            fill="#F0EDEE" />
+        </svg>
+      </button>
+
+      <button class="video__controller--addtime-forward">+10sec</button>
+      <button class="video__controller--addtime-backward">-10sec</button>
+
+      <button class="video__controller--increase-volume">Volume +</button>
+      <button class="video__controller--decrease-volume">Volume -</button>
+
+      <button class="video__controller--mute">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M21.4659 12L23.6704 9.79551C24.1097 9.35615 24.1097 8.64389 23.6704 8.20453C23.231 7.76517 22.5188 7.76517 22.0794 8.20453L19.8749 10.409L17.6705 8.20453C17.2311 7.76517 16.5188 7.76517 16.0795 8.20453C15.6402 8.64389 15.6402 9.35615 16.0795 9.79551L18.284 12L16.0795 14.2045C15.6402 14.6438 15.6402 15.3561 16.0795 15.7955C16.2991 16.0152 16.587 16.125 16.875 16.125C17.1629 16.125 17.4508 16.0152 17.6705 15.7955L19.8749 13.591L22.0794 15.7955C22.2991 16.0152 22.587 16.125 22.8749 16.125C23.1629 16.125 23.4507 16.0152 23.6704 15.7955C24.1098 15.3562 24.1098 14.6439 23.6704 14.2045L21.4659 12Z"
+            fill="#F0EDEE" />
+          <path
+            d="M4.64062 7.5H2.0625C0.923391 7.5 0 8.42339 0 9.5625V14.4375C0 15.5766 0.923391 16.5 2.0625 16.5H4.64062C4.77005 16.5 4.875 16.395 4.875 16.2656V7.73438C4.875 7.60495 4.77005 7.5 4.64062 7.5Z"
+            fill="#F0EDEE" />
+          <path
+            d="M13.125 2.625H12C11.753 2.625 11.5129 2.70628 11.3167 2.85633L6.46702 6.56489C6.40903 6.60923 6.375 6.67805 6.375 6.75108V17.249C6.375 17.322 6.40903 17.3908 6.46702 17.4352L11.3167 21.1437C11.5129 21.2937 11.753 21.375 12 21.375H13.125C13.7463 21.375 14.25 20.8714 14.25 20.25V3.75C14.25 3.12867 13.7463 2.625 13.125 2.625Z"
+            fill="#F0EDEE" />
+        </svg>
+      </button>
+      <p class="video__controller--title">Série : Titre : Episode 4</p>
+    </div>
+  </div>
+</body>
+
 </html>

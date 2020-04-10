@@ -8,19 +8,35 @@
     width: 100%;
     height: 100%;
     display: flex;
-  }
+    
+}
   &__controller {
     position: absolute;
     width: 100%;
     display: flex;
-    justify-content: space-around;
     justify-items: center;
     text-align: center;
     z-index: 1;
     background-color: $black;
     height: 54px;
-    &--nomserie {
+    & > button{
+      background-color: $black;
+      border-color: $black;
       color: $grey;
+      font-size:18px ;
+      margin-right: 1%;
+    }
+    &--played{
+      position: absolute;
+      background-color: transparent;
+      border-color: transparent;
+      transform: translateX(600%) translateY(-350%);
+      }
+    &--pause{
+      display: block;
+    }
+    &--play{
+      display: none;
     }
   }
   &__progress {
