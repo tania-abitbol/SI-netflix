@@ -1,0 +1,13 @@
+<svg width="183" height="197" viewBox="0 0 183 197" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse rx="96.3171" ry="90.0027" transform="matrix(0.0145658 0.999894 -0.999839 0.0179566 91.3913 98.8816)" fill="url(#paint0_angular)"/>
+<ellipse rx="83.4758" ry="80.0024" transform="matrix(0.0145658 0.999894 -0.999839 0.0179566 91.2054 96.9656)" fill="#F0EDEE"/>
+<defs>
+<radialGradient id="paint0_angular" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(96.3171 90.0027) rotate(90) scale(90.0027 96.3171)">
+<stop stop-color="#C4C4C4"/>
+<stop offset="0.244792" stop-color="#C4C4C4"/>
+<stop offset="0.5" stop-color="#2C666E" stop-opacity="0.65"/>
+<stop offset="0.770833" stop-color="#2D676F" stop-opacity="0.81"/>
+<stop offset="1" stop-color="#2D676F"/>
+</radialGradient>
+</defs>
+</svg>

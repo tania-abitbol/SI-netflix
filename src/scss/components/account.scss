@@ -44,26 +44,8 @@
     justify-content: space-around;
 
     &__items {
-      &__circle {
-        width: 192.63px;
-        height: 180.01px;
-        border-radius: 100px;
-        background: $blue-darker;
-        top: 474.96px;
-        left: 263.98px;
-
-        &__grey {
-          width: 166.95px;
-          height: 160px;
-          border-radius: 100px;
-          background: $grey;
-          top: 253px;
-          left: 486px;
-
-          & > p {
-            color: $blue-darker;
-          }
-        }
+      .span {
+        left: 52px;
       }
       &__item {
         & > label {
