@@ -73,12 +73,21 @@ videoContent.addEventListener("timeupdate", () => {
 });
 
 //Volume
+// volume.addEventListener("click", () => {
+//   var vid = videoContent.currentTime;
+//   var duration = videoContent.duration;
+//   if (videoContent.currentTime !== videoContent.duration) {
+//     progressBar.style.width = (vid / duration) * 100 + "%";
+//   } else {
+//     progressBar.style.width = "0%";
+//   }
+// });
+// var pos = 0
+// function masquernotification(){
+//   window.setTimeout(masquernotification, 2000);
+// }
 
-function masquernotification(){
-  volume.style.display = 'none';
-}
-window.setTimeout(masquernotification, 2000);
-masquernotification();
+// masquernotification();
 
 sound.addEventListener('click', () =>{
   volume.style.display = 'block';
