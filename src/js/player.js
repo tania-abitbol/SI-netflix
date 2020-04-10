@@ -15,29 +15,27 @@ const centralButtonPlay = document.querySelector(".video__centralbutton");
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
-  play.style.display = 'none';
-  pause.style.display = 'block';
+  play.style.display = "none";
+  pause.style.display = "block";
   videoContent.play();
-  played.remove();
-}
+  played.style.display = "none";
+};
 
 const eventPause = () => {
+  pause.style.display = "none";
+  play.style.display = "block";
   videoContent.pause();
-  pause.style.display = 'none';
-  play.style.display = 'block';
-}
+  played.style.display = "block";
+};
 
-centralButtonPlay.addEventListener("click", () => {
-  console.log('event')
-  if (videoContent.played) {
-    eventPause();
-    console.log(videoContent.played)
-  }
-  if (videoContent.paused) {
-    console.log(videoContent.paused)
-    eventPlay();
-  }
-})
+  centralButtonPlay.addEventListener("click", () => {
+    if (videoContent.paused === true) {
+      eventPlay();
+    } else if (videoContent.played.length) {
+      eventPause();
+    }
+  });
+
 
 pause.addEventListener("click", () => {
   eventPause();
