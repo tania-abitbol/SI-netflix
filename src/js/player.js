@@ -1,6 +1,6 @@
 const video = document.querySelector(".video");
 const videoContent = document.querySelector(".video__played");
-const played = document.querySelector(".video__controller--played");
+const played = document.querySelector(".video__centralbutton--played");
 const pause = document.querySelector(".video__controller--pause");
 const play = document.querySelector(".video__controller--play");
 const volumpos = document.querySelector(".video__controller--increase-volume");
@@ -11,32 +11,42 @@ const lessSec = document.querySelector(".video__controller--addtime-backward");
 const mute = document.querySelector(".video__controller--mute");
 const bar = document.querySelector(".video__progress");
 const progressBar = document.querySelector(".video__progress__bar");
+const centralButtonPlay = document.querySelector(".video__centralbutton");
 videoContent.volume = 0.2;
 
-played.addEventListener("click", () => {
-  // if (videoContent.paused) {
-    videoContent.play();
-    played.remove();
-  // } else {
-    // videoContent.pause();
-  // }
-});
+const eventPlay = () => {
+  play.style.display = 'none';
+  pause.style.display = 'block';
+  videoContent.play();
+  played.remove();
+}
 
-pause.addEventListener("click", ()=>{
-  if(videoContent.played){
-    videoContent.pause();
-      pause.style.display = 'none';
-      play.style.display = 'block';
+const eventPause = () => {
+  videoContent.pause();
+  pause.style.display = 'none';
+  play.style.display = 'block';
+}
+
+centralButtonPlay.addEventListener("click", () => {
+  console.log('event')
+  if (videoContent.played) {
+    eventPause();
+    console.log(videoContent.played)
+  }
+  if (videoContent.paused) {
+    console.log(videoContent.paused)
+    eventPlay();
   }
 })
 
-play.addEventListener("click", ()=>{
-  if(videoContent.paused){
-    play.style.display = 'none';
-    pause.style.display = 'block';
-    videoContent.play();
-  }
+pause.addEventListener("click", () => {
+  eventPause();
 })
+
+play.addEventListener("click", () => {
+  eventPlay();
+})
+
 volumpos.addEventListener("click", () => {
   if (videoContent.volume + 0.1 <= 1) {
     videoContent.volume += 0.1;
@@ -53,7 +63,7 @@ volumneg.addEventListener("click", () => {
   }
 })
 
-mute.addEventListener("click", () =>{
+mute.addEventListener("click", () => {
   videoContent.volume = 0;
 });
 
