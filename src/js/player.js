@@ -26,13 +26,13 @@ volumpos.addEventListener("click", () => {
   } else {
     videoContent.volume = 1;
   }
-  console.log(videoContent.volume);
 });
 
-volumneg.addEventListener("click", () => {
-  if (videoContent.volume - 0.1 >= 0) videoContent.volume -= 0.1;
-  else video.volume = 0; // 0 = mute, 1 = max
-});
+if (videoContent.volume - 0.1 >= 0) {
+  videoContent.volume -= 0.1;
+} else {
+  video.volume = 0; // 0 = mute, 1 = max
+}
 
 replay.addEventListener("click", () => {
   videoContent.currentTime = 0;
