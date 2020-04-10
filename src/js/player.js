@@ -74,6 +74,16 @@ videoContent.addEventListener("timeupdate", () => {
 
 //Volume
 
+function masquernotification(){
+  volume.style.display = 'none';
+}
+window.setTimeout(masquernotification, 2000);
+masquernotification();
+
+sound.addEventListener('click', () =>{
+  volume.style.display = 'block';
+})
+
 volume.addEventListener('change', (e) => {
   videoContent.volume = e.currentTarget.value / 100;
   console.log(e)

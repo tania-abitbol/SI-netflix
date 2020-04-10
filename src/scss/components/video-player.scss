@@ -57,15 +57,19 @@
     &--play{
       display: none;
     }
+    &--sound{
+      margin-top: 0.75%;
+      width: 12px;
+    }
     &__container{
       background-color: $black;
       border-color: $black;
       color: $grey;
-      width: 2%;
       &--volume{
         -webkit-appearance: none;
-        transform: rotate(270deg) translate(16%);
+        transform: rotate(-90deg) translate(88%) translateY(-370%);
         background-color: $blue;
+        display: none;
       }
   }
   }
