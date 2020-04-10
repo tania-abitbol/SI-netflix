@@ -9,10 +9,8 @@ $slider-transition: 400ms;
 }
 .title__form {
   display: flex;
-  justify-content: space-between;
-  align-self: center;
-  height: 89px;
-
+  justify-content: flex-start;
+  height: 90px;
   margin-bottom: 4em;
 }
 .type {
