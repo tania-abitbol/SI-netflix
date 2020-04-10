@@ -1,4 +1,4 @@
-.login {
+.client-space {
   background-color: $blue-darker;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,12 @@
       margin-bottom: 32px;
     }
     &__submit {
+      & > a {
+        color: $grey;
+        margin-top: 8px;
+      }
+      flex-direction: column;
+      align-items: center;
       display: flex;
       justify-content: center;
       & button {
@@ -59,5 +65,12 @@
         }
       }
     }
+  }
+}
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  .client-space__form__items__item__input {
+    width: 100%;
   }
 }
