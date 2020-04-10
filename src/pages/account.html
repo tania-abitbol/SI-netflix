@@ -35,82 +35,84 @@
       </nav>
     </div>
 
-    <div class="space-client__title">
-      <h3>Change Email</h3>
+    <div class="space-client">
+      <div class="space-client__title">
+        <h3>Change Email</h3>
+      </div>
+      <form class="space-client__form">
+        <div class="space-client__form__items">
+          <div class="space-client__form__items__item">
+            <label for="email">Email :</label>
+            <input
+              class="space-client__form__items__item__input"
+              name="email"
+              type="text"
+              placeholder="exemple@gmail.com"
+            />
+          </div>
+          <div class="space-client__form__items__item">
+            <label for="password">Password :</label>
+            <input
+              class="space-client__form__items__item__input"
+              name="password"
+              type="text"
+              placeholder="Password"
+            />
+          </div>
+        </div>
+
+        <div class="space-client__form__submit">
+          <button class="space-client__form__submit__button" type="submit">
+            <a href="../index.html">START</a>
+          </button>
+        </div>
+      </form>
+
+      <div class="space-client__title">
+        <h3>Select image to upload:</h3>
+      </div>
+      <form
+        class="space-client__form"
+        action="upload.php"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <input type="file" name="fileToUpload" id="fileToUpload" />
+        <input type="submit" value="Upload Image" name="submit" />
+      </form>
+
+      <div class="space-client__title">
+        <h3>Change Password</h3>
+      </div>
+      <form class="space-client__form">
+        <div class="space-client__form__items">
+          <div class="space-client__form__items__item">
+            <label for="email"> New Password:</label>
+            <input
+              class="space-client__form__items__item__input"
+              name="email"
+              type="text"
+              placeholder="exemple@gmail.com"
+            />
+          </div>
+          <div class="space-client__form__items__item">
+            <label for="password">Password :</label>
+            <input
+              class="space-client__form__items__item__input"
+              name="password"
+              type="text"
+              placeholder="Password"
+            />
+          </div>
+        </div>
+
+        <div class="space-client__form__submit">
+          <button class="space-client__form__submit__button" type="submit">
+            <a href="../index.html">START</a>
+          </button>
+        </div>
+      </form>
     </div>
-    <form class="space-client__form">
-      <div class="space-client__form__items">
-        <div class="space-client__form__items__item">
-          <label for="email">Email :</label>
-          <input
-            class="space-client__form__items__item__input"
-            name="email"
-            type="text"
-            placeholder="exemple@gmail.com"
-          />
-        </div>
-        <div class="space-client__form__items__item">
-          <label for="password">Password :</label>
-          <input
-            class="space-client__form__items__item__input"
-            name="password"
-            type="text"
-            placeholder="Password"
-          />
-        </div>
-      </div>
-
-      <div class="space-client__form__submit">
-        <button class="space-client__form__submit__button" type="submit">
-          <a href="../index.html">START</a>
-        </button>
-      </div>
-    </form>
-
-    <div class="space-client__title">
-      <h3>Select image to upload:</h3>
-    </div>
-    <form
-      class="space-client__form"
-      action="upload.php"
-      method="post"
-      enctype="multipart/form-data"
-    >
-      <input type="file" name="fileToUpload" id="fileToUpload" />
-      <input type="submit" value="Upload Image" name="submit" />
-    </form>
-
-    <div class="space-client__title">
-      <h3>Change Password</h3>
-    </div>
-    <form class="space-client__form">
-      <div class="space-client__form__items">
-        <div class="space-client__form__items__item">
-          <label for="email"> :</label>
-          <input
-            class="space-client__form__items__item__input"
-            name="email"
-            type="text"
-            placeholder="exemple@gmail.com"
-          />
-        </div>
-        <div class="space-client__form__items__item">
-          <label for="password">Password :</label>
-          <input
-            class="space-client__form__items__item__input"
-            name="password"
-            type="text"
-            placeholder="Password"
-          />
-        </div>
-      </div>
-
-      <div class="space-client__form__submit">
-        <button class="space-client__form__submit__button" type="submit">
-          <a href="../index.html">START</a>
-        </button>
-      </div>
-    </form>
 
     <footer class="footer">
       <div class="footer__social-network">
