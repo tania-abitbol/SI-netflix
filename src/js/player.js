@@ -13,6 +13,7 @@ const centralButtonPlay = document.querySelector(".video__centralbutton");
 const volume = document.querySelector(".video__controller__container--volume");
 const sound = document.querySelector(".video__controller--sound");
 const videoReturn = document.querySelector(".video__return");
+const controller = document.querySelector(".video__controller");
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
@@ -29,7 +30,15 @@ const eventPause = () => {
   played.style.display = "block";
 };
 
-centralButtonPlay.addEventListener("click", () => {
+played.addEventListener("click", () => {
+  if (videoContent.paused === true) {
+    eventPlay();
+  } else if (videoContent.played.length) {
+    eventPause();
+  }
+});
+
+videoContent.addEventListener("click", () => {
   if (videoContent.paused === true) {
     eventPlay();
   } else if (videoContent.played.length) {
@@ -72,7 +81,7 @@ videoContent.addEventListener("timeupdate", () => {
 });
 
 sound.addEventListener("click", () => {
-  if ((volume.style.display = "none")) {
+  if (volume.style.display = "none") {
     volume.style.display = "block";
   }
   setTimeout(function () {
@@ -80,11 +89,11 @@ sound.addEventListener("click", () => {
   }, 8000);
 });
 
-volume.addEventListener("mouseleave", () => {
-  if ((volume.style.display = "block")) {
-    volume.style.display = "none";
-  }
-});
+// volume.addEventListener("mouseleave", () => {
+//   if ((volume.style.display = "block")) {
+//     volume.style.display = "none";
+//   }
+// });
 
 volume.addEventListener("change", (e) => {
   videoContent.volume = e.currentTarget.value / 100;
@@ -94,3 +103,29 @@ videoReturn.addEventListener("click", () => {
   console.log("y");
   window.history.back();
 });
+
+
+
+video.addEventListener("mousemove", () => {
+  console.log('r')
+   if (controller.style.opacity = '0') {
+     console.log('y')
+      controller.style.opacity = 1;
+    }
+    setTimeout(function () {
+      controller.style.opacity = 0;
+    }, 8000);
+ });
+ console.log('onmousemove')
+
+// x = e.clientX;
+// y = e.clientY;
+
+// const bodyy = document.querySelector('body');
+// event.pageY = 0
+// event.pageX = 0
+// video.addEventListener('mousemove', () => {
+//   var posS = event.pageX;
+//   var posss = event.pageY;
+//   console.log(posS + 'y', posss)
+// })
