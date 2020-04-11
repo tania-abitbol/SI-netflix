@@ -12,7 +12,7 @@ const progressBar = document.querySelector(".video__progress__bar");
 const centralButtonPlay = document.querySelector(".video__centralbutton");
 const volume = document.querySelector('.video__controller__container--volume');
 const sound = document.querySelector('.video__controller--sound');
-console.log(volume)
+const videoReturn = document.querySelector('.video__return');
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
@@ -72,22 +72,11 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-//Volume
-// volume.addEventListener("click", () => {
-//   var vid = videoContent.currentTime;
-//   var duration = videoContent.duration;
-//   if (videoContent.currentTime !== videoContent.duration) {
-//     progressBar.style.width = (vid / duration) * 100 + "%";
-//   } else {
-//     progressBar.style.width = "0%";
-//   }
-// });
-
 sound.addEventListener('click', () => {
   if (volume.style.display = 'none') {
     volume.style.display = 'block';
   }
-   setTimeout(function () { volume.style.display = "none" }, 8000)
+  setTimeout(function () { volume.style.display = "none" }, 8000)
 });
 
 volume.addEventListener('mouseleave', () => {
@@ -98,5 +87,10 @@ volume.addEventListener('mouseleave', () => {
 
 volume.addEventListener('change', (e) => {
   videoContent.volume = e.currentTarget.value / 100;
-  console.log(e)
 })
+
+videoReturn.addEventListener('click', () => {
+  console.log('y')
+  window.history.back();
+})
+
