@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GOFILMAX</title>
-    <link rel="stylesheet" href="../scss/style.scss" />
+    <link rel="stylesheet" href="../styles/css/style.css" />
   </head>
 
   <body>
@@ -17,7 +17,7 @@
         <h3>Create Account</h3>
       </div>
 
-      <form class="client-space__form">
+      <form class="client-space__form" action="../index.php?action=signup" method="post">
         <div class="client-space__form__items">
           <div class="client-space__form__items__item">
             <label for="name">Name :</label>
@@ -62,9 +62,9 @@
           </div>
 
           <div class="client-space__form__items__item">
-            <label for="password">Password :</label>
+            <label for="pass">Password :</label>
             <input
-              name="password"
+              name="pass"
               class="client-space__form__items__item__input"
               type="text"
               placeholder="Password"
@@ -83,9 +83,10 @@
         </div>
 
         <div class="client-space__form__submit">
-          <button class="client-space__form__submit__button">
-            <a href="../index.html">START</a>
-          </button>
+          <input type="submit" value="start">
+          <!-- <button type="submit" class="client-space__form__submit__button">
+            START
+          </button> -->
           <a href="./login.html">login</a>
         </div>
       </form>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GOFILMAX</title>
-    <link rel="stylesheet" href="../scss/style.scss" />
+    <link rel="stylesheet" href="../styles/css/style.css" />
   </head>
 
   <body>
@@ -35,7 +35,7 @@
               type="text"
               placeholder="Password"
             />
-            <a class="client-space__form__link" href="./create-account.html"
+            <a class="client-space__form__link" href="./create-account.php"
               >Do not have an account yet?</a
             >
           </div>
@@ -43,7 +43,7 @@
 
         <div class="client-space__form__submit">
           <button class="client-space__form__submit__button" type="submit">
-            <a href="../index.html">START</a>
+            <a href="../index.php">START</a>
           </button>
         </div>
       </form>
