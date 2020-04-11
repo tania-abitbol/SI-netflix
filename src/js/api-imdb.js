@@ -3,8 +3,7 @@ import ar from '../assets/imdb/film.json';
 const apiKey = 'b854e1ce&t'
 const films = ar.list.map(f => f.split(' - ')[0])
 
-
-//this call api with jquery let us access to the ID of the film list selected & push inside the div class img the poster image
+//this call api let us access to the ID of the film list selected & push inside the div class img the poster image
 function apiCall(list, j = 0) { //list = sliderItem (look the call function)
   
   let listlen = list.length;
@@ -18,13 +17,13 @@ function apiCall(list, j = 0) { //list = sliderItem (look the call function)
         .then(data => data.json())
       .then(response => {
       var image = response.Poster;
-      if (image !== "N/A" && typeof image !== "undefined") {  //if image have an url put this one inside the index of list
+      if (image !== "N/A" && typeof image !== "undefined") {  //if image have an url put this one inside the index of list (verification validity response image)
         list[j].style.backgroundImage = `url("${image}")`;
         j++;
         apiCall(list, j);
       }
       else {
-        apiCall(list, j); //recursive function beacause fonction call fonction
+        apiCall(list, j);  //recursive function beacause fonction call fonction (captain Obvious)
       }
     })
 };  
