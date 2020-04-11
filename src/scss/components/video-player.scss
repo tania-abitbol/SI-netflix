@@ -4,25 +4,27 @@
   flex-direction: column-reverse;
   width: 100vw;
   height: 100vh;
+  font-family: Helvetica, sans-serif;
+  background-color: $black;
   &__played {
     width: 100%;
     height: 100%;
     display: flex;
+}
+&__return{
+  position: absolute;
+  transform: translate(96%, -1450%);
+  z-index: 1;
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  outline: $grey;
+  &:hover{
+    box-shadow: 6px 8px 8px 0 $blue;
+    background-color: transparent;
+    border-color: transparent;
   }
-  &__controller {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    justify-items: center;
-    text-align: center;
-    z-index: 1;
-    background-color: $black;
-    height: 54px;
-    &--nomserie {
-      color: $grey;
-    }
-  }
+}
   &__progress {
     position: absolute;
     bottom: 5%;
@@ -36,4 +38,79 @@
       background-color: $blue;
     }
   }
+&__centralbutton{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+&--played{
+    background-color: transparent;
+  border-color: transparent;
+  outline: $grey;
+  }
+}
+  &__controller {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    z-index: 1;
+    background-color: $black;
+    height: 54px;
+    padding-left: 1%;
+    & > button{
+      background-color: transparent;
+      border-color: transparent;
+      color: $grey;
+      font-size:18px;
+      margin-right: 1%;
+      text-decoration: none;
+      outline: $grey;
+      &:hover{
+        transform: scale(1.2);
+      }
+      &:active{
+        background-color: $blue;
+      }
+    }
+    &--pause{
+      display: block;
+    }
+    &--play{
+      display: none;
+    }
+    &--sound{
+      margin-top: 0.75%;
+      width: 12px;
+      margin-bottom: auto;
+    }
+    &--mute{
+      margin-left: 1%;
+    }
+    &--title{
+      color: $grey;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-family: Helvetica, sans-serif;
+      font-weight: 500;
+    }
+    &__container{
+      background-color: $black;
+      border-color: $black;
+      color: $grey;
+      &--volume{
+        -webkit-appearance: none;
+        transform: rotate(-90deg) translate(88%) translateY(-370%);
+        background-color: $blue;
+        display: none;
+        outline: $grey;
+      }
+  }
+  }
+
 }
