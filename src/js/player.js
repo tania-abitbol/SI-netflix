@@ -10,9 +10,9 @@ const mute = document.querySelector(".video__controller--mute");
 const bar = document.querySelector(".video__progress");
 const progressBar = document.querySelector(".video__progress__bar");
 const centralButtonPlay = document.querySelector(".video__centralbutton");
-const volume = document.querySelector('.video__controller__container--volume');
-const sound = document.querySelector('.video__controller--sound');
-const videoReturn = document.querySelector('.video__return');
+const volume = document.querySelector(".video__controller__container--volume");
+const sound = document.querySelector(".video__controller--sound");
+const videoReturn = document.querySelector(".video__return");
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
@@ -37,14 +37,13 @@ centralButtonPlay.addEventListener("click", () => {
   }
 });
 
-
 pause.addEventListener("click", () => {
   eventPause();
-})
+});
 
 play.addEventListener("click", () => {
   eventPlay();
-})
+});
 
 mute.addEventListener("click", () => {
   videoContent.volume = 0;
@@ -72,25 +71,26 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-sound.addEventListener('click', () => {
-  if (volume.style.display = 'none') {
-    volume.style.display = 'block';
+sound.addEventListener("click", () => {
+  if ((volume.style.display = "none")) {
+    volume.style.display = "block";
   }
-  setTimeout(function () { volume.style.display = "none" }, 8000)
+  setTimeout(function () {
+    volume.style.display = "none";
+  }, 8000);
 });
 
-volume.addEventListener('mouseleave', () => {
-  if (volume.style.display = 'block') {
-    volume.style.display = 'none';
+volume.addEventListener("mouseleave", () => {
+  if ((volume.style.display = "block")) {
+    volume.style.display = "none";
   }
 });
 
-volume.addEventListener('change', (e) => {
+volume.addEventListener("change", (e) => {
   videoContent.volume = e.currentTarget.value / 100;
-})
+});
 
-videoReturn.addEventListener('click', () => {
-  console.log('y')
+videoReturn.addEventListener("click", () => {
+  console.log("y");
   window.history.back();
-})
-
+});
