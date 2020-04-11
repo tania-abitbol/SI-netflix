@@ -21,6 +21,7 @@ const eventPlay = () => {
   pause.style.display = "block";
   videoContent.play();
   played.style.display = "none";
+  controller.style.opacity = 0;
 };
 
 const eventPause = () => {
@@ -28,6 +29,7 @@ const eventPause = () => {
   play.style.display = "block";
   videoContent.pause();
   played.style.display = "block";
+  controller.style.opacity = 1;
 };
 
 played.addEventListener("click", () => {
@@ -107,13 +109,11 @@ videoReturn.addEventListener("click", () => {
 
 
 video.addEventListener("mousemove", () => {
-  console.log('r')
    if (controller.style.opacity = '0') {
-     console.log('y')
       controller.style.opacity = 1;
     }
     setTimeout(function () {
-      controller.style.opacity = 0;
+      controller.style.opacity = 0; bar.style.bottom = 0;
     }, 8000);
  });
  console.log('onmousemove')
