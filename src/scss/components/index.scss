@@ -1,5 +1,5 @@
-$sliders-width: 250px;
-$sliders-height: 350px;
+$sliders-width: 300px;
+$sliders-height: 435px;
 $sliders-scale: 1.4;
 $sliders-transition: 300ms;
 
@@ -79,7 +79,7 @@ $sliders-transition: 300ms;
     transition: $sliders-transition transform;
     transition: $sliders-transition transform, $sliders-transition translate(100px);
     white-space: nowrap;
-    margin: $sliders-height/2.3 0;
+    margin: $sliders-height/2.5 0;
 
     &:hover {
       .sliders__item {

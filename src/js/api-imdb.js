@@ -29,5 +29,5 @@ function apiCall(list, j = 0) {
       }
     });
 }
-let sliderItem = document.getElementsByClassName("slider__item--img"); //Selection of div class name
+let sliderItem = document.getElementsByClassName("sliders__item--img"); //Selection of div class name
 apiCall(sliderItem); //function call the var with the classname = (sliderItem = list)
