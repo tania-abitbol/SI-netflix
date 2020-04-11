@@ -44,12 +44,21 @@
     z-index: 1;
     background-color: $black;
     height: 54px;
+    padding-left: 1%;
     & > button{
-      background-color: $black;
-      border-color: $black;
+      background-color: transparent;
+      border-color: transparent;
       color: $grey;
       font-size:18px ;
       margin-right: 1%;
+      text-decoration: none;
+      outline: $grey;
+      &:hover{
+        transform: scale(1.2);
+      }
+      &:active{
+        background-color: $blue;
+      }
     }
     &--pause{
       display: block;
@@ -60,6 +69,10 @@
     &--sound{
       margin-top: 0.75%;
       width: 12px;
+      margin-bottom: auto;
+    }
+    &--mute{
+      margin-left: 1%;
     }
     &__container{
       background-color: $black;

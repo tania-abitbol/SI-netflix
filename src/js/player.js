@@ -83,12 +83,18 @@ videoContent.addEventListener("timeupdate", () => {
 //   }
 // });
 
-sound.addEventListener('click', () =>{
-  if( volume.style.display = 'none'){
-  volume.style.display = 'block';
+sound.addEventListener('click', () => {
+  if (volume.style.display = 'none') {
+    volume.style.display = 'block';
   }
-  setTimeout(function(){volume.style.display = "none"},3000)
-})
+   setTimeout(function () { volume.style.display = "none" }, 8000)
+});
+
+volume.addEventListener('mouseleave', () => {
+  if (volume.style.display = 'block') {
+    volume.style.display = 'none';
+  }
+});
 
 volume.addEventListener('change', (e) => {
   videoContent.volume = e.currentTarget.value / 100;
