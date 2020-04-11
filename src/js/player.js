@@ -68,8 +68,27 @@ moreSec.addEventListener("click", () => {
   videoContent.currentTime += 10;
 });
 
-lessSec.addEventListener("click", () => {
+lessSec.addEventListener(["click", "keydown"], () => {
   videoContent.currentTime -= 10;
+  if(e.keyCode === 39){
+    videoContent.currentTime -= 10;
+    }
+});
+
+// function logKey(e){
+//   console.log(e.keyCode)
+// }
+
+document.addEventListener("keydown", (e) => {
+  // logKey(e)
+  if(e.keyCode === 37){
+  videoContent.currentTime -= 10;
+  }if(e.keyCode === 39){
+    videoContent.currentTime += 10;
+  }if(e.keyCode === 32){
+    // if(eventPause()){
+    eventPause();
+  }
 });
 
 videoContent.addEventListener("timeupdate", () => {
@@ -111,6 +130,7 @@ videoReturn.addEventListener("click", () => {
 video.addEventListener("mousemove", () => {
    if (controller.style.opacity = '0') {
       controller.style.opacity = 1;
+      bar.style.bottom = '5%';
     }
     setTimeout(function () {
       controller.style.opacity = 0; bar.style.bottom = 0;
