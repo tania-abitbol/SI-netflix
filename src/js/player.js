@@ -83,9 +83,11 @@ document.addEventListener("keydown", (e) => {
   // logKey(e)
   if (e.keyCode === 37) {
     videoContent.currentTime -= 10;
-  } if (e.keyCode === 39) {
+  }
+  if (e.keyCode === 39) {
     videoContent.currentTime += 10;
-  } if (e.keyCode === 32) {
+  }
+  if (e.keyCode === 32) {
     // if(eventPause()){
     eventPause();
   }
@@ -102,7 +104,7 @@ videoContent.addEventListener("timeupdate", () => {
 });
 
 sound.addEventListener("click", () => {
-  if (volume.style.display = "none") {
+  if ((volume.style.display = "none")) {
     volume.style.display = "block";
   }
   setTimeout(function () {
@@ -125,18 +127,17 @@ videoReturn.addEventListener("click", () => {
   window.history.back();
 });
 
-
-
 video.addEventListener("mousemove", () => {
-  if (controller.style.opacity = '0') {
+  if ((controller.style.opacity = "0")) {
     controller.style.opacity = 1;
-    bar.style.bottom = '5%';
+    bar.style.bottom = "5%";
   }
   setTimeout(function () {
-    controller.style.opacity = 0; bar.style.bottom = 0;
+    controller.style.opacity = 0;
+    bar.style.bottom = 0;
   }, 8000);
 });
-console.log('onmousemove')
+console.log("onmousemove");
 
 // x = e.clientX;
 // y = e.clientY;
