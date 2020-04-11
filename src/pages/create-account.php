@@ -64,7 +64,7 @@
           <div class="client-space__form__items__item">
             <label for="pass">Password :</label>
             <input
-              name="pass"
+              name="password"
               class="client-space__form__items__item__input"
               type="text"
               placeholder="Password"

@@ -16,15 +16,15 @@
         <h3>Login</h3>
       </div>
 
-      <form class="client-space__form">
+      <form class="client-space__form" action="../index.php?action=login" method="post">
         <div class="client-space__form__items">
           <div class="client-space__form__items__item">
-            <label for="email">Email :</label>
+            <label for="name">Name:</label>
             <input
               class="client-space__form__items__item__input"
-              name="email"
+              name="name"
               type="text"
-              placeholder="exemple@gmail.com"
+              placeholder="enzo le boloss"
             />
           </div>
           <div class="client-space__form__items__item">
@@ -42,9 +42,8 @@
         </div>
 
         <div class="client-space__form__submit">
-          <button class="client-space__form__submit__button" type="submit">
-            <a href="../index.php">START</a>
-          </button>
+          <input class="client-space__form__submit__button" type="submit" value="start"/>
+        
         </div>
       </form>
     </div>
