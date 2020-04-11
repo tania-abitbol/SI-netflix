@@ -4,7 +4,7 @@
   "description": "# Groupe de Nuit/Semaine Charette Netflix like",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "dev": "parcel src/pages/video-player.html",
     "build": "parcel build src/index.html && cp -R src/ressources/ dist",
     "prettier": " prettier --write --config .prettierrc \"src/**/*.{js,json,scss,html}\""
   },
