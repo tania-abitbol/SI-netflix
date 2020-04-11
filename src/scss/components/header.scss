@@ -1,6 +1,6 @@
 .header {
   width: 100vw;
-  height: 129px;
+  height: 100px;
   background-color: $black;
   color: $grey;
   display: flex;
@@ -13,20 +13,29 @@
     align-items: center;
     &__left {
       display: flex;
+      justify-content: space-between;
+      width: 600px;
+      height: 90px;
       & > img {
-        margin-right: 10px;
+        align-self: center;
+        height: 50px;
       }
       &__links {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         & > li {
-          margin: 0 8px;
+          padding: 1em 1em 0 1em;
+          width: 130px;
+          height: 30px;
         }
       }
     }
     &__right {
       display: flex;
+      justify-content: space-around;
       align-items: center;
+      padding-top: 0.5em;
       & > img {
         margin: 0 8px;
       }
