@@ -22,6 +22,7 @@ const eventPlay = () => {
   videoContent.play();
   played.style.display = "none";
   controller.style.opacity = 0;
+  videoReturn.style.opacity = 0;
 };
 
 const eventPause = () => {
@@ -30,6 +31,7 @@ const eventPause = () => {
   videoContent.pause();
   played.style.display = "block";
   controller.style.opacity = 1;
+  videoReturn.style.opacity = 1;
 };
 
 played.addEventListener("click", () => {
@@ -158,5 +160,17 @@ document.addEventListener("keydown", (e) => {
 function videoFullScreen() {
   if (video.requestFullscreen) {
     video.requestFullscreen();
+
   }
 }
+
+const rect = bar.getBoundingClientRect();
+const largeur = rect.width;
+
+bar.addEventListener('click', (a) => {
+  var x = a.clientX - rect.left;
+  const widthPercent = ((x * 100) / largeur)
+  const surrenTimeTrue = (widthPercent * videoContent.duration) / 100;
+  videoContent.currentTime = surrenTimeTrue;
+  progressBar.style.width = widthPercent + '%';
+})
