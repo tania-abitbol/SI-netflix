@@ -1,32 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GOFILMAX</title>
-    <link rel="stylesheet" href="./../scss/style.scss" />
-    <script src="./../js/index.js" defer></script>
-  </head>
+<?php include("./components/header.php")?>
 
-  <body>
-    <header class="header">
-      <nav class="header__nav">
-        <div class="header__nav__left">
-          <img src="./../assets/images/logo.png" alt="" />
-          <ul class="header__nav__left__links">
-            <li><a href="./video-player.html">Home</a></li>
-            <li>TV Shows</li>
-            <li>Series</li>
-          </ul>
-        </div>
-
-        <div class="header__nav__right">
-          <img src="./../assets/images/search-icon.png" alt="" />
-          <img src="./../assets/images/user.svg" alt="" />
-          <img src="./../assets/images/bottom-arrow.png" alt="" />
-        </div>
-      </nav>
-    </header>
     <div class="illustration">
       <img src="./../assets/images/iphonetest.jpg" alt="first" class="illustration__img" />
     </div>
@@ -57,7 +30,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -183,7 +156,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -309,7 +282,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -435,7 +408,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -561,7 +534,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -687,7 +660,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -813,7 +786,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -939,7 +912,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -1065,7 +1038,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -1191,7 +1164,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -1309,76 +1282,5 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class="footer__social-network">
-        <a href="https://twitter.com"
-          ><img
-            class="footer__social-network__twitter"
-            src="./../assets/images/social-network/twitter.svg"
-        /></a>
-
-        <a href="https://www.facebook.com/"
-          ><img
-            class="footer__social-network__facebook"
-            src="./../assets/images/social-network/facebook.svg"
-        /></a>
-
-        <a href="https://www.instagram.com"
-          ><img
-            class="footer__social-network__instagram"
-            src="./../assets/images/social-network/instagram.svg"
-        /></a>
-
-        <a href="https://youtube.com"
-          ><img
-            class="footer__social-network__youtube"
-            src="./../assets/images/social-network/youtube.svg"
-        /></a>
-      </div>
-
-      <div class="footer__rows">
-        <ul class="footer__rows__categories">
-          <li class="footer__rows__categories__item">
-            <a href="#">Audio and Subtitles</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Privacy</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Contact Us</a>
-          </li>
-        </ul>
-        <ul class="footer__rows__categories">
-          <li class="footer__rows__categories__item">
-            <a href="#">Audiodescription</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Investor Relations</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Legal Notices</a>
-          </li>
-        </ul>
-        <ul class="footer__rows__categories">
-          <li class="footer__rows__categories__item">
-            <a href="#">Help Center</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Jobs</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Cookie Preferences</a>
-          </li>
-        </ul>
-        <ul class="footer__rows__categories">
-          <li class="footer__rows__categories__item">
-            <a href="#">Legal Mentions</a>
-          </li>
-          <li class="footer__rows__categories__item">
-            <a href="#">Terms of Use</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </body>
-</html>
+<?php include("./components/footer.php")?>
+    

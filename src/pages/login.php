@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GOFILMAX</title>
-    <link rel="stylesheet" href="../scss/style.scss" />
+    <link rel="stylesheet" href="../styles/css/style.css" />
   </head>
 
   <body>
@@ -16,15 +16,15 @@
         <h3>Login</h3>
       </div>
 
-      <form class="client-space__form">
+      <form class="client-space__form" action="../index.php?action=login" method="post">
         <div class="client-space__form__items">
           <div class="client-space__form__items__item">
-            <label for="email">Email :</label>
+            <label for="name">Name:</label>
             <input
               class="client-space__form__items__item__input"
-              name="email"
+              name="name"
               type="text"
-              placeholder="exemple@gmail.com"
+              placeholder="enzo le boloss"
             />
           </div>
           <div class="client-space__form__items__item">
@@ -35,16 +35,15 @@
               type="text"
               placeholder="Password"
             />
-            <a class="client-space__form__link" href="./create-account.html"
+            <a class="client-space__form__link" href="./create-account.php"
               >Do not have an account yet?</a
             >
           </div>
         </div>
 
         <div class="client-space__form__submit">
-          <button class="client-space__form__submit__button" type="submit">
-            <a href="../index.html">START</a>
-          </button>
+          <input class="client-space__form__submit__button" type="submit" value="start"/>
+        
         </div>
       </form>
     </div>
