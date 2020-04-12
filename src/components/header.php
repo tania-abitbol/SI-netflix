@@ -15,7 +15,7 @@
 <header class="header">
     <nav class="header__nav">
       <div class="header__nav__left">
-        <img src="./assets/images/logo.png" alt="" />
+        <img src="../assets/images/logo.png" alt="" />
         <ul class="header__nav__left__links">
           <li>Home</li>
           <li>TV Shows</li>
@@ -24,9 +24,9 @@
       </div>
 
       <div class="header__nav__right">
-        <img src="./assets/images/search-icon.png" alt="" />
-        <img src="./assets/images/user.svg" alt="" />
-        <img src="./assets/images/bottom-arrow.png" alt="" />
+        <img src="../assets/images/search-icon.png" alt="" />
+        <img src="../assets/images/user.svg" alt="" />
+        <img src="../assets/images/bottom-arrow.png" alt="" />
       </div>
     </nav>
   </header>

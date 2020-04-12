@@ -1,15 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VideoPlayer</title>
-    <link rel="stylesheet" href="../scss/style.scss" />
+    <link rel="stylesheet" href="../styles/css/style.css" />
     <script src="../js/player.js" defer></script>
+    
   </head>
 
   <body>
+  <?php include("../components/header.php")?>
     <div class="video">
+    
       <video
         class="video__played"
         src="../assets/ma_nouvelle_vie_commence_maintenant.mp4"
@@ -51,11 +55,11 @@
 
         <button class="video__controller--sound">
           <img src="../assets/images/videoplayer/sound.svg" alt="" />
-          <div class="video__controller__container">
-            <input class="video__controller__container--volume" type="range" />
-          </div>
+          <!-- <div class="video__controller__container"> -->
+            <!-- <input class="video__controller__container--volume" type="range" /> -->
+          <!-- </div> -->
         </button>
-
+        <input class="video__controller--volume" type="range" />
         <button class="video__controller--mute">
           <img src="../assets/images/videoplayer/mute.svg" alt="" />
         </button>
