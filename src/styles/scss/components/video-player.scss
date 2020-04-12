@@ -1,0 +1,134 @@
+@import "../global/variables.scss";
+
+.video {
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  font-family: Helvetica, sans-serif;
+  background-color: $black;
+  &__played {
+    width: auto;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: -1;
+    &:-webkit-full-screen{
+      width: 100%;
+      height: 100%;
+      &::-webkit-media-controls-enclosure{
+        display: none !important;
+      }
+    }
+  }
+  &__return {
+    position: absolute;
+    transform: translate(96%, -1450%);
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+    outline: $grey;
+    opacity: 1;
+    &:hover {
+      box-shadow: 6px 8px 8px 0 $blue;
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
+  &__progress {
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    &__bar {
+      position: absolute;
+      height: 12px;
+      width: 0%;
+      transform-origin: right;
+      background-color: $blue;
+    }
+  }
+  &__centralbutton--played {
+    position: absolute;
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    bottom: 40%;
+    background-color: transparent;
+    border-color: transparent;
+    outline: $grey;
+    &--played {
+      background-color: transparent;
+      border-color: transparent;
+      outline: $grey;
+    }
+  }
+  &__controller {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    z-index: 6;
+    background-color: $black;
+    height: 54px;
+    padding-left: 1%;
+    opacity: 0;
+
+    & > button {
+      background-color: transparent;
+      border-color: transparent;
+      color: $grey;
+      font-size: 18px;
+      margin-right: 1%;
+      text-decoration: none;
+      outline: $grey;
+      &:hover {
+        transform: scale(1.2);
+      }
+      &:active {
+        background-color: $blue;
+      }
+    }
+    &--pause {
+      display: block;
+    }
+    &--play {
+      display: none;
+    }
+    &--sound {
+      margin-top: 0.75%;
+      width: 12px;
+      margin-bottom: auto;
+    }
+    &--mute {
+      margin-left: 1%;
+    }
+    &--title {
+      color: $grey;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-family: Helvetica, sans-serif;
+      font-weight: 500;
+    }
+    &__container {
+      background-color: $black;
+      border-color: $black;
+      color: $grey;
+      &--volume {
+        -webkit-appearance: none;
+        align-items: center;
+        background-color: $blue;
+        display: none;
+        outline: $grey;
+        margin-bottom: 60%;
+      }
+    }
+  }
+}
