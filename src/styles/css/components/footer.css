@@ -1,0 +1,24 @@
+.footer {
+  background-color: #0a090c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0; }
+  .footer__social-network {
+    margin-bottom: 34px;
+    display: flex;
+    align-items: center; }
+    .footer__social-network > a {
+      margin: 0 15px; }
+  .footer__rows {
+    display: flex;
+    justify-content: space-between; }
+    .footer__rows__categories {
+      list-style: none; }
+      .footer__rows__categories:not(:first-child) {
+        padding-left: 20px; }
+      .footer__rows__categories__item:not(:last-child) {
+        margin-bottom: 6px; }
+      .footer__rows__categories__item > a {
+        color: #f0edee;
+        text-decoration: none; }

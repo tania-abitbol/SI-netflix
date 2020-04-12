@@ -1,0 +1,46 @@
+@import "../global/variables.scss";
+
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: $black;
+  color: $grey;
+  display: flex;
+  font-size: 18px;
+  &__nav {
+    width: 100%;
+    padding: 0 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+      display: flex;
+      justify-content: space-between;
+      width: 600px;
+      height: 90px;
+      & > img {
+        align-self: center;
+        height: 50px;
+      }
+      &__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & > li {
+          padding: 1em 1em 0 1em;
+          width: 130px;
+          height: 30px;
+        }
+      }
+    }
+    &__right {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 0.5em;
+      & > img {
+        margin: 0 8px;
+      }
+    }
+  }
+}
