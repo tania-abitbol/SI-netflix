@@ -67,6 +67,8 @@
         </button>
 
         <p class="video__controller--title">Série : Titre : Episode 4</p>
+
+        <button class="video__controller--fullScreen"><img src="../assets/images/videoplayer/fullScreen.svg" alt=""></button>
       </div>
     </div>
   </body>
