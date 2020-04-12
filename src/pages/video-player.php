@@ -55,11 +55,13 @@
 
         <button class="video__controller--sound">
           <img src="../assets/images/videoplayer/sound.svg" alt="" />
-          <!-- <div class="video__controller__container"> -->
-            <!-- <input class="video__controller__container--volume" type="range" /> -->
-          <!-- </div> -->
+          <!-- <div class="video__controller__container">
+            
+          </div> -->
         </button>
+
         <input class="video__controller--volume" type="range" />
+
         <button class="video__controller--mute">
           <img src="../assets/images/videoplayer/mute.svg" alt="" />
         </button>

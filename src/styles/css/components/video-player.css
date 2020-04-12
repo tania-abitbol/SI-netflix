@@ -93,4 +93,8 @@
       font-family: Helvetica, sans-serif;
       font-weight: 500; }
     .video__controller--volume {
+      border-color: #0a090c;
+      -webkit-appearance: none;
       display: none; }
+      .video__controller--volumeinput[type=range] {
+        background-color: #2c666e; }

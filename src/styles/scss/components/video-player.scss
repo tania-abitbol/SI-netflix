@@ -113,14 +113,18 @@
     }
     &--volume {
       // background-color: $black;
-      // border-color: $black;
+      border-color: $black;
       // color: $grey;
-      //   -webkit-appearance: none;
-      //   align-items: center;
-      //   background-color: $blue;
+      -webkit-appearance: none;
+      // align-items: center;
+
       display: none;
-      // outline: $grey;
+
       // margin-bottom: 60%;
+      &input[type="range"] {
+        // outline: $grey;
+        background-color: $blue;
+      }
     }
   }
 }

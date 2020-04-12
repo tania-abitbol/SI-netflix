@@ -113,12 +113,11 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-sound.addEventListener("click", () => {
+sound.addEventListener("mouseenter", () => {
   console.log(volume.style.display);
   if (volume.style.display != "none") {
     volume.style.display = "none";
-  }
-  if (volume.style.display != "block") {
+  } else if (volume.style.display != "block") {
     volume.style.display = "block";
   }
   setTimeout(function () {
