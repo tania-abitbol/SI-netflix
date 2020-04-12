@@ -75,15 +75,32 @@ lessSec.addEventListener(["click", "keydown"], () => {
   }
 });
 
+// document.addEventListener("keydown", (e) => {
+//   if (e.keyCode === 37) {
+//     videoContent.currentTime -= 10;
+//   } if (e.keyCode === 39) {
+//     videoContent.currentTime += 10;
+//   } if (e.keyCode === 32) {
+//     eventPause();
+//   }
+// });
+
 document.addEventListener("keydown", (e) => {
-  if (e.keyCode === 37) {
-    videoContent.currentTime -= 10;
-  } if (e.keyCode === 39) {
-    videoContent.currentTime += 10;
-  } if (e.keyCode === 32) {
-    eventPause();
+  switch (e.keyCode) {
+    case 37:
+      videoContent.currentTime -= 10;
+      break;
+    case 39:
+      videoContent.currentTime += 10;
+      break;
+    case 32:
+      eventPause();
+      break;
+    default:
+      break;
   }
 });
+
 
 videoContent.addEventListener("timeupdate", () => {
   var vid = videoContent.currentTime;
@@ -131,9 +148,9 @@ video.addEventListener("mousemove", () => {
 
 document.addEventListener("keydown", (e) => {
   if (e.keyCode === 13) {
-      video.requestFullscreen();
-      videoContent.style.width = '100%';
-      videoContent.style.height = '100%';
+    video.requestFullscreen();
+    videoContent.style.width = '100%';
+    videoContent.style.height = '100%';
     console.log(videoFullScreen())
   }
 }, false)
