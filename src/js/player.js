@@ -75,18 +75,12 @@ lessSec.addEventListener(["click", "keydown"], () => {
   }
 });
 
-// function logKey(e){
-//   console.log(e.keyCode)
-// }
-
 document.addEventListener("keydown", (e) => {
-  // logKey(e)
   if (e.keyCode === 37) {
     videoContent.currentTime -= 10;
   } if (e.keyCode === 39) {
     videoContent.currentTime += 10;
   } if (e.keyCode === 32) {
-    // if(eventPause()){
     eventPause();
   }
 });
@@ -125,8 +119,6 @@ videoReturn.addEventListener("click", () => {
   window.history.back();
 });
 
-
-
 video.addEventListener("mousemove", () => {
   if (controller.style.opacity = '0') {
     controller.style.opacity = 1;
@@ -136,16 +128,18 @@ video.addEventListener("mousemove", () => {
     controller.style.opacity = 0; bar.style.bottom = 0;
   }, 8000);
 });
-console.log('onmousemove')
 
-// x = e.clientX;
-// y = e.clientY;
+document.addEventListener("keydown", (e) => {
+  if (e.keyCode === 13) {
+      video.requestFullscreen();
+      videoContent.style.width = '100%';
+      videoContent.style.height = '100%';
+    console.log(videoFullScreen())
+  }
+}, false)
 
-// const bodyy = document.querySelector('body');
-// event.pageY = 0
-// event.pageX = 0
-// video.addEventListener('mousemove', () => {
-//   var posS = event.pageX;
-//   var posss = event.pageY;
-//   console.log(posS + 'y', posss)
-// })
+function videoFullScreen() {
+  if (video.requestFullscreen) {
+    video.requestFullscreen();
+  }
+}
