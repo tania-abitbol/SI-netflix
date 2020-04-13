@@ -1,20 +1,21 @@
-const video = document.querySelector(".video");
-const videoContent = document.querySelector(".video__played");
-const played = document.querySelector(".video__centralbutton--played");
-const pause = document.querySelector(".video__controller--pause");
-const play = document.querySelector(".video__controller--play");
-const replay = document.querySelector(".video__controller--replay");
-const moreSec = document.querySelector(".video__controller--addtime-forward");
-const lessSec = document.querySelector(".video__controller--addtime-backward");
-const mute = document.querySelector(".video__controller--mute");
-const bar = document.querySelector(".video__progress");
-const progressBar = document.querySelector(".video__progress__bar");
-const centralButtonPlay = document.querySelector(".video__centralbutton");
-const volume = document.querySelector(".video__controller--volume");
-const sound = document.querySelector(".video__controller--sound");
-const videoReturn = document.querySelector(".video__return");
-const controller = document.querySelector(".video__controller");
-const fullScreenBtn = document.querySelector(".video__controller--fullSCreen");
+const video = document.querySelector(".video"); //Div Video
+const videoContent = document.querySelector(".video__played"); // Contenu de la vidéo
+const played = document.querySelector(".video__centralbutton--played"); // Bouton play
+const pause = document.querySelector(".video__controller--pause"); // Bouton bottom pause
+const play = document.querySelector(".video__controller--play"); // Bouton bottom play
+const replay = document.querySelector(".video__controller--replay"); // Bouton replay
+const moreSec = document.querySelector(".video__controller--addtime-forward"); // Bouton add +10sec
+const lessSec = document.querySelector(".video__controller--addtime-backward"); // Bouton -10se
+const mute = document.querySelector(".video__controller--mute"); // Bouton mute
+const bar = document.querySelector(".video__progress"); // Controleur bar
+const progressBar = document.querySelector(".video__progress__bar"); // Bar de progresssion
+const volume = document.querySelector(".video__controller--volume"); // Input volume
+const sound = document.querySelector(".video__controller__sound"); // Div images sound
+const soundOn = document.querySelector(".video__controller__sound--on"); // Img sound on
+const soundOff = document.querySelector(".video__controller__sound--off"); // Img sound off
+const videoReturn = document.querySelector(".video__return"); // Bouton return
+const controller = document.querySelector(".video__controller"); // Div controller
+const fullScreenBtn = document.querySelector(".video__controller--fullSCreen"); //Buutoun full scren
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
@@ -59,10 +60,6 @@ play.addEventListener("click", () => {
   eventPlay();
 });
 
-mute.addEventListener("click", () => {
-  videoContent.volume = 0;
-});
-
 replay.addEventListener("click", () => {
   videoContent.currentTime = 0;
 });
@@ -104,11 +101,14 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-sound.addEventListener("mouseenter", () => {
-  console.log(volume.style.display);
+soundOn.addEventListener("mouseenter", () => {
+  console.log("y");
   if (volume.style.display != "none") {
+    console.log(volume.style.display);
     volume.style.display = "none";
-    mutee();
+    // if(videoContent.volume == 0){
+    //   mutee()
+    // }
   } else if (volume.style.display != "block") {
     volume.style.display = "block";
   }
@@ -118,15 +118,22 @@ sound.addEventListener("mouseenter", () => {
 });
 
 sound.addEventListener("click", () => {
-  mutee();
+  if (soundOn.style.display != "none") {
+    soundOff.style.display = "block";
+    soundOn.style.display = "none";
+    videoContent.volume = 0;
+  } else if ((soundOff.style.display = "block")) {
+    soundOn.style.display = "block";
+    soundOff.style.display = "none";
+    videoContent.volume = 0.2;
+  }
 });
 
-function mutee() {
-  var imgSound = sound.getAttribute("src");
-  if ((videoContent.volume = 0)) {
-    imgSound.this.src = "../assets/images/videoplayer/mute.svg";
-  }
-}
+// function mutee() {
+//     soundOff.style.display = 'block';
+//     soundOn.style.display = 'none'
+
+// }
 
 volume.addEventListener("change", (e) => {
   videoContent.volume = e.currentTarget.value / 100;

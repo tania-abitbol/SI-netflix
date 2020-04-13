@@ -95,14 +95,19 @@
     &--play {
       display: none;
     }
-    &--sound {
-      margin-top: 0.75%;
-      width: 12px;
-      margin-bottom: auto;
+    &__sound {
+      &--on {
+        margin-top: 0.75%;
+        width: 12px;
+        margin-bottom: auto;
+        display: block;
+      }
+      &--off {
+        margin-left: 1%;
+        display: none;
+      }
     }
-    &--mute {
-      margin-left: 1%;
-    }
+
     &--title {
       color: $grey;
       text-align: center;
@@ -124,10 +129,13 @@
       // align-items: center;
       display: none;
       // margin-bottom: 60%;
-      &input[type="range"] {
-        // outline: $grey;
-        background-color: $blue;
-      }
+      // &input[type="range"] {
+      //   // outline: $grey;
+      //   background-color: $blue;
+      // }
+    }
+    &--mute {
+      display: none;
     }
   }
 }

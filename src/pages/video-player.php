@@ -20,17 +20,15 @@
         type="video/mp4"
       ></video>
       <button class="video__return">
-        <img src="../assets/images/videoplayer/return.svg" alt="" />
+        <a href="home.php"><img src="../assets/images/videoplayer/return.svg" alt=""/></a>
       </button>
       <div class="video__progress">
         <div class="video__progress__bar"></div>
       </div>
 
-      <!-- <div class="video__centralbutton"> -->
       <button class="video__centralbutton--played">
         <img src="../assets/images/videoplayer/button_play.svg" alt="" />
       </button>
-      <!-- </div> -->
 
       <div class="video__controller">
         <button class="video__controller--pause">
@@ -53,10 +51,11 @@
           <img src="../assets/images/videoplayer/replay.svg" alt="" />
         </button>
 
-        <button class="video__controller--sound">
-          <img src="../assets/images/videoplayer/sound.svg" alt="" />
-          <img src="../assets/images/videoplayer/mute.svg" alt="" class="video__controller--mute"/>
-        </button>
+        <button class="video__controller__sound">
+          <img src="../assets/images/videoplayer/sound.svg" alt="" class="video__controller__sound--on"/>
+        
+          <img src="../assets/images/videoplayer/mute.svg" alt="" class="video__controller__sound--off"/>
+       </button>
 
         <input class="video__controller--volume" type="range" />
 
