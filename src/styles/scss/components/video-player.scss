@@ -13,17 +13,17 @@
   font-family: Helvetica, sans-serif;
   &__played {
     width: 80%;
-    height: 100%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-content: center;
     z-index: -1;
-    &:-webkit-full-screen {
-      width: 100%;
-      height: 100%;
-      &::-webkit-media-controls-enclosure {
-        display: none !important;
-      }
+    // &::-webkit-full-screen {
+    //   width: 100%;
+    //   height: 100%;
+    &::-webkit-media-controls-enclosure {
+      display: none !important;
+      // }
     }
   }
   &__return {
@@ -90,15 +90,14 @@
       }
     }
     &--pause {
-      display: block;
+      display: none;
     }
     &--play {
-      display: none;
+      display: block;
     }
     &__sound {
       &--on {
         margin-top: 0.75%;
-        width: 12px;
         margin-bottom: auto;
         display: block;
       }

@@ -84,9 +84,11 @@ document.addEventListener("keydown", (e) => {
       videoContent.currentTime += 10;
       break;
     case 32:
-      eventPause();
-      break;
-    default:
+      if (videoContent.paused === true) {
+        eventPlay();
+      } else if (videoContent.played.length) {
+        eventPause();
+      }
       break;
   }
 });
@@ -101,21 +103,27 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-soundOn.addEventListener("mouseenter", () => {
-  console.log("y");
+// sound.addEventListener("mouseover", () => {
+//   console.log("y");
+
+function mouseOver() {
   if (volume.style.display != "none") {
-    console.log(volume.style.display);
     volume.style.display = "none";
+
     // if(videoContent.volume == 0){
     //   mutee()
     // }
   } else if (volume.style.display != "block") {
     volume.style.display = "block";
   }
-  setTimeout(function () {
-    volume.style.display = "none";
-  }, 8000);
-});
+}
+setTimeout(function () {
+  volume.style.display = "none";
+}, 8000);
+
+// sound.addEventListener("mouseleave", () => {
+//   volume.style.display = "none";
+// })
 
 sound.addEventListener("click", () => {
   if (soundOn.style.display != "none") {
@@ -137,8 +145,8 @@ videoReturn.addEventListener("click", () => {
   window.history.back();
 });
 
-video.addEventListener("mousemove", () => {
-  if ((controller.style.opacity = "0")) {
+videoContent.addEventListener("mousemove", () => {
+  if (controller.style.opacity == "0") {
     controller.style.opacity = 1;
     bar.style.bottom = "5%";
   }
@@ -152,16 +160,21 @@ document.addEventListener(
   "keydown",
   (e) => {
     if (e.keyCode === 13) {
-      video.requestFullscreen();
+      fff();
     }
   },
   false
 );
 
-function videoFullScreen() {
-  if (video.requestFullscreen) {
-    video.requestFullscreen();
-  }
+// function videoFullScreen() {
+//   if (video.requestFullscreen) {
+//     video.requestFullscreen();
+//   }
+// }
+
+function fff() {
+  videoContent.style.width = "100%";
+  videoContent.style.height = "100%";
 }
 
 const rect = bar.getBoundingClientRect();
@@ -174,7 +187,3 @@ bar.addEventListener("click", (a) => {
   videoContent.currentTime = surrenTimeTrue;
   progressBar.style.width = widthPercent + "%";
 });
-
-// fullScreenBtn.addEventListener('click', () => {
-//   document.requestFullscreen();
-// })

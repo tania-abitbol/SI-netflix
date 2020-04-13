@@ -12,7 +12,7 @@
 
   <body>
     <div class="video">
-    
+    <!-- <div class="test"> -->
       <video
         class="video__played"
         src="../assets/ma_nouvelle_vie_commence_maintenant.mp4"
@@ -50,7 +50,7 @@
           <img src="../assets/images/videoplayer/replay.svg" alt="" />
         </button>
 
-        <button class="video__controller__sound">
+        <button class="video__controller__sound" onmouseover="mouseOver()">
           <img src="../assets/images/videoplayer/sound.svg" alt="" class="video__controller__sound--on"/>
         
           <img src="../assets/images/videoplayer/mute.svg" alt="" class="video__controller__sound--off"/>
@@ -62,6 +62,7 @@
 
         <button class="video__controller--fullScreen"><img src="../assets/images/videoplayer/fullScreen.svg" alt=""></button>
       </div>
+      <!-- </div> -->
     </div>
   </body>
 </html>
