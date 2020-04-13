@@ -55,16 +55,14 @@
 
         <button class="video__controller--sound">
           <img src="../assets/images/videoplayer/sound.svg" alt="" />
-          <!-- <div class="video__controller__container">
-            
-          </div> -->
+          <img src="../assets/images/videoplayer/mute.svg" alt="" class="video__controller--mute"/>
         </button>
 
         <input class="video__controller--volume" type="range" />
 
-        <button class="video__controller--mute">
+        <!-- <button class="video__controller--mute">
           <img src="../assets/images/videoplayer/mute.svg" alt="" />
-        </button>
+        </button> -->
 
         <p class="video__controller--title">Série : Titre : Episode 4</p>
 

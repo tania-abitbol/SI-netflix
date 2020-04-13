@@ -108,6 +108,7 @@ sound.addEventListener("mouseenter", () => {
   console.log(volume.style.display);
   if (volume.style.display != "none") {
     volume.style.display = "none";
+    mutee();
   } else if (volume.style.display != "block") {
     volume.style.display = "block";
   }
@@ -115,6 +116,17 @@ sound.addEventListener("mouseenter", () => {
     volume.style.display = "none";
   }, 8000);
 });
+
+sound.addEventListener("click", () => {
+  mutee();
+});
+
+function mutee() {
+  var imgSound = sound.getAttribute("src");
+  if ((videoContent.volume = 0)) {
+    imgSound.this.src = "../assets/images/videoplayer/mute.svg";
+  }
+}
 
 volume.addEventListener("change", (e) => {
   videoContent.volume = e.currentTarget.value / 100;
