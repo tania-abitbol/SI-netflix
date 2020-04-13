@@ -1,6 +1,6 @@
 @import "../global/variables.scss";
 
-.header {
+.head {
   width: 100vw;
   height: 100px;
   background-color: $black;
@@ -35,14 +35,21 @@
         }
       }
     }
-    &__boutton {
+    &__right {
       display: flex;
       justify-content: space-around;
       align-items: center;
       padding-top: 0.5em;
+
+      &__up {
+        color: yellow;
+      }
+      &__in {
+        color: pink;
+      }
     }
   }
 }
 .poster {
-  background-color: red;
+  background-color: green;
 }
