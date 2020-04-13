@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GOFILMAX</title>
   <link rel="stylesheet" href="../styles/css/style.css" />
-<<<<<<< HEAD
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/index.js" defer type="module"></script>
-=======
+
   <script src="../js/index.js" defer type="module"></script>
->>>>>>> 4b6bc135e7c815970074784ae92987ce32bef913
+
 </head>
 
   <body>
