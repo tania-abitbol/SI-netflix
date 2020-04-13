@@ -269,13 +269,6 @@ table {
     transition: 300ms transform, 300ms translate(100px);
     white-space: nowrap;
     margin: 174px 0; }
-    .sliders__inner:hover .sliders__item {
-      opacity: 0.3; }
-      .sliders__inner:hover .sliders__item:hover {
-        opacity: 1; }
-        .sliders--large .sliders__inner:hover .sliders__item:hover {
-          transform: scale(1.4);
-          transform: scale(1.4); }
   .sliders .sliders__item {
     position: relative;
     display: inline-block;
@@ -323,16 +316,10 @@ table {
         text-align: center;
         z-index: 2;
         color: white; }
-    .sliders .sliders__item:hover .sliders__item--details {
-      opacity: 1; }
     .sliders .sliders__item .sliders__item--title {
       position: absolute;
       bottom: 0;
       padding: 10px; }
-
-.sliders--large .sliders__item:hover ~ .sliders__item {
-  transform: translate3d(150px, 0, 0);
-  transform: translate3d(150px, 0, 0); }
 
 .slide--grid {
   display: grid;
@@ -351,6 +338,18 @@ table {
     color: #ecf0f1;
     border: 1px solid #ecf0f1;
     font-weight: bold; }
+
+video {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 435px; }
+
+.videooooo {
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 300px; }
 
 .video {
   position: absolute;
@@ -520,6 +519,15 @@ table {
   justify-content: space-between; }
   .input-wrapper .client-space__form__items__item__input {
     width: 100%; }
+
+.client-space__form__submit__button {
+  width: 145px;
+  height: 38px;
+  background: #2c666e;
+  border: 1px solid #f0edee;
+  text-transform: uppercase;
+  color: #f0edee;
+  font-size: 18px; }
 
 .profil {
   width: 100vw;

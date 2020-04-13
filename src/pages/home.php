@@ -4,7 +4,7 @@
       <img src="../assets/images/iphonetest.jpg" alt="first" class="illustration__img" />
     </div>
     <div class="title__form">
-      <h1 class="container--title">SERIES</h1>
+      <h1 class="container--title">FILMS</h1>
       <form class="form">
         <select class="type">
           <option value=" ">Genres</option>
@@ -28,119 +28,31 @@
 
       <div class="sliders sliders--large">
         <div class="sliders__inner">
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-              
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-              
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__ite--title">
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-            
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-              
-              </div>
-            </div>
-          </div>
-
-          <div class="sliders__item">
-            <div class="sliders__item--media">
-              <div class="sliders__item--img"></div>
-            </div>
-            <div class="sliders__item--details">
-              <div class="sliders__item--title">
-            
-              </div>
-            </div>
-          </div>
+        
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>          
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>          
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>          
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>          
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>          
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>          
+         <video class="sliders__item" src="../assets/videos/armageddon-official-trailer-hd.mp4" poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
+    
         </div>
       </div>
-    </div>
 
-    <h1 class="container--second--title">FILMS</h1>
+
+    <h1 class="container--second--title">SERIES</h1>
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
@@ -265,6 +177,12 @@
         </div>
       </div>
     </div>
+
+
+
+  
+
+
 
     <h1 class="container--second--title">TOP 10</h1>
     <div class="container">
