@@ -1,5 +1,3 @@
-@import "../global/variables.scss";
-
 $sliders-width: 300px;
 $sliders-height: 435px;
 $sliders-scale: 1.4;
@@ -8,7 +6,6 @@ $sliders-transition: 300ms;
 .illustration__img {
   width: 100vw;
   height: 400px;
-  color: red($color: #000000);
 }
 .title__form {
   display: flex;
