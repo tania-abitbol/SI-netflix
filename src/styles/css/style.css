@@ -366,7 +366,7 @@ table {
   font-family: Helvetica, sans-serif; }
   .video__played {
     width: 80%;
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-content: center;

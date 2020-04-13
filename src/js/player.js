@@ -183,7 +183,7 @@ const largeur = rect.width;
 bar.addEventListener("click", (a) => {
   var x = a.clientX - rect.left;
   const widthPercent = (x * 100) / largeur;
-  const surrenTimeTrue = (widthPercent * videoContent.duration) / 100;
-  videoContent.currentTime = surrenTimeTrue;
+  const currenTimeTrue = (widthPercent * videoContent.duration) / 100;
+  videoContent.currentTime = currenTimeTrue;
   progressBar.style.width = widthPercent + "%";
 });
