@@ -135,27 +135,15 @@ table {
   align-items: center;
   padding: 30px 0; }
   .footer__social-network {
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
     margin-bottom: 1em;
     display: flex;
     align-items: center; }
     .footer__social-network > a {
       margin: 0 15px 10px; }
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
   .footer__rows {
     display: flex;
     justify-content: space-between; }
     .footer__rows__categories {
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
       list-style: none;
       padding-right: 10px;
       padding-top: 10px; }
@@ -163,23 +151,13 @@ table {
         padding-left: 20px; }
       .footer__rows__categories__item:not(:last-child) {
         margin-bottom: 1em; }
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
       .footer__rows__categories__item > a {
         color: #f0edee;
         text-decoration: none; }
 
 .header {
   width: 100vw;
-<<<<<<< HEAD
   height: 100px;
-=======
-
-  height: 129px;
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
   background-color: #0a090c;
   color: #f0edee;
   display: flex;
@@ -191,10 +169,6 @@ table {
     justify-content: space-between;
     align-items: center; }
     .header__nav__left {
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
       display: flex;
       justify-content: space-between;
       width: 600px;
@@ -217,10 +191,6 @@ table {
       justify-content: space-around;
       align-items: center;
       padding-top: 0.5em; }
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
       .header__nav__right > img {
         margin: 0 8px; }
 
@@ -232,13 +202,7 @@ table {
   display: flex;
   justify-content: flex-start;
   height: 90px;
-<<<<<<< HEAD
   margin-bottom: 1em; }
-=======
-
-  margin-bottom: 1em; }
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
 
 .type {
   border: 1px solid #07393c;
@@ -273,10 +237,6 @@ table {
   margin-bottom: 11.5em; }
 
 .prev {
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
   height: 40px;
   width: 30px; }
 
@@ -297,13 +257,7 @@ table {
 .sliders {
   display: block;
   margin: auto;
-<<<<<<< HEAD
   margin-top: 1em;
-=======
-
-  margin-top: 1em;
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
   overflow: scroll;
   width: 90%;
   display: flex;
@@ -314,32 +268,12 @@ table {
     transition: 300ms transform;
     transition: 300ms transform, 300ms translate(100px);
     white-space: nowrap;
-<<<<<<< HEAD
     margin: 174px 0; }
   .sliders .sliders__item {
     position: relative;
     display: inline-block;
     width: 300px;
     height: 435px;
-=======
-
-    margin: 174px 0; }
-
-    .sliders__inner:hover .sliders__item {
-      opacity: 0.3; }
-      .sliders__inner:hover .sliders__item:hover {
-        opacity: 1; }
-        .sliders--large .sliders__inner:hover .sliders__item:hover {
-          transform: scale(1.4);
-          transform: scale(1.4);}
-  .sliders .sliders__item {
-    position: relative;
-    display: inline-block;
-
-    width: 300px;
-    height: 435px;
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
     margin: 0 5px;
     font-size: 20px;
     cursor: pointer;
@@ -357,13 +291,7 @@ table {
       top: 0;
       font-size: 10px;
       opacity: 0;
-<<<<<<< HEAD
       background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
-=======
-
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
       transition: 300ms opacity; }
       .sliders .sliders__item .sliders__item--details:after, .sliders .sliders__item .sliders__item--details:before {
         content: "";
@@ -393,24 +321,12 @@ table {
       bottom: 0;
       padding: 10px; }
 
-<<<<<<< HEAD
-=======
-
-.sliders--large .sliders__item:hover ~ .sliders__item {
-  transform: translate3d(150px, 0, 0);
-  transform: translate3d(150px, 0, 0); }
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
 .slide--grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 25px;
   padding: 3em; }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
 .slide__item {
   height: 200px;
   background-size: cover;
@@ -480,10 +396,6 @@ video {
       width: 0%;
       transform-origin: right;
       background-color: #2c666e; }
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
   .video__centralbutton--played {
     position: absolute;
     display: flex;
@@ -549,10 +461,6 @@ video {
         display: none;
         outline: #f0edee;
         margin-bottom: 60%; }
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
 
 .client-space {
   background-color: #07393c;
@@ -612,10 +520,6 @@ video {
   .input-wrapper .client-space__form__items__item__input {
     width: 100%; }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
 .client-space__form__submit__button {
   width: 145px;
   height: 38px;
@@ -624,10 +528,7 @@ video {
   text-transform: uppercase;
   color: #f0edee;
   font-size: 18px; }
-<<<<<<< HEAD
 
-=======
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
 .profil {
   width: 100vw;
   background-color: #f0edee;
@@ -755,9 +656,6 @@ video {
           font-size: 12px;
           color: #f0edee;
           text-decoration: none; }
-<<<<<<< HEAD
 
-=======
->>>>>>> e49300d... Merge pull request #44 from tania-abitbol/video-poster
 body {
   font-family: Helvetica, sans-serif; }
