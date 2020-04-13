@@ -322,57 +322,57 @@
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/gravity.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
       </div>
     </div>
 
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/hobbit.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
        </div>
       </div>
       
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/blade-runnuer.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
         </div>
       </div>
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/tintin.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
      </div>
       </div>
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/thedarkness.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
       </div>
       </div>
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/clashdestitans.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
 </div>
       </div>
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/st.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
 </div>
       </div>
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/kong.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
 </div>
       </div>
       <div class="slide__item">
         <img class="slide__item" src="../assets/images/grid-film/interstelar.jpg" alt="" />
         <div class="slide__item--btn">
-        <button class="slide--btn">More info</button>
+        <button class="slide__item--btn--btn">More info</button>
 </div>
       </div>
     </div>
