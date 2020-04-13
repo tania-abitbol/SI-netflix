@@ -8,7 +8,7 @@
   height: 100vh;
   z-index: -2;
   font-family: Helvetica, sans-serif;
-  background-color: $black;
+  background-color: $blue;
   &__played {
     width: auto;
     height: 80%;
@@ -16,10 +16,10 @@
     justify-content: center;
     align-content: center;
     z-index: -1;
-    &:-webkit-full-screen{
+    &:-webkit-full-screen {
       width: 100%;
       height: 100%;
-      &::-webkit-media-controls-enclosure{
+      &::-webkit-media-controls-enclosure {
         display: none !important;
       }
     }
