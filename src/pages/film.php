@@ -6,22 +6,6 @@
 
     <div class="title__form">
       <h1 class="container--title">Popular</h1>
-      <form class="form">
-        <select class="type">
-          <option value="">Genres</option>
-          <option>Science-fiction</option>
-          <option>Action</option>
-          <option>Adventure</option>
-          <option>Horror</option>
-          <option>Thriller</option>
-          <option>Drama</option>
-          <option>Fantasy</option>
-          <option>Animated</option>
-          <option>Comedy</option>
-          <option>Historical</option>
-          <option>Romance</option>
-        </select>
-      </form>
     </div>
     <h1 class="container--second--title"></h1>
     <div class="container">
@@ -30,7 +14,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -146,7 +130,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -262,7 +246,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -378,7 +362,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -494,7 +478,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -610,7 +594,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -726,7 +710,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -842,7 +826,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -958,7 +942,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -1074,7 +1058,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="././assets/images/arrow--next.svg" />
+          <img class="next" src="./../assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -1182,9 +1166,5 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD:src/pages/film.php
-<?php include("./components/footer.php")?>
-=======
 <?php include("../components/footer.php")?>
->>>>>>> be35f99b2030a18a1c82ab603fdddf7f49c85fbf:src/pages/film.php
     

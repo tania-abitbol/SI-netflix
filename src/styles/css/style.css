@@ -203,7 +203,12 @@ table {
   display: flex;
   justify-content: flex-start;
   height: 90px;
+<<<<<<< HEAD
   margin-bottom: 1em; }
+=======
+  margin-bottom: 1em;
+  color: white; }
+>>>>>>> 4b6bc135e7c815970074784ae92987ce32bef913
 
 .type {
   border: 1px solid #07393c;
@@ -220,6 +225,7 @@ table {
   align-self: center; }
 
 .container--title {
+  color: white;
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
@@ -229,6 +235,7 @@ table {
   margin-bottom: 1em; }
 
 .container--second--title {
+  color: white;
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
@@ -352,6 +359,21 @@ table {
     color: #ecf0f1;
     border: 1px solid #ecf0f1;
     font-weight: bold; }
+<<<<<<< HEAD
+=======
+
+video {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 435px; }
+
+.videooooo {
+  display: block;
+  margin: auto;
+  height: 500px;
+  width: 300px; }
+>>>>>>> 4b6bc135e7c815970074784ae92987ce32bef913
 
 .video {
   position: absolute;
@@ -361,7 +383,11 @@ table {
   flex-direction: column;
   margin: 0;
   width: 100vw;
+<<<<<<< HEAD
   height: auto;
+=======
+  height: 100vh;
+>>>>>>> 4b6bc135e7c815970074784ae92987ce32bef913
   z-index: -2;
   font-family: Helvetica, sans-serif; }
   .video__played {
@@ -456,9 +482,15 @@ table {
       display: none; }
       .video__controller--volume::-webkit-slider-runnable-track {
         background-color: #2c666e;
+<<<<<<< HEAD
         border-color: transparent; }
     .video__controller--mute {
       display: none; }
+=======
+        display: none;
+        outline: #f0edee;
+        margin-bottom: 60%; }
+>>>>>>> 4b6bc135e7c815970074784ae92987ce32bef913
 
 .client-space {
   background-color: #07393c;
@@ -518,6 +550,18 @@ table {
   .input-wrapper .client-space__form__items__item__input {
     width: 100%; }
 
+<<<<<<< HEAD
+=======
+.client-space__form__submit__button {
+  width: 145px;
+  height: 38px;
+  background: #2c666e;
+  border: 1px solid #f0edee;
+  text-transform: uppercase;
+  color: #f0edee;
+  font-size: 18px; }
+
+>>>>>>> 4b6bc135e7c815970074784ae92987ce32bef913
 .profil {
   width: 100vw;
   background-color: #f0edee;
@@ -647,4 +691,5 @@ table {
           text-decoration: none; }
 
 body {
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+  background-color: #0a090c; }

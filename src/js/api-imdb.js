@@ -1,4 +1,5 @@
 import { list } from "../assets/imdb/film.js";
+
 const apiKey = "b854e1ce&t";
 const films = list.map((f) => f.split(" - ")[0]);
 
