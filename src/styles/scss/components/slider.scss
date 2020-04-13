@@ -1,14 +1,15 @@
 @import "../global/variables.scss";
 
-$sliders-width: 300px;
-$sliders-height: 435px;
-$sliders-scale: 1.4;
+$sliders-width: 280px;
+$sliders-height: 370px;
+$sliders-scale: 1.2;
 $sliders-transition: 300ms;
-
-.illustration__img {
+.video__header {
   width: 100vw;
-  height: 400px;
+  height: 500px;
+  object-fit: cover;
 }
+
 .title__form {
   display: flex;
   justify-content: flex-start;
@@ -114,7 +115,10 @@ $sliders-transition: 300ms;
     .sliders__item--img {
       width: $sliders-width;
       height: $sliders-height;
-      object-fit: cover;
+
+      background-size: cover;
+
+      border-radius: 10px;
     }
     .sliders__item--details {
       position: absolute;

@@ -194,9 +194,10 @@ table {
       .header__nav__right > img {
         margin: 0 8px; }
 
-.illustration__img {
+.video__header {
   width: 100vw;
-  height: 400px; }
+  height: 500px;
+  object-fit: cover; }
 
 .title__form {
   display: flex;
@@ -271,28 +272,29 @@ table {
     transition: 300ms transform;
     transition: 300ms transform, 300ms translate(100px);
     white-space: nowrap;
-    margin: 174px 0; }
+    margin: 148px 0; }
     .sliders__inner:hover .sliders__item {
       opacity: 0.3; }
       .sliders__inner:hover .sliders__item:hover {
         opacity: 1; }
         .sliders--large .sliders__inner:hover .sliders__item:hover {
-          transform: scale(1.4);
-          transform: scale(1.4); }
+          transform: scale(1.2);
+          transform: scale(1.2); }
   .sliders .sliders__item {
     position: relative;
     display: inline-block;
-    width: 300px;
-    height: 435px;
+    width: 280px;
+    height: 370px;
     margin: 0 5px;
     font-size: 20px;
     cursor: pointer;
     transition: 300ms all;
     transform-origin: center left; }
     .sliders .sliders__item .sliders__item--img {
-      width: 300px;
-      height: 435px;
-      object-fit: cover; }
+      width: 280px;
+      height: 370px;
+      background-size: cover;
+      border-radius: 10px; }
     .sliders .sliders__item .sliders__item--details {
       position: absolute;
       bottom: 0;
@@ -334,8 +336,8 @@ table {
       padding: 10px; }
 
 .sliders--large .sliders__item:hover ~ .sliders__item {
-  transform: translate3d(150px, 0, 0);
-  transform: translate3d(150px, 0, 0); }
+  transform: translate3d(140px, 0, 0);
+  transform: translate3d(140px, 0, 0); }
 
 .slide--grid {
   display: grid;
@@ -359,7 +361,7 @@ video {
   display: block;
   margin: auto;
   width: 200px;
-  height: 435px; }
+  height: 370px; }
 
 .videooooo {
   display: block;

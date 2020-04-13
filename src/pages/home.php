@@ -1,18 +1,10 @@
 <?php include("../components/header.php")?>
 
-    <div class="illustration">
-      <img src="../assets/images/iphonetest.jpg" alt="first" class="illustration__img" />
-    </div>
+<video src="../assets/videos/baby-driver.mp4" class="video__header" type="video/mp4"  autoplay  controls  ></video>
+ 
     <div class="title__form">
       <h1 class="container--title">FILMS</h1>
       <form class="form">
-        <!-- <select class="type">
-          <option value=" ">Genres</option>
-          <option>Action</option>
-          <option>Ados</option>
-          <option>Jeunesse</option>
-          <option>Romantique</option>
-        </select> -->
       </form>
     </div>
     <h1 class="container--second--title"></h1>
