@@ -1,2 +1,5 @@
 import "./slider.js";
-import "./api-imdb.js";
+import "./player.js";
+import "./api-imdb";
+import "./slider-video.js";
+

@@ -18,7 +18,7 @@
         <img src="../assets/images/logo.png" alt="" />
         <ul class="header__nav__left__links">
           <a><li>Home</li></a>
-          <a><li>TV Shows</li></a>
+          <a><li>Films</li></a>
           <a><li>Series</li></a>
         </ul>
       </div>
