@@ -1,7 +1,7 @@
-import ar from "../assets/imdb/film.json";
+import { list } from "../assets/imdb/film.js";
 
 const apiKey = "b854e1ce&t";
-const films = ar.list.map((f) => f.split(" - ")[0]);
+const films = list.map((f) => f.split(" - ")[0]);
 
 //this call api async let us access to the ID of the film list selected & push inside the div class img the poster image & info
 function apiCall(list, elem, j = 0) {
