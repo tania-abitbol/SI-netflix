@@ -129,12 +129,6 @@ sound.addEventListener("click", () => {
   }
 });
 
-// function mutee() {
-//     soundOff.style.display = 'block';
-//     soundOn.style.display = 'none'
-
-// }
-
 volume.addEventListener("change", (e) => {
   videoContent.volume = e.currentTarget.value / 100;
 });

@@ -11,7 +11,6 @@
   </head>
 
   <body>
-  <?php include("../components/header.php")?>
     <div class="video">
     
       <video
@@ -58,10 +57,6 @@
        </button>
 
         <input class="video__controller--volume" type="range" />
-
-        <!-- <button class="video__controller--mute">
-          <img src="../assets/images/videoplayer/mute.svg" alt="" />
-        </button> -->
 
         <p class="video__controller--title">Série : Titre : Episode 4</p>
 

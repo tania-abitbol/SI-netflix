@@ -12,7 +12,7 @@
   z-index: -2;
   font-family: Helvetica, sans-serif;
   &__played {
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -122,18 +122,21 @@
       width: 4%;
     }
     &--volume {
-      // background-color: $black;
-      border-color: $black;
+      background-color: transparent;
+      border-color: transparent;
       // color: $grey;
       -webkit-appearance: none;
       // align-items: center;
       display: none;
-      // margin-bottom: 60%;
-      // &input[type="range"] {
-      //   // outline: $grey;
-      //   background-color: $blue;
-      // }
+      &::-webkit-slider-runnable-track {
+        background-color: $blue;
+        border-color: transparent;
+      }
     }
+    //   &::-webkit-slider-thumb{
+    //     -webkit-appearance: none;
+    //   }
+    // }
     &--mute {
       display: none;
     }
