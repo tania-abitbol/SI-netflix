@@ -6,13 +6,13 @@
     <div class="title__form">
       <h1 class="container--title">SERIES</h1>
       <form class="form">
-        <select class="type">
+        <!-- <select class="type">
           <option value=" ">Genres</option>
           <option>Action</option>
           <option>Ados</option>
           <option>Jeunesse</option>
           <option>Romantique</option>
-        </select>
+        </select> -->
       </form>
     </div>
     <h1 class="container--second--title"></h1>
@@ -444,5 +444,15 @@
         <button class="slide--btn">Plus d'info</button>
       </div>
     </div>
+
+
+      
+
+
+
+
+
+
+
 <?php include("../components/footer.php")?>
   
