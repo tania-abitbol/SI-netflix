@@ -15,9 +15,9 @@
       <div class="header__nav__left">
         <img src="../assets/images/logo.png" alt="" />
         <ul class="header__nav__left__links">
-          <a><li>Home</li></a>
-          <a><li>Films</li></a>
-          <a><li>Series</li></a>
+          <a href="../pages/home.php"><li>Home</li></a>
+          <a href="../pages/film.php"><li>Films</li></a>
+          <a href="../pages/series.php"><li>Series</li></a>
         </ul>
       </div>
 

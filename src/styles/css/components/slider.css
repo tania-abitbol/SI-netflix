@@ -1,36 +1,29 @@
-@import "../global/variables.scss";
-
-$sliders-width: 300px;
-$sliders-height: 435px;
-$sliders-scale: 1.4;
-$sliders-transition: 300ms;
-
+@charset "UTF-8";
 .illustration__img {
   width: 100vw;
-  height: 400px;
-}
+  height: 400px; }
+
 .title__form {
   display: flex;
   justify-content: flex-start;
   height: 90px;
   margin-bottom: 1em;
-  color: white;
-}
+  color: white; }
+
 .type {
-  border: 1px solid $blue-darker;
+  border: 1px solid #07393c;
   border-radius: 0;
   margin-left: 2em;
-
   font-size: 16px;
   font-weight: bold;
-  color: $blue-darker;
+  color: #07393c;
   width: 80px;
-  height: 24px;
-}
+  height: 24px; }
+
 .form {
   display: flex;
-  align-self: center;
-}
+  align-self: center; }
+
 .container--title {
   color: white;
   text-align: left;
@@ -39,84 +32,73 @@ $sliders-transition: 300ms;
   padding-left: 4.4em;
   padding-top: 2em;
   font-weight: bolder;
-  margin-bottom: 1em;
-}
+  margin-bottom: 1em; }
+
 .container--second--title {
   color: white;
-
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
   padding-left: 4.4em;
   padding-top: 2em;
   font-weight: bolder;
-  margin-bottom: 11.5em;
-}
+  margin-bottom: 11.5em; }
+
 .prev {
   height: 40px;
-  width: 30px;
-}
+  width: 30px; }
+
 .next {
   height: 40px;
-  width: 30px;
-}
+  width: 30px; }
+
 .slider__icon--s {
   display: flex;
   justify-content: space-between;
   margin-bottom: -350px;
   margin-left: 1em;
-  margin-right: 1em;
-}
+  margin-right: 1em; }
+
 ::-webkit-scrollbar {
-  display: none;
-}
+  display: none; }
+
 .sliders {
   display: block;
   margin: auto;
   margin-top: 1em;
-  $sliders: &;
   overflow: scroll;
   width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-
-  &__inner {
-    transition: $sliders-transition translate(100px);
-    transition: $sliders-transition transform;
-    transition: $sliders-transition transform, $sliders-transition translate(100px);
+  align-items: center; }
+  .sliders__inner {
+    transition: 300ms translate(100px);
+    transition: 300ms transform;
+    transition: 300ms transform, 300ms translate(100px);
     white-space: nowrap;
-    margin: $sliders-height/2.5 0;
-
-    &:hover {
-      .sliders__item {
-        opacity: 0.3;
-        &:hover {
-          opacity: 1;
-          #{ $sliders }--large & {
-            transform: scale($sliders-scale);
-            transform: scale($sliders-scale);
-          }
-        }
-      }
-    }
-  }
-  .sliders__item {
+    margin: 174px 0; }
+    .sliders__inner:hover .sliders__item {
+      opacity: 0.3; }
+      .sliders__inner:hover .sliders__item:hover {
+        opacity: 1; }
+        .sliders--large .sliders__inner:hover .sliders__item:hover {
+          transform: scale(1.4);
+          transform: scale(1.4); }
+  .sliders .sliders__item {
     position: relative;
     display: inline-block;
-    width: $sliders-width;
-    height: $sliders-height;
+    width: 300px;
+    height: 435px;
     margin: 0 5px;
     font-size: 20px;
     cursor: pointer;
-    transition: $sliders-transition all;
-    transform-origin: center left;
-    .sliders__item--img {
-      width: $sliders-width;
-      height: $sliders-height;
-      object-fit: cover;
-    }
-    .sliders__item--details {
+    transition: 300ms all;
+    transform-origin: center left; }
+    .sliders .sliders__item .sliders__item--img {
+      width: 300px;
+      height: 435px;
+      object-fit: cover; }
+    .sliders .sliders__item .sliders__item--details {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -125,16 +107,14 @@ $sliders-transition: 300ms;
       font-size: 10px;
       opacity: 0;
       background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
-      transition: $sliders-transition opacity;
-      &:after,
-      &:before {
+      transition: 300ms opacity; }
+      .sliders .sliders__item .sliders__item--details:after, .sliders .sliders__item .sliders__item--details:before {
         content: "";
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      &:after {
+        transform: translate(-50%, -50%); }
+      .sliders .sliders__item .sliders__item--details:after {
         width: 40px;
         height: 40px;
         border: 2px solid #ecf0f1;
@@ -142,71 +122,52 @@ $sliders-transition: 300ms;
         text-align: center;
         border-radius: 100%;
         background: rgba(0, 0, 0, 0.5);
-        z-index: 1;
-      }
-      &:before {
+        z-index: 1; }
+      .sliders .sliders__item .sliders__item--details:before {
         content: "▶";
         font-size: 30px;
         line-height: 30px;
         margin: 2px;
         text-align: center;
         z-index: 2;
-        color: white;
-      }
-    }
-    &:hover {
-      .sliders__item--details {
-        opacity: 1;
-      }
-    }
-    .sliders__item--title {
+        color: white; }
+    .sliders .sliders__item:hover .sliders__item--details {
+      opacity: 1; }
+    .sliders .sliders__item .sliders__item--title {
       position: absolute;
       bottom: 0;
-      padding: 10px;
-    }
-  }
-}
-.sliders--large {
-  .sliders__item {
-    &:hover {
-      ~ .sliders__item {
-        transform: translate3d($sliders-width/2, 0, 0);
-        transform: translate3d($sliders-width/2, 0, 0);
-      }
-    }
-  }
-}
+      padding: 10px; }
+
+.sliders--large .sliders__item:hover ~ .sliders__item {
+  transform: translate3d(150px, 0, 0);
+  transform: translate3d(150px, 0, 0); }
 
 .slide--grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 25px;
-  padding: 3em;
-}
+  padding: 3em; }
+
 .slide__item {
   height: 200px;
-  // background-image: url(/assets/images/iphonetest.jpg);
   background-size: cover;
-  width: 100%;
-  .slide--btn {
-    background-color: $blue-darker;
+  width: 100%; }
+  .slide__item .slide--btn {
+    background-color: #07393c;
     width: 80px;
     height: 25px;
     color: #ecf0f1;
     border: 1px solid #ecf0f1;
-    font-weight: bold;
-  }
-}
+    font-weight: bold; }
+
 video {
   display: block;
   margin: auto;
   width: 200px;
-  height: $sliders-height;
-}
+  height: 435px; }
 
 .videooooo {
   display: block;
   margin: auto;
   height: 500px;
-  width: 300px;
-}
+  width: 300px; }
