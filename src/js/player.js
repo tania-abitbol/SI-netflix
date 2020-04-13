@@ -90,6 +90,15 @@ document.addEventListener("keydown", (e) => {
         eventPause();
       }
       break;
+    case 13:
+      videoReturn.style.opacity = 0;
+      videoFullScreen();
+      video.style.backgroundColor = "transparent";
+      break;
+    case 27:
+      video.style.backgroundColor = "red";
+      console.log(video.style.backgroundColor);
+      break;
   }
 });
 
@@ -103,16 +112,9 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-// sound.addEventListener("mouseover", () => {
-//   console.log("y");
-
 function mouseOver() {
   if (volume.style.display != "none") {
     volume.style.display = "none";
-
-    // if(videoContent.volume == 0){
-    //   mutee()
-    // }
   } else if (volume.style.display != "block") {
     volume.style.display = "block";
   }
@@ -156,26 +158,16 @@ videoContent.addEventListener("mousemove", () => {
   }, 10000);
 });
 
-document.addEventListener(
-  "keydown",
-  (e) => {
-    if (e.keyCode === 13) {
-      fff();
-    }
-  },
-  false
-);
-
-// function videoFullScreen() {
-//   if (video.requestFullscreen) {
-//     video.requestFullscreen();
-//   }
-// }
-
-function fff() {
-  videoContent.style.width = "100%";
-  videoContent.style.height = "100%";
+function videoFullScreen() {
+  if (video.requestFullscreen) {
+    video.requestFullscreen();
+  }
 }
+
+// function fff() {
+//   videoContent.style.width = "100vw";
+//   videoContent.style.height = "100ch";
+// }
 
 const rect = bar.getBoundingClientRect();
 const largeur = rect.width;
