@@ -1,8 +1,6 @@
 const hover = document.querySelectorAll(".slider_item");
-alert("gegggg");
-hover.on("mouseenter focus", function () {
-  alert("bjehbcdhcb");
 
+hover.on("mouseenter focus", function () {
   hover.play();
 });
 hover.on("mouseout blur", function () {

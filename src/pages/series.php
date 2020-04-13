@@ -6,22 +6,7 @@
 
     <div class="title__form">
       <h1 class="container--title">Popular</h1>
-      <form class="form">
-        <select class="type">
-          <option value="">Genres</option>
-          <option>Science-fiction</option>
-          <option>Action</option>
-          <option>Adventure</option>
-          <option>Horror</option>
-          <option>Thriller</option>
-          <option>Drama</option>
-          <option>Fantasy</option>
-          <option>Animated</option>
-          <option>Comedy</option>
-          <option>Historical</option>
-          <option>Romance</option>
-        </select>
-      </form>
+    
     </div>
     <h1 class="container--second--title"></h1>
     <div class="container">
