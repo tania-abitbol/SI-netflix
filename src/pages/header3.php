@@ -33,7 +33,7 @@
       </div>
       <div class="header__nav__boutton">
       <input
-              class="signin__input"
+              class="signup__input"
               name="sign in"
               type="button"
               placeholder="Sign in"
@@ -41,40 +41,8 @@
       </div>
     </nav>
   </header>
-  <div>
-  <img src="../assets/images/macbook-pro.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/marmageddon.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/Austin_power2.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/babydriver.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/batman.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/braveheart.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/ironman2.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/red.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/salt.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/the-accountant.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/the-conjuring.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/theequalizer.jpg"/>
-  </div>
+  <img src="../assets/images/macbook-pro.jpg" />
+
+
+
   <?php include("./components/footer.php")?>
