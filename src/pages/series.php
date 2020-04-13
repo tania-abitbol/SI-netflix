@@ -42,7 +42,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -53,7 +52,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -64,7 +62,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -75,7 +72,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -86,7 +82,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -97,7 +92,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -108,7 +102,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -119,7 +112,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -130,7 +122,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -141,7 +132,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -168,7 +158,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -179,7 +168,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -190,7 +178,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -201,7 +188,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -212,7 +198,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -223,7 +208,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -234,7 +218,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -245,7 +228,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -256,7 +238,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -267,7 +248,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -294,7 +274,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -305,7 +284,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -316,7 +294,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -327,7 +304,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -338,7 +314,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -349,7 +324,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -360,7 +334,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -371,7 +344,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -382,7 +354,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -393,7 +364,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -420,7 +390,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -431,7 +400,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -442,7 +410,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -453,7 +420,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -464,7 +430,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -475,7 +440,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -486,7 +450,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -497,7 +460,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -508,7 +470,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -519,7 +480,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -546,7 +506,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -557,7 +516,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -568,7 +526,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -579,7 +536,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -590,7 +546,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -601,7 +556,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -612,7 +566,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -623,7 +576,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -634,7 +586,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -645,7 +596,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -672,7 +622,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -683,7 +632,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -694,7 +642,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -705,7 +652,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -716,7 +662,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -727,7 +672,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -738,7 +682,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -749,7 +692,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -760,7 +702,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -771,7 +712,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -798,7 +738,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -809,7 +748,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -820,7 +758,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -831,7 +768,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -842,7 +778,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -853,7 +788,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -864,7 +798,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -875,7 +808,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -886,7 +818,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -897,7 +828,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -924,7 +854,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -935,7 +864,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -946,7 +874,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -957,7 +884,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -968,7 +894,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -979,7 +904,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -990,7 +914,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1001,7 +924,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1012,7 +934,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1023,7 +944,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1050,7 +970,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1061,7 +980,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1072,7 +990,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1083,7 +1000,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1094,7 +1010,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1105,7 +1020,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1116,7 +1030,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1127,7 +1040,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1138,7 +1050,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1149,7 +1060,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1176,7 +1086,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1187,7 +1096,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1198,7 +1106,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1209,7 +1116,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1220,7 +1126,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1231,7 +1136,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1242,7 +1146,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1253,7 +1156,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1264,7 +1166,6 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
@@ -1275,12 +1176,12 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-<?php include("./components/footer.php")?>
+    
+
     
