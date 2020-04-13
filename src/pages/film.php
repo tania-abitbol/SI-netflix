@@ -1,8 +1,7 @@
 <?php include("../components/header.php")?>
 
-    <div class="illustration">
-      <img src="./../assets/images/iphonetest.jpg" alt="first" class="illustration__img" />
-    </div>
+<video src="../assets/videos/baby-driver.mp4" class="video__header" type="video/mp4"  autoplay  controls  ></video>
+
 
     <div class="title__form">
       <h1 class="container--title">Popular</h1>

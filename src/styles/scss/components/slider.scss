@@ -1,25 +1,27 @@
 @import "../global/variables.scss";
 
-$sliders-width: 300px;
-$sliders-height: 435px;
-$sliders-scale: 1.4;
+$sliders-width: 280px;
+$sliders-height: 370px;
+$sliders-scale: 1.2;
 $sliders-transition: 300ms;
-
-.illustration__img {
+.video__header {
   width: 100vw;
-  height: 400px;
-  color: red($color: #000000);
+  height: 500px;
+  object-fit: cover;
 }
+
 .title__form {
   display: flex;
   justify-content: flex-start;
   height: 90px;
   margin-bottom: 1em;
+  color: white;
 }
 .type {
   border: 1px solid $blue-darker;
   border-radius: 0;
   margin-left: 2em;
+
   font-size: 16px;
   font-weight: bold;
   color: $blue-darker;
@@ -31,6 +33,7 @@ $sliders-transition: 300ms;
   align-self: center;
 }
 .container--title {
+  color: white;
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
@@ -40,6 +43,8 @@ $sliders-transition: 300ms;
   margin-bottom: 1em;
 }
 .container--second--title {
+  color: white;
+
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
@@ -110,7 +115,10 @@ $sliders-transition: 300ms;
     .sliders__item--img {
       width: $sliders-width;
       height: $sliders-height;
-      object-fit: cover;
+
+      background-size: cover;
+
+      border-radius: 10px;
     }
     .sliders__item--details {
       position: absolute;
