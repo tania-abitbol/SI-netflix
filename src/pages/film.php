@@ -30,7 +30,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -146,7 +146,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -262,7 +262,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -378,7 +378,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -494,7 +494,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -610,7 +610,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -726,7 +726,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -842,7 +842,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -958,7 +958,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -1074,7 +1074,7 @@
           <img class="prev" src="./../assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="././assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -1182,5 +1182,9 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD:src/pages/film.php
+<?php include("./components/footer.php")?>
+=======
 <?php include("../components/footer.php")?>
+>>>>>>> be35f99b2030a18a1c82ab603fdddf7f49c85fbf:src/pages/film.php
     
