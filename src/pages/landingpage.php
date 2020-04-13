@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GOFILMAX</title>
-  <link rel="stylesheet" href="../styles/css/style.css" />
+  <link rel="stylesheet" href="../styles/scss/style.scss" />
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/index.js" defer></script>
@@ -19,62 +19,40 @@
         <ul class="header__nav__left__links">
           <a><li>Home</li></a>
           <a><li></li></a>
-          <a><li>engagement</li></a>
+          <a><li>Engagement</li></a>
         </ul>
       </div>
 
       <div class="header__nav__boutton">
-      <input
-              class="signup__input"
-              name="sign up"
-              type="button"
-              placeholder="Sign up"
-            />
+
+      <button class="signup__input" type="submit">
+            <a href="pages/create-account.php"> Sign up </a>
+      </button>
       </div>
       <div class="header__nav__boutton">
-      <input
-              class="signin__input"
-              name="sign in"
-              type="button"
-              placeholder="Sign in"
-            />
+      <button class="signin__input" type="submit">
+            <a href="pages/login.php"> Sign in </a>
+      </button>
       </div>
     </nav>
   </header>
-  <div>
+  <div class="">
   <img src="../assets/images/macbook-pro.jpg"/>
   </div>
-  <div class="photo">
+  <div class="poster">
+    <div class="poster__firstrow">
   <img src="../assets/poster/marmageddon.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/Austin_power2.jpg"/>
-  </div>
-  <div class="photo">
+  <img src="../assets/poster/austin_power2.jpg"/>
   <img src="../assets/poster/babydriver.jpg"/>
-  </div>
-  <div class="photo">
   <img src="../assets/poster/batman.jpg"/>
-  </div>
-  <div class="photo">
   <img src="../assets/poster/braveheart.jpg"/>
-  </div>
-  <div class="photo">
+    </div>
+    <div class="poster__secondrow">
   <img src="../assets/poster/ironman2.jpg"/>
-  </div>
-  <div class="photo">
   <img src="../assets/poster/red.jpg"/>
-  </div>
-  <div class="photo">
   <img src="../assets/poster/salt.jpg"/>
-  </div>
-  <div class="photo">
   <img src="../assets/poster/the-accountant.jpg"/>
-  </div>
-  <div class="photo">
   <img src="../assets/poster/the-conjuring.jpg"/>
-  </div>
-  <div class="photo">
-  <img src="../assets/poster/theequalizer.jpg"/>
+    </div>
   </div>
   <?php include("./components/footer.php")?>
