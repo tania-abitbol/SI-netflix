@@ -27,9 +27,17 @@
       </div>
 
       <div class="header__nav__right">
-        <img src="../assets/images/search-icon.png" alt="" />
-        <img src="../assets/images/user.svg" alt="" />
-        <img src="../assets/images/bottom-arrow.png" alt="" />
+        <img src="../assets/images/search-icon.png" alt="search bar" />
+        <a href="../pages/account.php"><img src="../assets/images/user.svg" alt="user menu" /></a>
+          <div class="header__nav__right__menu">
+          <img class="header__nav__right__menu--img" src="../assets/images/bottom-arrow.png" alt="slider user menu" />
+          <ul class="header__nav__right__menu--open">
+            <a href="../pages/account.php"><li>Account information</li></a>
+            <a href=""><li>Settings</li></a>
+            <a href="#"><li>Disconnect</li></a>
+          </ul>
+          </div>
+
       </div>
     </nav>
   </header>
