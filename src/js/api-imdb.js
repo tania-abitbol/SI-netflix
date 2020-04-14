@@ -55,5 +55,5 @@ function apiCall(list, elem, j = 0) {
     });
 }
 let sliderItem = document.getElementsByClassName("sliders__item--img"); //Selection of div class name
-let texte = document.querySelectorAll(".sliders__item--details");
+let texte = document.querySelectorAll(".sliders__item--title");
 apiCall(sliderItem, texte); //function call the var with the classname = (sliderItem = list) && (texte = elem)
