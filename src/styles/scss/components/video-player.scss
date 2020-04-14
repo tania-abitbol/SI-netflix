@@ -11,9 +11,9 @@
   height: 100vh;
   z-index: -2;
   font-family: Helvetica, sans-serif;
-  background-color: $black;
+  background-color: $grey;
   &__played {
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -26,9 +26,9 @@
         display: none !important;
       }
     }
-    // &:not(:fullscreen){
-    //   background-color: red;
-    // }
+    &:not(:fullscreen) {
+      background-color: red;
+    }
   }
   &__return {
     position: absolute;
