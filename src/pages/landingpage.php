@@ -103,7 +103,7 @@
         <hr>
         <p>First mounth free</p>
         <hr>
-        <div class="main__box3__form__plan1_tip">See more</div>
+        <div class="main__box3__form__plan1_see">See more</div>
         <div class="main__box3__form__plan1__submit">
           <button class="main__box3__form__plan1__submit__button" type="submit">
             <a href="#">START</a>

@@ -208,15 +208,35 @@
       &__plan1 {
         text-align: center;
         justify-content: space-between;
-        & strong {
-          font-size: 40px;
-        }
-        &__tip {
+        font-weight: normal;
+        font-size: 18px;
+        margin-bottom: 5px;
+        &__see {
           font-size: 14px;
           text-decoration: underline;
           font-size: 14px;
           padding: 6%;
           font-weight: lighter;
+        }
+        & strong {
+          font-weight: bold;
+          font-size: 36px;
+        }
+        &__button {
+          width: 168px;
+          margin-top: 44px;
+          margin-left: 2%;
+          cursor: pointer;
+          &:hover {
+            background-color: $blue;
+          }
+          padding: 10px 24px;
+          background-color: $blue-darker;
+          & > a {
+            font-size: 22px;
+            color: $green-light;
+            text-decoration: none;
+          }
         }
       }
     }
