@@ -84,7 +84,7 @@
           it's time to take the plunge.
         </p>
     </div>
-      <img src="../assets/images/mockuup/ipad.svg">
+      <img src="../assets/images/mockuup/desktop.svg">
     </div> 
   <div>
         

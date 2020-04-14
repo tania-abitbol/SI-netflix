@@ -65,7 +65,7 @@
 
 //PAGEONE//
 .pageOne {
-  background-image: url("../../assets/images/macbook-pro.jpg");
+  background-image: url("../../../assets/images/mulan.png");
   height: 750px;
   display: flex;
   flex-direction: column;
@@ -165,7 +165,7 @@
       }
     }
   }
-  //GFX PROGRESS//
+  //OUR PLATEFORM//
   &__box2 {
     display: flex;
     flex-direction: column;
@@ -189,10 +189,14 @@
       &__description {
         display: flex;
         flex-direction: column;
+        & img {
+          width: 471px;
+          height: 371px;
+        }
       }
     }
   }
-  //OUR PLATEFORM
+  //CHOOSE PLAN
   &__box3 {
     display: flex;
     flex-direction: column;
