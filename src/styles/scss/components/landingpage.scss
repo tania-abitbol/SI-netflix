@@ -65,7 +65,8 @@
 
 //PAGEONE//
 .pageOne {
-  background-image: url("../../../assets/images/mulan.png");
+  background-image: url("/src/assets/images/mockuup/mulan.png");
+  background-size: cover;
   height: 750px;
   display: flex;
   flex-direction: column;
@@ -246,12 +247,12 @@
           width: 168px;
           margin-top: 44px;
           margin-left: 2%;
-          background-color: black;
+          background-color: $black;
           color: $green-light;
           cursor: pointer;
           &:hover {
             background-color: $green-light;
-            color: $white;
+            color: $grey;
           }
           padding: 10px 24px;
 
