@@ -103,7 +103,7 @@
         <hr>
         <p>First mounth free</p>
         <hr>
-        <div class="main__box3__form__plan1_see">See more</div>
+        <p class="main__box3__form__plan1_see">See more</p>
         <div class="main__box3__form__plan1__submit">
           <button class="main__box3__form__plan1__submit__button" type="submit">
             <a href="#">START</a>
@@ -155,7 +155,7 @@
       
   </div>
 
-  <div class="poster">
+  <div class="wrapper">
     <img src="../assets/poster/marmageddon.jpg"/>
     <img src="../assets/poster/austin_power2.jpg"/>
     <img src="../assets/poster/babydriver.jpg"/>
