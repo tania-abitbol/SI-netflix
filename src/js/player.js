@@ -15,7 +15,9 @@ const soundOn = document.querySelector(".video__controller__sound--on"); // Img 
 const soundOff = document.querySelector(".video__controller__sound--off"); // Img sound off
 const videoReturn = document.querySelector(".video__return"); // Bouton return
 const controller = document.querySelector(".video__controller"); // Div controller
-const fullScreenBtn = document.querySelector(".video__controller--fullSCreen"); //Buutoun full scren
+const fullScreenBtn = document.querySelector(".video__controller__screen--fullScreen"); //Bouton full screen
+const midScreenBtn = document.querySelector(".video__controller__screen--midScreen"); //Bouton full screen
+const screen = document.querySelector(".video__controller__screen");
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
@@ -76,6 +78,7 @@ lessSec.addEventListener(["click", "keydown"], () => {
 });
 
 document.addEventListener("keydown", (e) => {
+  console.log(e);
   switch (e.keyCode) {
     case 37:
       videoContent.currentTime -= 10;
@@ -96,8 +99,8 @@ document.addEventListener("keydown", (e) => {
       video.style.backgroundColor = "transparent";
       break;
     case 27:
-      video.style.backgroundColor = "red";
-      console.log(video.style.backgroundColor);
+      document.exitFullscreen();
+      // video.style.backgroundColor = "white";
       break;
   }
 });
@@ -122,10 +125,6 @@ function mouseOver() {
 setTimeout(function () {
   volume.style.display = "none";
 }, 8000);
-
-// sound.addEventListener("mouseleave", () => {
-//   volume.style.display = "none";
-// })
 
 sound.addEventListener("click", () => {
   if (soundOn.style.display != "none") {
@@ -164,11 +163,6 @@ function videoFullScreen() {
   }
 }
 
-// function fff() {
-//   videoContent.style.width = "100vw";
-//   videoContent.style.height = "100ch";
-// }
-
 const rect = bar.getBoundingClientRect();
 const largeur = rect.width;
 
@@ -179,3 +173,17 @@ bar.addEventListener("click", (a) => {
   videoContent.currentTime = currenTimeTrue;
   progressBar.style.width = widthPercent + "%";
 });
+
+// screen.addEventListener("click", ()=>{
+//   if(fullScreenBtn.style.opacity = '1'){
+//     console.log('t')
+//     videoFullScreen();
+//     midScreenBtn.style.opacity = 1;
+//   fullScreenBtn.style.opacity = 0;
+
+//   }else if(midScreenBtn.style.display == '1'){
+//     document.exitFullscreen()
+//     fullScreenBtn.style.opacity = 1;
+//     midScreenBtn.style.opacity = 0;
+//   }
+// })
