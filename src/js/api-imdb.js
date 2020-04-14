@@ -32,19 +32,19 @@ function apiCall(list, elem, j = 0) {
         var synopsis = response.Plot;
         var score = response.imdbRating;
 
-        var res = elem[j].appendChild(document.createElement("ul")); //creation balise <ul> & of the lower <li>
-        var li = res.appendChild(document.createElement("li"));
-        var li2 = res.appendChild(document.createElement("li"));
-        var li3 = res.appendChild(document.createElement("li"));
-        var li4 = res.appendChild(document.createElement("li"));
-        var li5 = res.appendChild(document.createElement("li"));
-        var li6 = res.appendChild(document.createElement("li"));
+        var res = elem[j].appendChild(document.createElement("div")); //creation balise <ul> & of the lower <li>
+        var li = res.appendChild(document.createElement("p"));
+        var li2 = res.appendChild(document.createElement("p"));
+        var li3 = res.appendChild(document.createElement("p"));
+        // var li4 = res.appendChild(document.createElement("p"));
+        // var li5 = res.appendChild(document.createElement("p"));
+        var li6 = res.appendChild(document.createElement("p"));
 
-        li.textContent += `Title : ${title}`; //create text inside the <li> with the feature
-        li2.textContent += `Genre : ${genre}`;
-        li3.textContent += `Realeased date : ${released}`;
-        li4.textContent += `Actors : ${actors}`;
-        li5.textContent += `Synopsis : ${synopsis}`;
+        li.textContent += `${title}`; //create text inside the <li> with the feature
+        li2.textContent += `${genre}`;
+        li3.textContent += `${released}`;
+        // li4.textContent += `Actors : ${actors}`;
+        // li5.textContent += `Synopsis : ${synopsis}`;
         li6.textContent += `Rating : "${score}/10"`;
 
         j++;

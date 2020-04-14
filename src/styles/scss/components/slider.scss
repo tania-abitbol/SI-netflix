@@ -136,9 +136,9 @@ $sliders-transition: 300ms;
       &:before {
         content: "";
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-40%, -50%);
       }
       &:after {
         width: 40px;
@@ -161,21 +161,29 @@ $sliders-transition: 300ms;
         color: white;
       }
     }
+    .sliders__item--title {
+      visibility: hidden;
+    }
     &:hover {
       .sliders__item--details {
         opacity: 1;
+        p {
+          font-size: 16px;
+          visibility: visible;
+          color: white;
+          line-height: 1.5em;
+          text-overflow: ellipsis;
+          word-wrap: break-word;
+          overflow: hidden;
+          max-height: 50px;
+          font-weight: bolder;
+        }
       }
     }
-    .sliders__item--title {
-      ul {
-        color: white;
-        width: 200px;
-        font-size: 12px;
-        display: flex;
-        flex-wrap: wrap;
-        word-break: break-word;
-      }
-    }
+  }
+  .sliders__item--title {
+    transform: translateY(180%);
+    margin-left: 2em;
   }
 }
 
