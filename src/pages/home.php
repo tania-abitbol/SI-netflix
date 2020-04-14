@@ -1,6 +1,6 @@
 <?php include("../components/header.php")?>
 
-<video src="../assets/videos/baby-driver.mp4" class="video__header" type="video/mp4"  autoplay  controls  ></video>
+<video src="../assets/videos/baby-driver.mp4" class="video__header" type="video/mp4"    controls  ></video>
  
     <div class="title__form">
       <h1 class="container--title">FILMS</h1>
