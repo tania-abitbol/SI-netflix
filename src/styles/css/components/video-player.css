@@ -74,8 +74,6 @@
       outline: #f0edee; }
       .video__controller > button:hover {
         transform: scale(1.2); }
-      .video__controller > button:active {
-        background-color: #2c666e; }
     .video__controller--pause {
       display: none; }
     .video__controller--play {
@@ -98,6 +96,7 @@
     .video__controller--volume {
       background-color: transparent;
       border-color: transparent;
+      outline: #f0edee;
       -webkit-appearance: none;
       display: none; }
       .video__controller--volume::-webkit-slider-runnable-track {
@@ -105,9 +104,10 @@
         border-color: transparent; }
     .video__controller--mute {
       display: none; }
-  .video__screen--fullScreen {
-    margin-left: 70%;
-    width: 4%;
-    opacity: 1; }
-  .video__screen--midScreen {
-    opacity: 0; }
+    .video__controller__screen {
+      margin-left: 70%;
+      width: 4%; }
+      .video__controller__screen--fullScreen {
+        opacity: 1; }
+      .video__controller__screen--midScreen {
+        opacity: 0; }

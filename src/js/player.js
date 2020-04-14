@@ -78,7 +78,6 @@ lessSec.addEventListener(["click", "keydown"], () => {
 });
 
 document.addEventListener("keydown", (e) => {
-  console.log(e);
   switch (e.keyCode) {
     case 37:
       videoContent.currentTime -= 10;
@@ -174,16 +173,18 @@ bar.addEventListener("click", (a) => {
   progressBar.style.width = widthPercent + "%";
 });
 
-// screen.addEventListener("click", ()=>{
-//   if(fullScreenBtn.style.opacity = '1'){
-//     console.log('t')
-//     videoFullScreen();
-//     midScreenBtn.style.opacity = 1;
-//   fullScreenBtn.style.opacity = 0;
-
-//   }else if(midScreenBtn.style.display == '1'){
-//     document.exitFullscreen()
-//     fullScreenBtn.style.opacity = 1;
-//     midScreenBtn.style.opacity = 0;
-//   }
-// })
+fullScreenBtn.addEventListener("click", () => {
+  console.log("t");
+  // if(fullScreenBtn.style.opacity = '1'){
+  //   console.log('t')
+  //   videoFullScreen();
+  //   midScreenBtn.style.opacity = 1;
+  // fullScreenBtn.style.opacity = 0;
+  // }
+  // }else if(midScreenBtn.style.display == '1'){
+  //   document.exitFullscreen()
+  //   fullScreenBtn.style.opacity = 1;
+  //   midScreenBtn.style.opacity = 0;
+  // }
+});
+console.log("t" + videoContent);
