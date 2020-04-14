@@ -1,4 +1,4 @@
-<?php include("./components/header.php")?>
+<?php include("../components/header.php")?>
 
     <div class="profil">
       <ul class="profil__nav">
