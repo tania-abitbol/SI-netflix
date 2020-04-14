@@ -308,9 +308,9 @@ table {
       .sliders .sliders__item .sliders__item--details:after, .sliders .sliders__item .sliders__item--details:before {
         content: "";
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
-        transform: translate(-50%, -50%); }
+        transform: translate(-40%, -50%); }
       .sliders .sliders__item .sliders__item--details:after {
         width: 40px;
         height: 40px;
@@ -328,15 +328,23 @@ table {
         text-align: center;
         z-index: 2;
         color: white; }
+    .sliders .sliders__item .sliders__item--title {
+      visibility: hidden; }
     .sliders .sliders__item:hover .sliders__item--details {
       opacity: 1; }
-    .sliders .sliders__item .sliders__item--title ul {
-      color: white;
-      width: 200px;
-      font-size: 12px;
-      display: flex;
-      flex-wrap: wrap;
-      word-break: break-word; }
+      .sliders .sliders__item:hover .sliders__item--details p {
+        font-size: 16px;
+        visibility: visible;
+        color: white;
+        line-height: 1.5em;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 50px;
+        font-weight: bolder; }
+  .sliders .sliders__item--title {
+    transform: translateY(180%);
+    margin-left: 2em; }
 
 .sliders--large .sliders__item:hover ~ .sliders__item {
   transform: translate3d(140px, 0, 0);
