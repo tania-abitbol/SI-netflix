@@ -55,8 +55,6 @@
 
         <input class="video__controller--volume" type="range" />
 
-        <p class="video__controller--title">Série : Titre : Episode 4</p>
-
         <button class="video__controller__screen">
       <img src="../assets/images/videoplayer/fullScreen.svg" class="video__controller__screen--fullScreen" alt="">
       <img src="../assets/images/videoplayer/reduction.svg" class="video__controller__screen--midScreen" alt="">

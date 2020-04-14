@@ -457,14 +457,6 @@ table {
     .video__controller__sound--off {
       margin-left: 1%;
       display: none; }
-    .video__controller--title {
-      color: #f0edee;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      font-size: 18px;
-      font-family: Helvetica, sans-serif;
-      font-weight: 500; }
     .video__controller--volume {
       background-color: transparent;
       border-color: transparent;
@@ -472,8 +464,7 @@ table {
       -webkit-appearance: none;
       display: none; }
       .video__controller--volume::-webkit-slider-runnable-track {
-        background-color: #2c666e;
-        border-color: transparent; }
+        background-color: #2c666e; }
     .video__controller--mute {
       display: none; }
     .video__controller__screen {
