@@ -411,22 +411,25 @@ video {
   flex-direction: column;
   margin: 0;
   width: 100vw;
-  height: auto;
+  height: 100vh;
   z-index: -2;
   font-family: Helvetica, sans-serif;
-  background-color: green; }
+  background-color: #0a090c; }
   .video__played {
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
     z-index: -1; }
-    .video__played::-webkit-media-controls-enclosure {
-      display: none !important; }
+    .video__played::-webkit-full-screen {
+      width: 100%;
+      height: 100%; }
+      .video__played::-webkit-full-screen::-webkit-media-controls-enclosure {
+        display: none !important; }
   .video__return {
     position: absolute;
-    transform: translate(-1200%, -1600%);
+    transform: translate(-1200%, -1400%);
     z-index: 1;
     background-color: transparent;
     border-color: transparent;
@@ -497,9 +500,6 @@ video {
       font-size: 18px;
       font-family: Helvetica, sans-serif;
       font-weight: 500; }
-    .video__controller--fullScreen {
-      margin-left: 70%;
-      width: 4%; }
     .video__controller--volume {
       background-color: transparent;
       border-color: transparent;
@@ -510,6 +510,12 @@ video {
         border-color: transparent; }
     .video__controller--mute {
       display: none; }
+  .video__screen--fullScreen {
+    margin-left: 70%;
+    width: 4%;
+    opacity: 1; }
+  .video__screen--midScreen {
+    opacity: 0; }
 
 .client-space {
   background-color: #07393c;

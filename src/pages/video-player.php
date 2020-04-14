@@ -12,7 +12,6 @@
 
   <body>
     <div class="video">
-    <!-- <div class="test"> -->
       <video
         class="video__played"
         src="../assets/ma_nouvelle_vie_commence_maintenant.mp4"
@@ -60,9 +59,12 @@
 
         <p class="video__controller--title">Série : Titre : Episode 4</p>
 
-        <button class="video__controller--fullScreen"><img src="../assets/images/videoplayer/fullScreen.svg" alt=""></button>
+        <button class="video__controller__screen">
+      <img src="../assets/images/videoplayer/fullScreen.svg" class="video__controller__screen--fullScreen" alt="">
+
+      <img src="../assets/images/videoplayer/reduction.svg" class="video__controller__screen--midScreen" alt="">
+        </button>
       </div>
-      <!-- </div> -->
     </div>
   </body>
 </html>

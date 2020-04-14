@@ -15,7 +15,9 @@ const soundOn = document.querySelector(".video__controller__sound--on"); // Img 
 const soundOff = document.querySelector(".video__controller__sound--off"); // Img sound off
 const videoReturn = document.querySelector(".video__return"); // Bouton return
 const controller = document.querySelector(".video__controller"); // Div controller
-const fullScreenBtn = document.querySelector(".video__controller--fullSCreen"); //Buutoun full scren
+const fullScreenBtn = document.querySelector(".video__controller__screen--fullScreen"); //Bouton full screen
+const midScreenBtn = document.querySelector(".video__controller__screen--midScreen"); //Bouton full screen
+const screen = document.querySelector(".video__controller__screen");
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
@@ -76,6 +78,7 @@ lessSec.addEventListener(["click", "keydown"], () => {
 });
 
 document.addEventListener("keydown", (e) => {
+  console.log(e);
   switch (e.keyCode) {
     case 37:
       videoContent.currentTime -= 10;
@@ -90,6 +93,15 @@ document.addEventListener("keydown", (e) => {
         eventPause();
       }
       break;
+    case 13:
+      videoReturn.style.opacity = 0;
+      videoFullScreen();
+      video.style.backgroundColor = "transparent";
+      break;
+    case 27:
+      document.exitFullscreen();
+      // video.style.backgroundColor = "white";
+      break;
   }
 });
 
@@ -103,16 +115,9 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-// sound.addEventListener("mouseover", () => {
-//   console.log("y");
-
 function mouseOver() {
   if (volume.style.display != "none") {
     volume.style.display = "none";
-
-    // if(videoContent.volume == 0){
-    //   mutee()
-    // }
   } else if (volume.style.display != "block") {
     volume.style.display = "block";
   }
@@ -120,10 +125,6 @@ function mouseOver() {
 setTimeout(function () {
   volume.style.display = "none";
 }, 8000);
-
-// sound.addEventListener("mouseleave", () => {
-//   volume.style.display = "none";
-// })
 
 sound.addEventListener("click", () => {
   if (soundOn.style.display != "none") {
@@ -156,25 +157,10 @@ videoContent.addEventListener("mousemove", () => {
   }, 10000);
 });
 
-document.addEventListener(
-  "keydown",
-  (e) => {
-    if (e.keyCode === 13) {
-      fff();
-    }
-  },
-  false
-);
-
-// function videoFullScreen() {
-//   if (video.requestFullscreen) {
-//     video.requestFullscreen();
-//   }
-// }
-
-function fff() {
-  videoContent.style.width = "100%";
-  videoContent.style.height = "100%";
+function videoFullScreen() {
+  if (video.requestFullscreen) {
+    video.requestFullscreen();
+  }
 }
 
 const rect = bar.getBoundingClientRect();
@@ -187,3 +173,17 @@ bar.addEventListener("click", (a) => {
   videoContent.currentTime = currenTimeTrue;
   progressBar.style.width = widthPercent + "%";
 });
+
+// screen.addEventListener("click", ()=>{
+//   if(fullScreenBtn.style.opacity = '1'){
+//     console.log('t')
+//     videoFullScreen();
+//     midScreenBtn.style.opacity = 1;
+//   fullScreenBtn.style.opacity = 0;
+
+//   }else if(midScreenBtn.style.display == '1'){
+//     document.exitFullscreen()
+//     fullScreenBtn.style.opacity = 1;
+//     midScreenBtn.style.opacity = 0;
+//   }
+// })
