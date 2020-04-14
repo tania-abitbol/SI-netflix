@@ -97,26 +97,35 @@
       font-size: 32px;
       margin-top: 10%;
       height: 112px; }
-    .main__box1__body__logo {
+    .main__box1__body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      padding: 12%;
-      justify-content: space-between; }
-      .main__box1__body__logo__pro {
-        display: flex;
-        flex-direction: column;
-        align-items: center; }
-      .main__box1__body__logo img {
+      width: 100%; }
+      .main__box1__body__logo {
         display: flex;
         align-items: center;
-        width: 80px;
-        height: auto;
-        justify-content: space-evenly;
-        padding: 3%; }
-      .main__box1__body__logo p {
-        font-size: 16px;
-        display: flex; }
+        justify-content: space-around;
+        width: 100%;
+        text-align: center;
+        padding: 12%; }
+        .main__box1__body__logo__like {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around; }
+        .main__box1__body__logo p {
+          display: flex;
+          flex-direction: column;
+          font-size: 16px;
+          text-align: center; }
+        .main__box1__body__logo img {
+          display: flex;
+          align-items: center;
+          width: 80px;
+          height: auto;
+          justify-content: space-evenly;
+          padding-bottom: 50%; }
   .main__box2 {
     display: flex;
     flex-direction: column;
@@ -154,18 +163,19 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
-      padding: 10%;
-      cursor: pointer; }
-      .main__box3__form:hover {
-        box-sizing: border-box;
-        color: #beffc7;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+      padding: 10%; }
       .main__box3__form__plan1 {
         text-align: center;
         justify-content: space-between;
         font-weight: normal;
         font-size: 18px;
-        margin-bottom: 5px; }
+        margin-bottom: 5px;
+        padding: 10px; }
+        .main__box3__form__plan1:hover {
+          cursor: pointer;
+          border: 1px solid #beffc7;
+          transform: scale(1.1);
+          padding: 10px; }
         .main__box3__form__plan1__see {
           font-size: 14px;
           text-decoration: underline;

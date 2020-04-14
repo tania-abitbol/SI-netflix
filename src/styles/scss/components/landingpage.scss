@@ -128,17 +128,31 @@
     }
 
     &__body {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+
       &__logo {
         display: flex;
-        flex-direction: row;
         align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        text-align: center;
         padding: 12%;
-        justify-content: space-between;
 
-        &__pro {
+        &__like {
           display: flex;
           flex-direction: column;
           align-items: center;
+          justify-content: space-around;
+        }
+
+        & p {
+          display: flex;
+          flex-direction: column;
+          font-size: 16px;
+          text-align: center;
         }
         & img {
           display: flex;
@@ -146,11 +160,7 @@
           width: 80px;
           height: auto;
           justify-content: space-evenly;
-          padding: 3%;
-        }
-        & p {
-          font-size: 16px;
-          display: flex;
+          padding-bottom: 50%;
         }
       }
     }
@@ -204,18 +214,19 @@
       align-items: center;
       justify-content: space-around;
       padding: 10%;
-      cursor: pointer;
-      &:hover {
-        box-sizing: border-box;
-        color: $green-light;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      }
       &__plan1 {
         text-align: center;
         justify-content: space-between;
         font-weight: normal;
         font-size: 18px;
         margin-bottom: 5px;
+        padding: 10px;
+        &:hover {
+          cursor: pointer;
+          border: 1px solid $green-light;
+          transform: scale(1.1);
+          padding: 10px;
+        }
         &__see {
           font-size: 14px;
           text-decoration: underline;

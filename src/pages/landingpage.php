@@ -51,19 +51,19 @@
     <div class="main__box1__body">
            
       <div class="main__box1__body__logo">
-        <div class="main__box1__body__logo__com">
+        <div class="main__box1__body__logo__like">
           <img src="../assets/images/engagement/like.svg">
           <p>Community</p>
         </div>
-        <div class="main__box1__body__logo__pro">
+        <div class="main__box1__body__logo__like">
           <img src="../assets/images/engagement/progress.svg">
           <p>100% connected</p>
         </div>
-        <div class="main__box1__body__logo__start">
+        <div class="main__box1__body__logo__like">
           <img src="../assets/images/engagement/replay_start.svg">
           <p>Replay Infini</p>
         </div>
-        <div class="main__box1__body__logo__tchat">
+        <div class="main__box1__body__logo__like">
           <img src="../assets/images/engagement/chat.svg">
           <p>Exchange</p>
         </div>
@@ -103,7 +103,7 @@
         <hr>
         <p>First mounth free</p>
         <hr>
-        <p class="main__box3__form__plan1_see">See more</p>
+        <p class="main__box3__form__plan1__see">See more</p>
         <div class="main__box3__form__plan1__submit">
           <button class="main__box3__form__plan1__submit__button" type="submit">
             <a href="#">START</a>
@@ -122,14 +122,13 @@
         <hr>
         <p>First mounth free</p>
         <hr>
-        <p class="main__box3__form__plan1_tip">See more</p>
-        <div class="main__box3__form__plan1__submit">
-          <button class="main__box3__form__plan1__submit__button" type="submit">
+        <p class="main__box3__form__plan1__see">See more</p>
+          <button class="main__box3__form__plan1__button" type="submit">
             <a href="#">START</a>
           </button>
         </div>
 
-        </div>
+        
         <div class="main__box3__form__plan1">
           <p>.99</p>
           <p><strong>$14</strong>/mounth</p>
@@ -142,7 +141,7 @@
           <hr>
           <p>Two mounth free</p>
           <hr>
-          <p class="main__box3__form__plan1_tip">See more</p>
+          <p class="main__box3__form__plan1__see">See more</p>
           <div class="main__box3__form__plan1__submit">
             <button class="main__box3__form__plan1__submit__button" type="submit">
               <a href="#">START</a>
@@ -156,7 +155,7 @@
   </div>
 
   <div class="wrapper">
-    <img src="../assets/poster/marmageddon.jpg"/>
+    <img src="../assets/poster/armageddon.jpg"/>
     <img src="../assets/poster/austin_power2.jpg"/>
     <img src="../assets/poster/babydriver.jpg"/>
     <img src="../assets/poster/batman.jpg"/>
@@ -168,4 +167,4 @@
     <img src="../assets/poster/the-conjuring.jpg"/>
   </div>
 
-  <?php include("./components/footer.php")?>
+  <?php include("../components/footer.php")?>
