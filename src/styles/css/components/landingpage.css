@@ -189,9 +189,10 @@
           width: 168px;
           margin-top: 44px;
           margin-left: 2%;
+          background-color: black;
+          color: #beffc7;
           cursor: pointer;
-          padding: 10px 24px;
-          background-color: #07393c; }
+          padding: 10px 24px; }
           .main__box3__form__plan1__button:hover {
             background-color: #2c666e; }
           .main__box3__form__plan1__button > a {

@@ -104,11 +104,9 @@
         <p>First mounth free</p>
         <hr>
         <p class="main__box3__form__plan1__see">See more</p>
-        <div class="main__box3__form__plan1__submit">
-          <button class="main__box3__form__plan1__submit__button" type="submit">
-            <a href="#">START</a>
-          </button>
-        </div>
+        <button class="main__box3__form__plan1__button" type="submit">
+          <a href="#">START</a>
+        </button>
       </div>
       <div class="main__box3__form__plan1">
         <p>.99</p>
@@ -130,24 +128,21 @@
 
         
         <div class="main__box3__form__plan1">
-          <p>.99</p>
-          <p><strong>$14</strong>/mounth</p>
-          <hr>
-          <p>Film/Serie illimité</p>
-          <hr>
-          <p>4 screen</p>
-          <hr>
-          <p>Cancellable at any time</p>
-          <hr>
-          <p>Two mounth free</p>
-          <hr>
-          <p class="main__box3__form__plan1__see">See more</p>
-          <div class="main__box3__form__plan1__submit">
-            <button class="main__box3__form__plan1__submit__button" type="submit">
-              <a href="#">START</a>
-            </button>
-          </div>
-
+        <p>.99</p>
+        <p><strong>$14</strong>/mounth</p>
+        <hr>
+        <p>Film/Serie illimité</p>
+        <hr>
+        <p>4 screen</p>
+        <hr>
+        <p>Cancellable at any time</p>
+        <hr>
+        <p>Two mounths free</p>
+        <hr>
+        <p class="main__box3__form__plan1__see">See more</p>
+          <button class="main__box3__form__plan1__button" type="submit">
+            <a href="#">START</a>
+          </button>
         </div>
       </div>
     </div>

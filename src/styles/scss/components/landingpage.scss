@@ -242,12 +242,15 @@
           width: 168px;
           margin-top: 44px;
           margin-left: 2%;
+          background-color: black;
+          color: $green-light;
           cursor: pointer;
           &:hover {
-            background-color: $blue;
+            background-color: $green-light;
+            color: $white;
           }
           padding: 10px 24px;
-          background-color: $blue-darker;
+
           & > a {
             font-size: 22px;
             color: $green-light;
