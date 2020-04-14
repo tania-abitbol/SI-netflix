@@ -75,8 +75,5 @@
       </ul>
     </div>
   </footer>
-  <script src="./SI-netflix/src/js/api-imbd.js"></script>
-  <script src="./SI-netflix/src/js/slider.js"></script>
-  <script src="./SI-netflix/src/js/player.js"></script>
 </body>
 </html>
