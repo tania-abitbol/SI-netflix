@@ -31,13 +31,55 @@
           height: 30px; }
     .head__nav__right {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       padding-top: 0.5em; }
-      .head__nav__right__up {
-        color: yellow; }
-      .head__nav__right__in {
-        color: pink; }
+      .head__nav__right button {
+        border-radius: 50px;
+        cursor: pointer;
+        padding: 10px 24px;
+        background-color: #07393c; }
+        .head__nav__right button:hover {
+          background-color: #2c666e; }
+        .head__nav__right button > a {
+          font-size: 12px;
+          color: #f0edee;
+          text-decoration: none; }
+
+.head__nav_right__in {
+  margin-left: 1em; }
+
+.pageOne {
+  background-image: url("../../assets/images/macbook-pro.jpg");
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .pageOne__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #07393c;
+    margin-left: 2%;
+    width: 477px; }
+  .pageOne h3 {
+    font-size: bold;
+    font-size: 24px;
+    color: #07393c;
+    margin-left: 2%;
+    margin-top: 20px; }
+  .pageOne__btn {
+    width: 168px;
+    margin-top: 44px;
+    margin-left: 2%;
+    cursor: pointer;
+    padding: 10px 24px;
+    background-color: #07393c; }
+    .pageOne__btn:hover {
+      background-color: #2c666e; }
+    .pageOne__btn > a {
+      font-size: 22px;
+      color: #f0edee;
+      text-decoration: none; }
 
 .main {
   display: flex;
@@ -46,7 +88,6 @@
   .main__box1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     color: #f0edee;
     font-size: 20px;
     font-weight: bold;
@@ -54,39 +95,48 @@
     .main__box1__title {
       color: #beffc7;
       font-size: 32px;
-      padding: 5%; }
+      margin-top: 10%;
+      height: 112px; }
     .main__box1__body__logo {
       display: flex;
       flex-direction: row;
       align-items: center;
-      padding: 20%;
-      justify-content: safe; }
+      padding: 12%;
+      justify-content: space-between; }
+      .main__box1__body__logo__pro {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
       .main__box1__body__logo img {
         display: flex;
         align-items: center;
-        width: 70px;
+        width: 80px;
         height: auto;
-        justify-content: space-evenly; }
+        justify-content: space-evenly;
+        padding: 3%; }
       .main__box1__body__logo p {
-        font-size: 16px; }
+        font-size: 16px;
+        display: flex; }
   .main__box2 {
     display: flex;
     flex-direction: column;
     color: #f0edee;
     font-size: 24px;
     font-weight: bold;
-    padding: 10%; }
+    margin-top: 5%; }
     .main__box2__title {
       color: #beffc7;
-      font-size: 36px;
-      padding: 10%; }
+      font-size: 32px;
+      display: flex;
+      margin-left: 5%; }
     .main__box2__text {
       display: flex;
       flex-direction: row;
+      justify-content: space-around;
       align-items: center; }
-      .main__box2__text__little {
-        width: 570,61px;
-        height: 261px; }
+      .main__box2__text__description {
+        display: flex;
+        flex-direction: column; }
   .main__box3 {
     display: flex;
     flex-direction: column;
@@ -95,7 +145,7 @@
     font-weight: bold;
     padding: 10%; }
     .main__box3__title {
-      font-size: 36px;
+      font-size: 32px;
       padding: 10px;
       display: flex;
       justify-content: center; }

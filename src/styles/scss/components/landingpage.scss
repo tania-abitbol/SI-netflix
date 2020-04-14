@@ -38,16 +38,68 @@
     }
     &__right {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       padding-top: 0.5em;
 
-      &__up {
-        color: yellow;
+      & button {
+        border-radius: 50px;
+        cursor: pointer;
+        &:hover {
+          background-color: $blue;
+        }
+        padding: 10px 24px;
+        background-color: $blue-darker;
+        & > a {
+          font-size: 12px;
+          color: $grey;
+          text-decoration: none;
+        }
       }
-      &__in {
-        color: pink;
-      }
+    }
+  }
+}
+.head__nav_right__in {
+  margin-left: 1em;
+}
+
+//PAGEONE//
+.pageOne {
+  background-image: url("../../assets/images/macbook-pro.jpg");
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: $blue-darker;
+    margin-left: 2%;
+    width: 477px;
+  }
+
+  & h3 {
+    font-size: bold;
+    font-size: 24px;
+    color: $blue-darker;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+  &__btn {
+    width: 168px;
+    margin-top: 44px;
+    margin-left: 2%;
+    cursor: pointer;
+    &:hover {
+      background-color: $blue;
+    }
+    padding: 10px 24px;
+    background-color: $blue-darker;
+    & > a {
+      font-size: 22px;
+      color: $grey;
+      text-decoration: none;
     }
   }
 }
@@ -62,7 +114,7 @@
   &__box1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     color: $grey;
     font-size: 20px;
     font-weight: bold;
@@ -71,7 +123,8 @@
     &__title {
       color: $green-light;
       font-size: 32px;
-      padding: 5%;
+      margin-top: 10%;
+      height: 112px;
     }
 
     &__body {
@@ -79,17 +132,25 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 20%;
-        justify-content: safe;
+        padding: 12%;
+        justify-content: space-between;
+
+        &__pro {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
         & img {
           display: flex;
           align-items: center;
-          width: 70px;
+          width: 80px;
           height: auto;
           justify-content: space-evenly;
+          padding: 3%;
         }
         & p {
           font-size: 16px;
+          display: flex;
         }
       }
     }
@@ -101,20 +162,23 @@
     color: $grey;
     font-size: 24px;
     font-weight: bold;
-    padding: 10%;
+    margin-top: 5%;
 
     &__title {
       color: $green-light;
-      font-size: 36px;
-      padding: 10%;
+      font-size: 32px;
+      display: flex;
+      margin-left: 5%;
     }
     &__text {
       display: flex;
       flex-direction: row;
+      justify-content: space-around;
       align-items: center;
-      &__little {
-        width: 570, 61px;
-        height: 261px;
+
+      &__description {
+        display: flex;
+        flex-direction: column;
       }
     }
   }
@@ -127,14 +191,10 @@
     padding: 10%;
 
     &__title {
-      font-size: 36px;
+      font-size: 32px;
       padding: 10px;
       display: flex;
       justify-content: center;
     }
   }
 }
-
-// .poster {
-//   background-color: green;
-// }
