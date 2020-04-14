@@ -20,8 +20,6 @@
 
       <div class="sliders sliders--large">
         <div class="sliders__inner">
-         <video class="sliders__item" src="../assets/videos/armageddon.mp4" controls poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>          
-         <video class="sliders__item" src="../assets/videos/armageddon.mp4" controls poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
          <video class="sliders__item" src="../assets/videos/armageddon.mp4" controls poster="../assets/poster/armageddon.jpg" type="video/mp4" ></video>
          <video class="sliders__item" src="../assets/videos/red.mp4" controls poster="../assets/poster/red.jpg">Desc</video>
          <video class="sliders__item" src="../assets/videos/salt.mp4"         controls poster="../assets/poster/salt.jpg">Desc</video>
@@ -311,57 +309,57 @@
 
     <div class="slide slide--grid">
       <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/gravity.jpg" alt="" />
+        <img class="slide__item" src="../assets/images/grid-film/apolo.png" alt="" />
         <div class="slide__item--btn">
         <button class="slide__item--btn--btn">More info</button>
       </div>
     </div>
 
       <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/hobbit.jpg" alt="" />
+        <img class="slide__item" src="../assets/images/grid-film/aqua.png" alt="" />
         <div class="slide__item--btn">
         <button class="slide__item--btn--btn">More info</button>
        </div>
       </div>
       
       <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/blade-runnuer.jpg" alt="" />
+        <img class="slide__item" src="../assets/images/grid-film/avengers.png" alt="" />
         <div class="slide__item--btn">
         <button class="slide__item--btn--btn">More info</button>
         </div>
       </div>
       <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/tintin.jpg" alt="" />
+        <img class="slide__item" src="../assets/images/grid-film/divergente.png" alt="" />
         <div class="slide__item--btn">
         <button class="slide__item--btn--btn">More info</button>
      </div>
       </div>
       <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/thedarkness.jpg" alt="" />
+        <img class="slide__item" src="../assets/images/grid-film/gravity.png" alt="" />
         <div class="slide__item--btn">
         <button class="slide__item--btn--btn">More info</button>
       </div>
       </div>
       <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/clashdestitans.jpg" alt="" />
-        <div class="slide__item--btn">
-        <button class="slide__item--btn--btn">More info</button>
-</div>
-      </div>
-      <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/st.jpg" alt="" />
+        <img class="slide__item" src="../assets/images/grid-film/willem.png" alt="" />
         <div class="slide__item--btn">
         <button class="slide__item--btn--btn">More info</button>
 </div>
       </div>
       <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/kong.jpg" alt="" />
+        <img class="slide__item" src="../assets/images/grid-film/jimmy.png" alt="" />
         <div class="slide__item--btn">
         <button class="slide__item--btn--btn">More info</button>
 </div>
       </div>
       <div class="slide__item">
-        <img class="slide__item" src="../assets/images/grid-film/interstelar.jpg" alt="" />
+        <img class="slide__item" src="../assets/images/grid-film/kajani.png" alt="" />
+        <div class="slide__item--btn">
+        <button class="slide__item--btn--btn">More info</button>
+</div>
+      </div>
+      <div class="slide__item">
+        <img class="slide__item" src="../assets/images/grid-film/rafiki.png" alt="" />
         <div class="slide__item--btn">
         <button class="slide__item--btn--btn">More info</button>
 </div>
