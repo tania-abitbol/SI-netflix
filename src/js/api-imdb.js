@@ -28,8 +28,8 @@ function apiCall(list, elem, j = 0) {
         var title = response.Title;
         var genre = response.Genre;
         var released = response.Released;
-        var actors = response.Actors;
-        var synopsis = response.Plot;
+        //var actors = response.Actors;
+        //var synopsis = response.Plot;
         var score = response.imdbRating;
 
         var res = elem[j].appendChild(document.createElement("div")); //creation balise <ul> & of the lower <li>

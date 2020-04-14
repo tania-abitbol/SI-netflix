@@ -175,16 +175,15 @@ bar.addEventListener("click", (a) => {
 
 fullScreenBtn.addEventListener("click", () => {
   console.log("t");
-  // if(fullScreenBtn.style.opacity = '1'){
-  //   console.log('t')
-  //   videoFullScreen();
-  //   midScreenBtn.style.opacity = 1;
-  // fullScreenBtn.style.opacity = 0;
-  // }
-  // }else if(midScreenBtn.style.display == '1'){
-  //   document.exitFullscreen()
-  //   fullScreenBtn.style.opacity = 1;
-  //   midScreenBtn.style.opacity = 0;
-  // }
+  if ((fullScreenBtn.style.opacity = "1")) {
+    console.log("t");
+    videoFullScreen();
+    midScreenBtn.style.opacity = 1;
+    fullScreenBtn.style.opacity = 0;
+  } else if (midScreenBtn.style.opacity == "1") {
+    exitFullscreen();
+    fullScreenBtn.style.opacity = 1;
+    midScreenBtn.style.opacity = 0;
+  }
 });
 console.log("t" + videoContent);
