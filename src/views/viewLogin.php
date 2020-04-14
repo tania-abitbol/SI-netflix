@@ -16,7 +16,7 @@
         <h3>Login</h3>
       </div>
 
-      <form class="client-space__form" action="../index.php?action=login" method="post">
+      <form class="client-space__form" action="../index.php?url=login" method="post">
         <div class="client-space__form__items">
           <div class="client-space__form__items__item">
             <label for="name">Name:</label>
@@ -24,7 +24,7 @@
               class="client-space__form__items__item__input"
               name="name"
               type="text"
-              placeholder="ID"
+              placeholder="name"
             />
           </div>
           <div class="client-space__form__items__item">
@@ -35,14 +35,14 @@
               type="text"
               placeholder="Password"
             />
-            <a class="client-space__form__link" href="./create-account.php"
+            <a class="client-space__form__link" href="./viewSignIn.php"
               >Do not have an account yet?</a
             >
           </div>
         </div>
 
         <div class="client-space__form__submit">
-          <input class="client-space__form__submit__button" type="submit" value="Start"/>
+          <input class="client-space__form__submit__button" type="submit" value="start"/>
         
         </div>
       </form>

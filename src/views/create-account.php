@@ -17,7 +17,7 @@
         <h3>Create Account</h3>
       </div>
 
-      <form class="client-space__form" action="../index.php?action=signup" method="post">
+      <form class="client-space__form" action="../index.php?url=signin" method="post">
         <div class="client-space__form__items">
           <div class="client-space__form__items__item">
             <label for="name">Name :</label>
