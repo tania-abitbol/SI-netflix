@@ -88,75 +88,74 @@
     </div> 
   <div>
         
-        <div class="main__box3">
-            <h3 class="main__box3__title">Choose your plan</h3>
-            <div class="main__box3__form">
-                <div class="main__box3__form__plan1">
-                    <p>.99</p>
-                    <p><strong>$5</strong>/mounth</p>
-                    <hr>
-                    <p>Film/Serie illimité</p>
-                    <hr>
-                    <p>1 screen</p>
-                    <hr>
-                    <p>Cancellable at any time</p>
-                    <hr>
-                    <p>First mounth free</p>
-                    <hr>
-                    <p class="main__box3__form__plan1_tip">See more</p>
-                    <div class="main__box3__form__plan1__submit">
-                        <button class="main__box3__form__plan1__submit__button" type="submit">
-                          <a href="#">START</a>
-                        </button>
-                    </div>
-
-                </div>
-                <div class="main__box3__form__plan2">
-                    <p>.99</p>
-                    <p><strong>$11</strong>/mounth</p>
-                    <hr>
-                    <p>Film/Serie illimité</p>
-                    <hr>
-                    <p>2 screen</p>
-                    <hr>
-                    <p>Cancellable at any time</p>
-                    <hr>
-                    <p>First mounth free</p>
-                    <hr>
-                    <p class="main__box3__form__plan1_tip">See more</p>
-                    <div class="main__box3__form__plan2__submit">
-                        <button class="main__box3__form__plan2__submit__button" type="submit">
-                          <a href="#">START</a>
-                        </button>
-                    </div>
-
-                </div>
-                <div class="main__box3__form__plan1">
-                    <p>.99</p>
-                    <p><strong>$14</strong>/mounth</p>
-                    <hr>
-                    <p>Film/Serie illimité</p>
-                    <hr>
-                    <p>4 screen</p>
-                    <hr>
-                    <p>Cancellable at any time</p>
-                    <hr>
-                    <p>Two mounth free</p>
-                    <hr>
-                    <p class="main__box3__form__plan1_tip">See more</p>
-                    <div class="main__box3__form__plan1__submit">
-                        <button class="main__box3__form__plan1__submit__button" type="submit">
-                          <a href="#">START</a>
-                        </button>
-                    </div>
-
-                </div>
-            </div>
+  <div class="main__box3">
+    <h3 class="main__box3__title">Choose your plan</h3>
+    <div class="main__box3__form">
+      <div class="main__box3__form__plan1">
+        <p>.99</p>
+        <p><strong>$5</strong>/mounth</p>
+        <hr>
+        <p>Film/Serie illimité</p>
+        <hr>
+        <p>1 screen</p>
+        <hr>
+        <p>Cancellable at any time</p>
+        <hr>
+        <p>First mounth free</p>
+        <hr>
+        <div class="main__box3__form__plan1_tip">See more</div>
+        <div class="main__box3__form__plan1__submit">
+          <button class="main__box3__form__plan1__submit__button" type="submit">
+            <a href="#">START</a>
+          </button>
         </div>
-      
+      </div>
+      <div class="main__box3__form__plan1">
+        <p>.99</p>
+        <p><strong>$11</strong>/mounth</p>
+        <hr>
+        <p>Film/Serie illimité</p>
+        <hr>
+        <p>2 screen</p>
+        <hr>
+        <p>Cancellable at any time</p>
+        <hr>
+        <p>First mounth free</p>
+        <hr>
+        <p class="main__box3__form__plan1_tip">See more</p>
+        <div class="main__box3__form__plan1__submit">
+          <button class="main__box3__form__plan1__submit__button" type="submit">
+            <a href="#">START</a>
+          </button>
+        </div>
+
+        </div>
+        <div class="main__box3__form__plan1">
+          <p>.99</p>
+          <p><strong>$14</strong>/mounth</p>
+          <hr>
+          <p>Film/Serie illimité</p>
+          <hr>
+          <p>4 screen</p>
+          <hr>
+          <p>Cancellable at any time</p>
+          <hr>
+          <p>Two mounth free</p>
+          <hr>
+          <p class="main__box3__form__plan1_tip">See more</p>
+          <div class="main__box3__form__plan1__submit">
+            <button class="main__box3__form__plan1__submit__button" type="submit">
+              <a href="#">START</a>
+            </button>
+          </div>
+
+        </div>
+      </div>
     </div>
-  <!-- <div class="poster">
-  
+      
+  </div>
+
+  <div class="poster">
     <img src="../assets/poster/marmageddon.jpg"/>
     <img src="../assets/poster/austin_power2.jpg"/>
     <img src="../assets/poster/babydriver.jpg"/>
@@ -167,6 +166,6 @@
     <img src="../assets/poster/salt.jpg"/>
     <img src="../assets/poster/the-accountant.jpg"/>
     <img src="../assets/poster/the-conjuring.jpg"/>
-    
-  </div> -->
+  </div>
+
   <?php include("./components/footer.php")?>

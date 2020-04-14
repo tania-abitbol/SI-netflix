@@ -800,6 +800,23 @@ table {
       padding: 10px;
       display: flex;
       justify-content: center; }
+    .main__box3__form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10%; }
+      .main__box3__form__plan1 {
+        text-align: center;
+        justify-content: space-between; }
+        .main__box3__form__plan1 strong {
+          font-size: 40px; }
+        .main__box3__form__plan1__tip {
+          font-size: 14px;
+          text-decoration: underline;
+          font-size: 14px;
+          padding: 6%;
+          font-weight: lighter; }
 
 body {
   font-family: Helvetica, sans-serif; }
