@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -7,7 +6,6 @@
     <title>VideoPlayer</title>
     <link rel="stylesheet" href="../styles/css/style.css" />
     <script src="../js/player.js" defer></script>
-    
   </head>
 
   <body>
@@ -61,7 +59,6 @@
 
         <button class="video__controller__screen">
       <img src="../assets/images/videoplayer/fullScreen.svg" class="video__controller__screen--fullScreen" alt="">
-
       <img src="../assets/images/videoplayer/reduction.svg" class="video__controller__screen--midScreen" alt="">
         </button>
       </div>

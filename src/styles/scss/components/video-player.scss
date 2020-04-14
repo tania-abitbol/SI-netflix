@@ -11,9 +11,9 @@
   height: 100vh;
   z-index: -2;
   font-family: Helvetica, sans-serif;
-  background-color: $grey;
+  background-color: $black;
   &__played {
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -26,9 +26,9 @@
         display: none !important;
       }
     }
-    &:not(:fullscreen) {
-      background-color: red;
-    }
+    // &:not(:fullscreen){
+    //   background-color: red;
+    // }
   }
   &__return {
     position: absolute;
@@ -89,9 +89,9 @@
       &:hover {
         transform: scale(1.2);
       }
-      &:active {
-        background-color: $blue;
-      }
+      // &:active {
+      //   background-color: $blue;
+      // }
     }
     &--pause {
       display: none;
@@ -123,7 +123,7 @@
     &--volume {
       background-color: transparent;
       border-color: transparent;
-      // color: $grey;
+      outline: $grey;
       -webkit-appearance: none;
       // align-items: center;
       display: none;
@@ -135,15 +135,15 @@
     &--mute {
       display: none;
     }
-  }
-  &__screen {
-    &--fullScreen {
+    &__screen {
       margin-left: 70%;
       width: 4%;
-      opacity: 1;
-    }
-    &--midScreen {
-      opacity: 0;
+      &--fullScreen {
+        opacity: 1;
+      }
+      &--midScreen {
+        opacity: 0;
+      }
     }
   }
 }
