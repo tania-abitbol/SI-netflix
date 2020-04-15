@@ -22,9 +22,8 @@ class ControllerSignin
   private function signin()
   {
  
-
     $this->_signinManager = new SigninManager;
     $signin = $this->_signinManager->checkEmail($_POST["email"]);
-    header("Location: views/viewLogin.php");
+    // header("Location: views/viewLogin.php");
   }
 }

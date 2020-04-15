@@ -13,12 +13,16 @@ class SigninManager extends Model
 
   $data=$this->getAll("users");
   while($data){
+
+  
     if($email===$data["email"]){
+    
       return true;
     };
     
    
   }
+  
   return $this->createUser();
 }
 }
