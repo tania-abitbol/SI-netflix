@@ -5,10 +5,7 @@
         <li><img src="../assets/images/profil/edit_green.svg" /> My list</li>
         <li>View</li>
       </ul>
-      <div class="profil__status">
-        <p>Pseudo</p>
-        <img src="../assets/images/user.svg" />
-      </div>
+      
     </div>
     <h1 class="container--second--title">My List - Favoris</h1>
     <div class="container">
@@ -28,7 +25,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -38,7 +35,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -48,7 +45,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -58,7 +55,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -68,7 +65,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -78,7 +75,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -88,7 +85,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__ite--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -98,7 +95,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -108,7 +105,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
@@ -118,7 +115,7 @@
             </div>
             <div class="sliders__item--details">
               <div class="sliders__item--title">
-                Arrow
+                
               </div>
             </div>
           </div>
