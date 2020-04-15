@@ -27,7 +27,7 @@ abstract class Model
     $req->execute(array(
       "name" => $name,
       "email" => $email,
-      "password" => $password
+      "password" => $password,
       
   ));
  
