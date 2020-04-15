@@ -43,7 +43,8 @@
       padding-top: 0.5em;
 
       & button {
-        border-radius: 50px;
+        border-style: none;
+        border: solid 1px white;
         cursor: pointer;
         &:hover {
           background-color: $blue;
@@ -75,7 +76,7 @@
   &__title {
     font-size: 36px;
     font-weight: bold;
-    color: $blue-darker;
+    color: white;
     margin-left: 2%;
     width: 477px;
   }
@@ -83,7 +84,7 @@
   & h3 {
     font-size: bold;
     font-size: 24px;
-    color: $blue-darker;
+    color: white;
     margin-left: 2%;
     margin-top: 20px;
   }

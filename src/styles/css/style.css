@@ -706,7 +706,8 @@ table {
       align-items: center;
       padding-top: 0.5em; }
       .head__nav__right button {
-        border-radius: 50px;
+        border-style: none;
+        border: solid 1px white;
         cursor: pointer;
         padding: 10px 24px;
         background-color: #07393c; }
@@ -730,13 +731,13 @@ table {
   .pageOne__title {
     font-size: 36px;
     font-weight: bold;
-    color: #07393c;
+    color: white;
     margin-left: 2%;
     width: 477px; }
   .pageOne h3 {
     font-size: bold;
     font-size: 24px;
-    color: #07393c;
+    color: white;
     margin-left: 2%;
     margin-top: 20px; }
   .pageOne__btn {

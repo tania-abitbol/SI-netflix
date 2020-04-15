@@ -20,5 +20,3 @@ const toggleDropDown = () => {
     accountDropDown.style.display = "none";
   }
 };
-
-toggleDropDown();

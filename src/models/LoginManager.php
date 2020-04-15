@@ -3,6 +3,6 @@ class LoginManager extends Model
 {
   public function loginUser()
   {
-    return $this->getOne('users', 'User', $_POST["name"], $_POST_["password"]);
+    return $this->getOne('users', 'User', $_POST["email"], $_POST_["password"]);
   }
 }
