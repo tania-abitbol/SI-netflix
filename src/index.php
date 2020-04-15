@@ -20,7 +20,7 @@ require("controller/controller.php");
             }
         }
         elseif ($_GET['action'] == "home") {
-          require('pages/home.php');
+          header('Location:pages/home.php');
 
          
         }

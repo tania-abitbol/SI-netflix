@@ -55,3 +55,12 @@
   justify-content: space-between; }
   .input-wrapper .client-space__form__items__item__input {
     width: 100%; }
+
+.client-space__form__submit__button {
+  width: 145px;
+  height: 35px;
+  background: #2c666e;
+  border: 1px solid #f0edee;
+  text-transform: uppercase;
+  color: #f0edee;
+  font-size: 18px; }

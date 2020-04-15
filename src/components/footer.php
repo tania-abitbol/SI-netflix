@@ -4,16 +4,16 @@
 <footer class="footer">
     <div class="footer__social-network">
       <a href="https://twitter.com"><img class="footer__social-network__twitter"
-          src="./assets/images/social-network/twitter.svg" /></a>
+          src="../assets/images/social-network/twitter.svg" /></a>
 
       <a href="https://www.facebook.com/"><img class="footer__social-network__facebook"
-          src="./assets/images/social-network/facebook.svg" /></a>
+          src="../assets/images/social-network/facebook.svg" /></a>
 
       <a href="https://www.instagram.com"><img class="footer__social-network__instagram"
-          src="./assets/images/social-network/instagram.svg" /></a>
+          src="../assets/images/social-network/instagram.svg" /></a>
 
       <a href="https://youtube.com"><img class="footer__social-network__youtube"
-          src="./assets/images/social-network/youtube.svg" /></a>
+          src="../assets/images/social-network/youtube.svg" /></a>
     </div>
 
     <div class="footer__rows">
@@ -28,6 +28,11 @@
           <a href="#">Contact Us</a>
         </li>
       </ul>
+      <img
+          src="../assets/images/linefooter.svg"
+          class="footer__rows__categories--space"
+          alt="line"
+        />
       <ul class="footer__rows__categories">
         <li class="footer__rows__categories__item">
           <a href="#">Audiodescription</a>
@@ -39,6 +44,11 @@
           <a href="#">Legal Notices</a>
         </li>
       </ul>
+      <img
+          src="../assets/images/linefooter.svg"
+          class="footer__rows__categories--space"
+          alt="line"
+        />
       <ul class="footer__rows__categories">
         <li class="footer__rows__categories__item">
           <a href="#">Help Center</a>
@@ -50,6 +60,11 @@
           <a href="#">Cookie Preferences</a>
         </li>
       </ul>
+      <img
+          src="../assets/images/linefooter.svg"
+          class="footer__rows__categories--space"
+          alt="line"
+        />
       <ul class="footer__rows__categories">
         <li class="footer__rows__categories__item">
           <a href="#">Legal Mentions</a>
@@ -60,7 +75,5 @@
       </ul>
     </div>
   </footer>
-  
 </body>
-
 </html>
