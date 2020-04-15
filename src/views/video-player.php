@@ -12,7 +12,7 @@
     <div class="video">
       <video
         class="video__played"
-        src="../assets/ma_nouvelle_vie_commence_maintenant.mp4"
+        src="../assets/Daybreakers.mp4"
         type="video/mp4"
       ></video>
       <button class="video__return">
