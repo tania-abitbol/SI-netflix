@@ -18,12 +18,12 @@ const all = document.querySelectorAll(".sliders");
 
 for (let i = 0; i < fleche_g.length; i++) {
   fleche_g[i].addEventListener("click", function () {
-    all[i].scrollLeft -= 100;
+    all[i].scrollLeft -= 250;
   });
 }
 
 for (let i = 0; i < fleche_d.length; i++) {
   fleche_d[i].addEventListener("click", function () {
-    all[i].scrollLeft += 100;
+    all[i].scrollLeft += 250;
   });
 }
