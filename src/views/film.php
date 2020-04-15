@@ -200,7 +200,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -316,7 +316,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -432,7 +432,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -548,7 +548,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -664,7 +664,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -780,7 +780,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -896,7 +896,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -1012,7 +1012,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -1128,7 +1128,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>

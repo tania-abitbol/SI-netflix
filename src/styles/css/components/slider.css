@@ -59,10 +59,12 @@
   margin-left: 1em;
   margin-right: 1em; }
 
-::-webkit-scrollbar {
-  display: none; }
+
+:-webkit-scrollbar {
+  scrollbar-width: none; }
 
 .sliders {
+  -webkit-overflow-scrolling: touch;
   display: block;
   margin: auto;
   margin-top: 1em;
@@ -70,7 +72,9 @@
   width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
   .sliders__inner {
     transition: 300ms translate(100px);
     transition: 300ms transform;
@@ -106,17 +110,25 @@
       right: 0;
       top: 0;
       font-size: 10px;
-      opacity: 0;
       background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
       transition: 300ms opacity; }
-      .sliders .sliders__item .sliders__item--details:after, .sliders .sliders__item .sliders__item--details:before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); }
-      .sliders .sliders__item .sliders__item--details:hover .sliders__item--details {
-        opacity: 1; }
+    .sliders .sliders__item .sliders__item--title {
+      visibility: hidden; }
+    .sliders .sliders__item:hover .sliders__item--details {
+      opacity: 1; }
+      .sliders .sliders__item:hover .sliders__item--details p {
+        font-size: 16px;
+        visibility: visible;
+        color: white;
+        line-height: 1.5em;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 50px;
+        font-weight: bolder; }
+  .sliders .sliders__item--title {
+    transform: translateY(180%);
+    margin-left: 2em; }
 
 .sliders--large .sliders__item:hover ~ .sliders__item {
   transform: translate3d(140px, 0, 0);
@@ -133,13 +145,13 @@
   width: 100%; }
   .slide__item .slide__item--btn {
     background-color: #07393c;
-    width: 80px;
+    width: 100px;
     height: 25px;
     display: block;
     margin: auto;
     transform: translateY(-2.5em); }
     .slide__item .slide__item--btn .slide__item--btn--btn {
-      width: 80px;
+      width: 100px;
       height: 25px;
       background-color: #07393c;
       color: #ecf0f1;
