@@ -70,13 +70,6 @@ moreSec.addEventListener("click", () => {
   videoContent.currentTime += 10;
 });
 
-lessSec.addEventListener(["click", "keydown"], () => {
-  videoContent.currentTime -= 10;
-  if (e.keyCode === 39) {
-    videoContent.currentTime -= 10;
-  }
-});
-
 document.addEventListener("keydown", (e) => {
   switch (e.keyCode) {
     case 37:
@@ -114,21 +107,16 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-
 sound.addEventListener("click", () => {
-  if ((volume.style.display = "none")) {
-
-function mouseOver() {
   if (volume.style.display != "none") {
     volume.style.display = "none";
   } else if (volume.style.display != "block") {
-
     volume.style.display = "block";
   }
-}
-setTimeout(function () {
-  volume.style.display = "none";
-}, 8000);
+});
+// setTimeout(function () {
+//   volume.style.display = "none";
+// }, 8000);
 
 sound.addEventListener("click", () => {
   if (soundOn.style.display != "none") {
@@ -150,22 +138,17 @@ videoReturn.addEventListener("click", () => {
   window.history.back();
 });
 
-
-video.addEventListener("mousemove", () => {
-  if ((controller.style.opacity = "0")) {
-
+// video.addEventListener("mousemove", () => {
+//   if ((controller.style.opacity = "0")) {
 
 videoContent.addEventListener("mousemove", () => {
   if (controller.style.opacity == "0") {
-
     controller.style.opacity = 1;
     bar.style.bottom = "5%";
   }
   setTimeout(function () {
     controller.style.opacity = 0;
     bar.style.bottom = 0;
-
-
   }, 8000);
 });
 
@@ -182,12 +165,6 @@ document.addEventListener(
   false
 );
 
-
-
-  }, 10000);
-});
-
-
 function videoFullScreen() {
   if (video.requestFullscreen) {
     video.requestFullscreen();
@@ -200,30 +177,19 @@ const largeur = rect.width;
 bar.addEventListener("click", (a) => {
   var x = a.clientX - rect.left;
   const widthPercent = (x * 100) / largeur;
-
-
-  const surrenTimeTrue = (widthPercent * videoContent.duration) / 100;
-  videoContent.currentTime = surrenTimeTrue;
-  progressBar.style.width = widthPercent + "%";
-
-
   const currenTimeTrue = (widthPercent * videoContent.duration) / 100;
   videoContent.currentTime = currenTimeTrue;
   progressBar.style.width = widthPercent + "%";
 });
 
-fullScreenBtn.addEventListener("click", () => {
-  console.log("t");
-  if ((fullScreenBtn.style.opacity = "1")) {
-    console.log("t");
+screen.addEventListener("click", () => {
+  if ((fullScreenBtn.style.opacity = "block")) {
     videoFullScreen();
-    midScreenBtn.style.opacity = 1;
-    fullScreenBtn.style.opacity = 0;
-  } else if (midScreenBtn.style.opacity == "1") {
+    midScreenBtn.style.display = "block";
+    fullScreenBtn.style.opacity = "none";
+  } else if (midScreenBtn.style.opacity == "block") {
     exitFullscreen();
-    fullScreenBtn.style.opacity = 1;
-    midScreenBtn.style.opacity = 0;
+    fullScreenBtn.style.opacity = "block";
+    midScreenBtn.style.opacity = "none";
   }
 });
-console.log("t" + videoContent);
-

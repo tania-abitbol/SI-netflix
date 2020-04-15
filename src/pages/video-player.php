@@ -53,7 +53,7 @@
           <img src="../assets/images/videoplayer/mute.svg" alt="" class="video__controller__sound--off"/>
        </button>
 
-        <input class="video__controller--volume" type="range" />
+       <button class="video__controller__volume"><input class="video__controller__volume--range" type="range" /></button> 
 
         <button class="video__controller__screen">
       <img src="../assets/images/videoplayer/fullScreen.svg" class="video__controller__screen--fullScreen" alt="">

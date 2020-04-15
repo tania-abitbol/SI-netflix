@@ -85,7 +85,6 @@ $sliders-transition: 300ms;
   overflow-x: hidden;
   overflow-y: hidden;
 
-
   &__inner {
     transition: $sliders-transition translate(100px);
     transition: $sliders-transition transform;
@@ -161,7 +160,6 @@ $sliders-transition: 300ms;
       //     z-index: 2;
       //     color: white;
       //   }
-
     }
 
     .sliders__item--title {
