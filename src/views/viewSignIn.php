@@ -17,7 +17,7 @@
         <h3>Create Account</h3>
       </div>
 
-      <form class="client-space__form" action="../index.php?action=signup" method="post">
+      <form class="client-space__form" action="../index.php?url=signin" method="post">
         <div class="client-space__form__items">
           <div class="client-space__form__items__item">
             <label for="name">Name :</label>
@@ -83,10 +83,11 @@
         </div>
 
         <div class="client-space__form__submit">
-           <button type="submit" class="client-space__form__submit__button">
-           CONTINUE
-          </button> 
-          <a href="../pages/login.php">login</a>
+          <input type="submit" value="start">
+          <!-- <button type="submit" class="client-space__form__submit__button">
+            START
+          </button> -->
+          <a href="../views/login.html">login</a>
         </div>
       </form>
     </div>

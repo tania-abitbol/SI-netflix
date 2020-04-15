@@ -58,7 +58,11 @@
 
 .client-space__form__submit__button {
   width: 145px;
+<<<<<<< HEAD
+  height: 38px;
+=======
   height: 35px;
+>>>>>>> 956ab4c6bac29ca062d58e7c37840a5b266a4e5d
   background: #2c666e;
   border: 1px solid #f0edee;
   text-transform: uppercase;

@@ -1,34 +1,9 @@
+
 <?php
-require("controller/controller.php");
+define("URL", str_replace("index.php", "", (isset($_SERVER["HTTPS"]) ? "https" : "http") . "://$_SERVER[HTTP_HOST]"));
 
-    if (isset($_GET['action'])){
+require_once('controllers/Router.php');
 
-        if($_GET["action"] == "signup") {
-      
-            if(isset($_POST['name']) && isset($_POST['password'])) {
-                addUser($_POST['name']);
-                
+$router = new Router();
+$router->routeReq();
 
-            }
-        }
-        elseif($_GET['action'] == "login"){
-          header('Location: pages/login.php');
-            if (isset($_POST['name']) && isset($_POST['password'])){
-                getConnexion($_POST['name'], $_POST['password']);
-              
-
-            }
-        }
-        elseif ($_GET['action'] == "home") {
-          header('Location:pages/home.php');
-
-         
-        }
-       
-    }
- else{
-  header('Location: pages/login.php');
-
-           
-        }
-?>

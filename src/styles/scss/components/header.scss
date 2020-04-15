@@ -1,5 +1,7 @@
 @import "../global/variables.scss";
 
+@import "../global/variables.scss";
+
 .header {
   width: 100vw;
   height: 100px;
@@ -46,11 +48,6 @@
       &__menu {
         width: 30px;
         height: 50px;
-        &:hover {
-          .header__nav__right__menu--open {
-            display: block;
-          }
-        }
         &--img {
           margin-left: 10px;
           margin-top: 20px;
@@ -67,11 +64,6 @@
             font-size: 14px;
             cursor: pointer;
             line-height: 1.4;
-          }
-        }
-        &:hover {
-          .header__nav__right__menu--open {
-            display: block;
           }
         }
       }

@@ -8,23 +8,23 @@
   <script src="js/index.js" defer></script>
 </head>
 
-  <body>
+  <body> 
 <header class="head">
   <nav class="head__nav">
     <div class="head__nav__left">
       <img src="../assets/images/logo.png" alt="" />
       <ul class="head__nav__left__links">
-        <a><li>Home</li></a>
-        <a><li>Engagement</li></a>
+   
+        
       </ul>
     </div>
     <div class="head__nav__right">
 
       <button class="head__nav__right__up" type="submit">
-        <a href="../pages/create-account.php"> Sign up </a>
+        <a href="../views/create-account.php"> Sign up </a>
       </button> 
       <button class="head__nav_right__in" type="submit">
-        <a href="../pages/login.php"> Sign in </a>
+        <a href="../views/login.php"> Sign in </a>
       </button>
     </div>
   </nav>
@@ -34,9 +34,7 @@
     Your ideal video platform to have at home during the confinment.
   </h1>
   <h3>Gfx the new platform available soon !</h3>
-  <button class="pageOne__btn"type="submit">
-    <a href="#"> Press </a>
-  </button>
+  
 </div>  
 
 <div class="main">
