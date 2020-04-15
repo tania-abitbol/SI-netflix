@@ -150,8 +150,10 @@ videoReturn.addEventListener("click", () => {
   window.history.back();
 });
 
+
 video.addEventListener("mousemove", () => {
   if ((controller.style.opacity = "0")) {
+
 
 videoContent.addEventListener("mousemove", () => {
   if (controller.style.opacity == "0") {
@@ -162,6 +164,7 @@ videoContent.addEventListener("mousemove", () => {
   setTimeout(function () {
     controller.style.opacity = 0;
     bar.style.bottom = 0;
+
 
   }, 8000);
 });
@@ -178,6 +181,7 @@ document.addEventListener(
   },
   false
 );
+
 
 
   }, 10000);
@@ -197,9 +201,11 @@ bar.addEventListener("click", (a) => {
   var x = a.clientX - rect.left;
   const widthPercent = (x * 100) / largeur;
 
+
   const surrenTimeTrue = (widthPercent * videoContent.duration) / 100;
   videoContent.currentTime = surrenTimeTrue;
   progressBar.style.width = widthPercent + "%";
+
 
   const currenTimeTrue = (widthPercent * videoContent.duration) / 100;
   videoContent.currentTime = currenTimeTrue;

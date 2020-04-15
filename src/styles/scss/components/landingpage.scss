@@ -1,0 +1,281 @@
+@import "../global/variables.scss";
+
+//HEADER//
+.head {
+  width: 100vw;
+  height: 100px;
+  background-color: $black;
+  color: $grey;
+  display: flex;
+  font-size: 18px;
+  &__nav {
+    width: 100%;
+    padding: 0 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+      display: flex;
+      justify-content: space-between;
+      width: 600px;
+      height: 90px;
+      & > img {
+        align-self: center;
+        height: 50px;
+      }
+      &__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & > a {
+          text-decoration: none;
+          color: white;
+          padding: 1em 1em 0 1em;
+          width: 130px;
+          height: 30px;
+        }
+      }
+    }
+    &__right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 0.5em;
+
+      & button {
+        border-radius: 50px;
+        cursor: pointer;
+        &:hover {
+          background-color: $blue;
+        }
+        padding: 10px 24px;
+        background-color: $blue-darker;
+        & > a {
+          font-size: 12px;
+          color: $grey;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+.head__nav_right__in {
+  margin-left: 1em;
+}
+
+//PAGEONE//
+.pageOne {
+  background-image: url("/src/assets/images/mockuup/mulan.png");
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: $blue-darker;
+    margin-left: 2%;
+    width: 477px;
+  }
+
+  & h3 {
+    font-size: bold;
+    font-size: 24px;
+    color: $blue-darker;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+  &__btn {
+    width: 168px;
+    margin-top: 44px;
+    margin-left: 2%;
+    cursor: pointer;
+    &:hover {
+      background-color: $blue;
+    }
+    padding: 10px 24px;
+    background-color: $blue-darker;
+    & > a {
+      font-size: 22px;
+      color: $grey;
+      text-decoration: none;
+    }
+  }
+}
+
+//MAIN - PAGEONE //
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+
+  &__box1 {
+    display: flex;
+    flex-direction: column;
+
+    color: $grey;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    &__title {
+      color: $green-light;
+      font-size: 32px;
+      margin-top: 10%;
+      height: 112px;
+    }
+
+    &__body {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+
+      &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        text-align: center;
+        padding: 12%;
+
+        &__like {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+        }
+
+        & p {
+          display: flex;
+          flex-direction: column;
+          font-size: 16px;
+          text-align: center;
+        }
+        & img {
+          display: flex;
+          align-items: center;
+          width: 80px;
+          height: auto;
+          justify-content: space-evenly;
+          padding-bottom: 50%;
+        }
+      }
+    }
+  }
+  //OUR PLATEFORM//
+  &__box2 {
+    display: flex;
+    flex-direction: column;
+    color: $grey;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5%;
+
+    &__title {
+      color: $green-light;
+      font-size: 32px;
+      display: flex;
+      margin-left: 5%;
+    }
+    &__text {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+      &__description {
+        display: flex;
+        flex-direction: column;
+        & img {
+          width: 471px;
+          height: 371px;
+        }
+      }
+    }
+  }
+  //CHOOSE PLAN
+  &__box3 {
+    display: flex;
+    flex-direction: column;
+    color: $green-light;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10%;
+
+    &__title {
+      font-size: 32px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10%;
+      &__plan1 {
+        text-align: center;
+        justify-content: space-between;
+        font-weight: normal;
+        font-size: 18px;
+        margin-bottom: 5px;
+        padding: 10px;
+        &:hover {
+          cursor: pointer;
+          border: 1px solid $green-light;
+          transform: scale(1.1);
+          padding: 10px;
+        }
+        &__see {
+          font-size: 14px;
+          text-decoration: underline;
+          font-size: 14px;
+          padding: 6%;
+          font-weight: lighter;
+        }
+        & strong {
+          font-weight: bold;
+          font-size: 36px;
+        }
+        &__button {
+          width: 168px;
+          margin-top: 44px;
+          margin-left: 2%;
+          background-color: $black;
+          color: $green-light;
+          cursor: pointer;
+          &:hover {
+            background-color: $green-light;
+            color: $grey;
+          }
+          padding: 10px 24px;
+
+          & > a {
+            font-size: 22px;
+            color: $green-light;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+//POSTER//
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  & img {
+    max-width: 100%;
+    width: 287px;
+    height: 362px;
+  }
+}
