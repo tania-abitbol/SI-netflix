@@ -46,7 +46,6 @@
           position: absolute;
           height: 100px;
           top: 80px;
-          right: 0;
           display: none; }
           .header__nav__right__menu--open > a {
             text-decoration: none;

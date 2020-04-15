@@ -31,7 +31,6 @@
           <div class="header__nav__right__menu">
           <img class="header__nav__right__menu--img" src="../assets/images/bottom-arrow.png" alt="slider user menu" />
           <ul class="header__nav__right__menu--open">
-          <a href="../views/account.php"><img src="../assets/images/user.svg" alt="user menu" /></a>
             <a href="../views/account.php"><li>Settings</li></a>
             <a href="../index.php?url=logout" ><li>Logout</li></a>          </ul>
           </div>
