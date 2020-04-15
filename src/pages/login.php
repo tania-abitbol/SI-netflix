@@ -24,7 +24,7 @@
               class="client-space__form__items__item__input"
               name="name"
               type="text"
-              placeholder="enzo le boloss"
+              placeholder="ID"
             />
           </div>
           <div class="client-space__form__items__item">
@@ -42,7 +42,7 @@
         </div>
 
         <div class="client-space__form__submit">
-          <input class="client-space__form__submit__button" type="submit" value="start"/>
+          <input class="client-space__form__submit__button" type="submit" value="Start"/>
         
         </div>
       </form>

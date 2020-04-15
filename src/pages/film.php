@@ -1,27 +1,10 @@
 <?php include("../components/header.php")?>
 
-    <div class="illustration">
-      <img src="./../assets/images/iphonetest.jpg" alt="first" class="illustration__img" />
-    </div>
+<video src="../assets/videos/baby-driver.mp4" class="video__header" type="video/mp4"  autoplay  controls  ></video>
+
 
     <div class="title__form">
       <h1 class="container--title">Popular</h1>
-      <form class="form">
-        <select class="type">
-          <option value="">Genres</option>
-          <option>Science-fiction</option>
-          <option>Action</option>
-          <option>Adventure</option>
-          <option>Horror</option>
-          <option>Thriller</option>
-          <option>Drama</option>
-          <option>Fantasy</option>
-          <option>Animated</option>
-          <option>Comedy</option>
-          <option>Historical</option>
-          <option>Romance</option>
-        </select>
-      </form>
     </div>
     <h1 class="container--second--title"></h1>
     <div class="container">
@@ -217,7 +200,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -333,7 +316,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -449,7 +432,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -565,7 +548,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -681,7 +664,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -797,7 +780,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -913,7 +896,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -1029,7 +1012,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>
@@ -1145,7 +1128,7 @@
               <div class="sliders__item--img"></div>
             </div>
             <div class="sliders__item--details">
-              <div class="sliders__ite--title">
+              <div class="sliders__item--title">
               </div>
             </div>
           </div>

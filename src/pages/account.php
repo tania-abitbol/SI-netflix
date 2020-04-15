@@ -1,4 +1,4 @@
-<?php include("./components/header.php")?>
+<?php include("../components/header.php")?>
 
     <div class="profil">
       <ul class="profil__nav">
@@ -211,4 +211,4 @@
         </div>
       </form>
     </div>
-    <?php include("./components/footer.php")?>
+    <?php include("../components/footer.php")?>

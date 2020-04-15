@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VideoPlayer</title>
-    <link rel="stylesheet" href="../scss/style.scss" />
+    <link rel="stylesheet" href="../styles/css/style.css" />
     <script src="../js/player.js" defer></script>
   </head>
 
@@ -16,17 +16,15 @@
         type="video/mp4"
       ></video>
       <button class="video__return">
-        <img src="../assets/images/videoplayer/return.svg" alt="" />
+        <a href="home.php"><img src="../assets/images/videoplayer/return.svg" alt=""/></a>
       </button>
       <div class="video__progress">
         <div class="video__progress__bar"></div>
       </div>
 
-      <!-- <div class="video__centralbutton"> -->
       <button class="video__centralbutton--played">
         <img src="../assets/images/videoplayer/button_play.svg" alt="" />
       </button>
-      <!-- </div> -->
 
       <div class="video__controller">
         <button class="video__controller--pause">
@@ -49,18 +47,18 @@
           <img src="../assets/images/videoplayer/replay.svg" alt="" />
         </button>
 
-        <button class="video__controller--sound">
-          <img src="../assets/images/videoplayer/sound.svg" alt="" />
-          <div class="video__controller__container">
-            <input class="video__controller__container--volume" type="range" />
-          </div>
-        </button>
+        <button class="video__controller__sound" onmouseover="mouseOver()">
+          <img src="../assets/images/videoplayer/sound.svg" alt="" class="video__controller__sound--on"/>
+        
+          <img src="../assets/images/videoplayer/mute.svg" alt="" class="video__controller__sound--off"/>
+       </button>
 
-        <button class="video__controller--mute">
-          <img src="../assets/images/videoplayer/mute.svg" alt="" />
-        </button>
+        <input class="video__controller--volume" type="range" />
 
-        <p class="video__controller--title">Série : Titre : Episode 4</p>
+        <button class="video__controller__screen">
+      <img src="../assets/images/videoplayer/fullScreen.svg" class="video__controller__screen--fullScreen" alt="">
+      <img src="../assets/images/videoplayer/reduction.svg" class="video__controller__screen--midScreen" alt="">
+        </button>
       </div>
     </div>
   </body>
