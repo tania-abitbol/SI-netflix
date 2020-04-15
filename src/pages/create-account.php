@@ -83,11 +83,10 @@
         </div>
 
         <div class="client-space__form__submit">
-          <input type="submit" value="start">
-          <!-- <button type="submit" class="client-space__form__submit__button">
-            START
-          </button> -->
-          <a href="./login.html">login</a>
+           <button type="submit" class="client-space__form__submit__button">
+           CONTINUE
+          </button> 
+          <a href="../pages/login.php">login</a>
         </div>
       </form>
     </div>

@@ -44,7 +44,6 @@ $sliders-transition: 300ms;
 }
 .container--second--title {
   color: white;
-
   text-align: left;
   text-transform: uppercase;
   font-size: 18px;
@@ -68,9 +67,7 @@ $sliders-transition: 300ms;
   margin-left: 1em;
   margin-right: 1em;
 }
-::-webkit-scrollbar {
-  display: none;
-}
+
 .sliders {
   display: block;
   margin: auto;
@@ -81,6 +78,8 @@ $sliders-transition: 300ms;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
 
   &__inner {
     transition: $sliders-transition translate(100px);
@@ -128,48 +127,36 @@ $sliders-transition: 300ms;
       right: 0;
       top: 0;
       font-size: 10px;
-      opacity: 0;
       background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
       transition: $sliders-transition opacity;
+    }
 
-      &:after,
-      &:before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      //   &:after {
-      //     width: 40px;
-      //     height: 40px;
-      //     border: 2px solid #ecf0f1;
-      //     line-height: 50px;
-      //     text-align: center;
-      //     border-radius: 100%;
-      //     background: rgba(0, 0, 0, 0.5);
-      //     z-index: 1;
-      //   }
-      //   &:before {
-      //     content: "▶";
-      //     font-size: 30px;
-      //     line-height: 30px;
-      //     margin: 2px;
-      //     text-align: center;
-      //     z-index: 2;
-      //     color: white;
-      //   }
-      // }
-      &:hover {
-        .sliders__item--details {
-          opacity: 1;
+    .sliders__item--title {
+      visibility: hidden;
+    }
+    &:hover {
+      .sliders__item--details {
+        opacity: 1;
+        p {
+          font-size: 16px;
+          visibility: visible;
+          color: white;
+          line-height: 1.5em;
+          text-overflow: ellipsis;
+          word-wrap: break-word;
+          overflow: hidden;
+          max-height: 50px;
+          font-weight: bolder;
         }
       }
-      // .sliders__item--title {
-      // }
     }
   }
+  .sliders__item--title {
+    transform: translateY(180%);
+    margin-left: 2em;
+  }
 }
+
 .sliders--large {
   .sliders__item {
     &:hover {
@@ -190,17 +177,16 @@ $sliders-transition: 300ms;
 
 .slide__item {
   height: 200px;
-  // background-image: url(/assets/images/iphonetest.jpg);
   width: 100%;
   .slide__item--btn {
     background-color: $blue-darker;
-    width: 80px;
+    width: 100px;
     height: 25px;
     display: block;
     margin: auto;
     transform: translateY(-2.5em);
     .slide__item--btn--btn {
-      width: 80px;
+      width: 100px;
       height: 25px;
       background-color: $blue-darker;
       color: #ecf0f1;
