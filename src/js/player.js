@@ -107,13 +107,13 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-function mouseOver() {
+sound.addEventListener("click", () => {
   if (volume.style.display != "none") {
     volume.style.display = "none";
   } else if (volume.style.display != "block") {
     volume.style.display = "block";
   }
-}
+});
 // setTimeout(function () {
 //   volume.style.display = "none";
 // }, 8000);
@@ -138,7 +138,10 @@ videoReturn.addEventListener("click", () => {
   window.history.back();
 });
 
-videoContent.addEventListener("mouseenter", () => {
+// video.addEventListener("mousemove", () => {
+//   if ((controller.style.opacity = "0")) {
+
+videoContent.addEventListener("mousemove", () => {
   if (controller.style.opacity == "0") {
     controller.style.opacity = 1;
     bar.style.bottom = "5%";
@@ -146,8 +149,21 @@ videoContent.addEventListener("mouseenter", () => {
   setTimeout(function () {
     controller.style.opacity = 0;
     bar.style.bottom = 0;
-  }, 10000);
+  }, 8000);
 });
+
+document.addEventListener(
+  "keydown",
+  (e) => {
+    if (e.keyCode === 13) {
+      video.requestFullscreen();
+      videoContent.style.width = "100%";
+      videoContent.style.height = "100%";
+      console.log(videoFullScreen());
+    }
+  },
+  false
+);
 
 function videoFullScreen() {
   if (video.requestFullscreen) {
@@ -177,4 +193,3 @@ screen.addEventListener("click", () => {
     midScreenBtn.style.opacity = "none";
   }
 });
-console.log("t" + videoContent);
