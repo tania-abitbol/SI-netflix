@@ -8,13 +8,14 @@
   <script src="js/index.js" defer></script>
 </head>
 
-  <body>
+  <body> 
 <header class="head">
   <nav class="head__nav">
     <div class="head__nav__left">
       <img src="../assets/images/logo.png" alt="" />
       <ul class="head__nav__left__links">
-     
+   
+        
       </ul>
     </div>
     <div class="head__nav__right">
@@ -33,9 +34,7 @@
     Your ideal video platform to have at home during the confinment.
   </h1>
   <h3>Gfx the new platform available soon !</h3>
-  <button class="pageOne__btn"type="submit">
-    <a href="#"> Press </a>
-  </button>
+  
 </div>  
 
 <div class="main">

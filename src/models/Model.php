@@ -37,19 +37,9 @@ abstract class Model
 
     $req->execute(array(
       "name" => $name,
-<<<<<<< HEAD
-      "email" => $email,
-      "password" => $password,
-      
-=======
       "password" => $password
->>>>>>> parent of c7c026a... email login
   ));
-<<<<<<< HEAD
-  
-=======
  
->>>>>>> parent of 09bf9da... bug
     $req->closeCursor();
   }
 

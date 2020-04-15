@@ -1,7 +1,7 @@
 <?php
 class ControllerSignin
 {
-  private $_articleManager;
+  private $_signinManager;
   
   public function __construct($url)
   {
@@ -18,19 +18,6 @@ class ControllerSignin
 
   private function signin()
   {
-<<<<<<< HEAD
-<<<<<<< HEAD
- 
-<<<<<<< HEAD
-=======
-  var_dump("f");
-
->>>>>>> parent of c9326a9... end
-=======
-
->>>>>>> parent of 09bf9da... bug
-=======
->>>>>>> parent of c7c026a... email login
     $this->_signinManager = new SigninManager;
     $signin = $this->_signinManager->createUser($_POST["name"],$_POST["password"]);
     header("Location: views/viewLogin.php");
