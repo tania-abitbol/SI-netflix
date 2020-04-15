@@ -114,10 +114,15 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
+
+sound.addEventListener("click", () => {
+  if ((volume.style.display = "none")) {
+
 function mouseOver() {
   if (volume.style.display != "none") {
     volume.style.display = "none";
   } else if (volume.style.display != "block") {
+
     volume.style.display = "block";
   }
 }
@@ -145,16 +150,20 @@ videoReturn.addEventListener("click", () => {
   window.history.back();
 });
 
+
 videoContent.addEventListener("mousemove", () => {
   if (controller.style.opacity == "0") {
+
     controller.style.opacity = 1;
     bar.style.bottom = "5%";
   }
   setTimeout(function () {
     controller.style.opacity = 0;
     bar.style.bottom = 0;
+
   }, 10000);
 });
+
 
 function videoFullScreen() {
   if (video.requestFullscreen) {
@@ -168,6 +177,7 @@ const largeur = rect.width;
 bar.addEventListener("click", (a) => {
   var x = a.clientX - rect.left;
   const widthPercent = (x * 100) / largeur;
+
   const currenTimeTrue = (widthPercent * videoContent.duration) / 100;
   videoContent.currentTime = currenTimeTrue;
   progressBar.style.width = widthPercent + "%";
@@ -187,3 +197,4 @@ fullScreenBtn.addEventListener("click", () => {
   }
 });
 console.log("t" + videoContent);
+
