@@ -9,7 +9,7 @@ const lessSec = document.querySelector(".video__controller--addtime-backward"); 
 const mute = document.querySelector(".video__controller--mute"); // Bouton mute
 const bar = document.querySelector(".video__progress"); // Controleur bar
 const progressBar = document.querySelector(".video__progress__bar"); // Bar de progresssion
-const volume = document.querySelector(".video__controller--volume"); // Input volume
+const volume = document.querySelector(".video__controller__sound--volume"); // Input volume
 const sound = document.querySelector(".video__controller__sound"); // Div images sound
 const soundOn = document.querySelector(".video__controller__sound--on"); // Img sound on
 const soundOff = document.querySelector(".video__controller__sound--off"); // Img sound off
@@ -17,7 +17,7 @@ const videoReturn = document.querySelector(".video__return"); // Bouton return
 const controller = document.querySelector(".video__controller"); // Div controller
 const fullScreenBtn = document.querySelector(".video__controller__screen--fullScreen"); //Bouton full screen
 const midScreenBtn = document.querySelector(".video__controller__screen--midScreen"); //Bouton full screen
-const screen = document.querySelector(".video__controller__screen");
+const screenDiv = document.querySelector(".video__controller__screen");
 videoContent.volume = 0.2;
 
 const eventPlay = () => {
@@ -107,25 +107,20 @@ videoContent.addEventListener("timeupdate", () => {
   }
 });
 
-sound.addEventListener("click", () => {
-  if (volume.style.display != "none") {
-    volume.style.display = "none";
-  } else if (volume.style.display != "block") {
-    volume.style.display = "block";
-  }
-});
 // setTimeout(function () {
 //   volume.style.display = "none";
 // }, 8000);
 
 sound.addEventListener("click", () => {
-  if (soundOn.style.display != "none") {
+  if (soundOn.style.display != "none" && volume.style.display != "block") {
     soundOff.style.display = "block";
     soundOn.style.display = "none";
+    volume.style.display = "block";
     videoContent.volume = 0;
-  } else if ((soundOff.style.display = "block")) {
+  } else if (soundOff.style.display != "block" && volume.style.display != "none") {
     soundOn.style.display = "block";
     soundOff.style.display = "none";
+    volume.style.display = "none";
     videoContent.volume = 0.2;
   }
 });
@@ -138,10 +133,7 @@ videoReturn.addEventListener("click", () => {
   window.history.back();
 });
 
-// video.addEventListener("mousemove", () => {
-//   if ((controller.style.opacity = "0")) {
-
-videoContent.addEventListener("mousemove", () => {
+videoContent.addEventListener("mouseenter", () => {
   if (controller.style.opacity == "0") {
     controller.style.opacity = 1;
     bar.style.bottom = "5%";
@@ -152,18 +144,18 @@ videoContent.addEventListener("mousemove", () => {
   }, 8000);
 });
 
-document.addEventListener(
-  "keydown",
-  (e) => {
-    if (e.keyCode === 13) {
-      video.requestFullscreen();
-      videoContent.style.width = "100%";
-      videoContent.style.height = "100%";
-      console.log(videoFullScreen());
-    }
-  },
-  false
-);
+// document.addEventListener(
+//   "keydown",
+//   (e) => {
+//     if (e.keyCode === 13) {
+//       video.requestFullscreen();
+//       videoContent.style.width = "100%";
+//       videoContent.style.height = "100%";
+//       console.log(videoFullScreen());
+//     }
+//   },
+//   false
+// );
 
 function videoFullScreen() {
   if (video.requestFullscreen) {
@@ -182,14 +174,19 @@ bar.addEventListener("click", (a) => {
   progressBar.style.width = widthPercent + "%";
 });
 
-screen.addEventListener("click", () => {
-  if ((fullScreenBtn.style.opacity = "block")) {
-    videoFullScreen();
-    midScreenBtn.style.display = "block";
-    fullScreenBtn.style.opacity = "none";
-  } else if (midScreenBtn.style.opacity == "block") {
-    exitFullscreen();
-    fullScreenBtn.style.opacity = "block";
-    midScreenBtn.style.opacity = "none";
+screenDiv.addEventListener("click", () => {
+  if (videoContent != videoFullScreen()) videoFullScreen();
+  else if ((videoContent = videoFullScreen())) {
+    videoContent.exitFullscreen();
   }
+  // if (fullScreenBtn.style.display == "block") {
+  //
+  //   midScreenBtn.style.display = "block";
+  //   // fullScreenBtn.style.display = "none";
+  // } else if (midScreenBtn.style.display == "block") {
+  //   exitFullscreen();
+  //   fullScreenBtn.style.display = "block";
+  //   midScreenBtn.style.display = "none";
+
+  // }
 });

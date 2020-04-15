@@ -16,7 +16,7 @@
         type="video/mp4"
       ></video>
       <button class="video__return">
-        <a href="home.php"><img src="../assets/images/videoplayer/return.svg" alt=""/></a>
+        <a href="viewHome.php"><img src="../assets/images/videoplayer/return.svg" alt=""/></a>
       </button>
       <div class="video__progress">
         <div class="video__progress__bar"></div>
@@ -51,9 +51,8 @@
           <img src="../assets/images/videoplayer/sound.svg" alt="" class="video__controller__sound--on"/>
         
           <img src="../assets/images/videoplayer/mute.svg" alt="" class="video__controller__sound--off"/>
+          <button class="video__controller__sound--volume"><input class="video__controller__sound--volume--range" type="range" /></button> 
        </button>
-
-       <button class="video__controller__volume"><input class="video__controller__volume--range" type="range" /></button> 
 
         <button class="video__controller__screen">
       <img src="../assets/images/videoplayer/fullScreen.svg" class="video__controller__screen--fullScreen" alt="">
