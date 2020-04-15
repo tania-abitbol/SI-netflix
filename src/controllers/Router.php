@@ -35,7 +35,7 @@ class Router
         }
       }
       else {
-       header("Location:views/viewHome.php");
+       require_once("controllers/ControllerLogin.php");
        $this->_ctrl = new ControllerLogin($url);
       }
     }

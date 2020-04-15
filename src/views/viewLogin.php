@@ -19,12 +19,12 @@
       <form class="client-space__form" action="../index.php?url=login" method="post">
         <div class="client-space__form__items">
           <div class="client-space__form__items__item">
-            <label for="email">Email:</label>
+            <label for="name">Name:</label>
             <input
               class="client-space__form__items__item__input"
-              name="email"
+              name="name"
               type="text"
-              placeholder="email"
+              placeholder="name"
             />
           </div>
           <div class="client-space__form__items__item">

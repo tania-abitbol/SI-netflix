@@ -18,17 +18,32 @@ abstract class Model
     return self::$_bdd;
   }
   
-  
-  
-  protected function postOne($table, $obj, $name,$email, $password) //TODO change custom param in one array who will construct a string of params
+  protected function getAll($table, $obj)
   {
-    $req = $this->getBdd()->prepare("INSERT INTO " .$table. "(name,email,password,) VALUES(:name,:email, :password)");
+    $var =  [];
+    $req = $this->getBdd()->prepare("SELECT * FROM " .$table. " ORDER BY id desc");
+    $req->execute();
+    while ($data = $req->fetch(PDO::FETCH_ASSOC)) 
+    {
+      $var[] = new $obj($data);
+    }
+    return $var;
+    $req->closeCursor();
+  }
+  
+  protected function postOne($table, $obj, $name, $password) //TODO change custom param in one array who will construct a string of params
+  {
+    $req = $this->getBdd()->prepare("INSERT INTO " .$table. "(name,password) VALUES(:name, :password)");
 
     $req->execute(array(
       "name" => $name,
+<<<<<<< HEAD
       "email" => $email,
       "password" => $password,
       
+=======
+      "password" => $password
+>>>>>>> parent of c7c026a... email login
   ));
 <<<<<<< HEAD
   
@@ -38,12 +53,12 @@ abstract class Model
     $req->closeCursor();
   }
 
-  protected function getOne($table, $obj, $email, $password)
+  protected function getOne($table, $obj, $name, $password)
 
   {
-    $req = $this->getBdd()->prepare("SELECT email, password FROM " .$table. " WHERE email = :email");
+    $req = $this->getBdd()->prepare("SELECT name, password FROM " .$table. " WHERE name = :name");
     $req->execute(array(
-         email=>$email,
+         name =>$name,
     ));
     $user = $req->FETCH();
     if(!$user){
@@ -58,10 +73,5 @@ abstract class Model
     }
   }
 
-   protected function getAll($table)
-{
-  $req = $this->getBdd()->prepare("SELECT *  FROM " .$table );
-return $req->fetch();
-}
  
 }

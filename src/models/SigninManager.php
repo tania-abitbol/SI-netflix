@@ -3,10 +3,10 @@ class SigninManager extends Model
 {
   public function createUser()
   {
-    var_dump("f");
     $pass_hash =  password_hash($_POST['password'], PASSWORD_DEFAULT);
-    return $this->postOne('users', 'User', $_POST["name"],$_POST["email"], $pass_hash);
+    return $this->postOne('users', 'User', $_POST["name"], $pass_hash);
   }
+<<<<<<< HEAD
   public function checkEmail($email)
 {
   var_dump("f");
@@ -29,3 +29,6 @@ class SigninManager extends Model
 >>>>>>> parent of c9326a9... end
 }
 }
+=======
+}
+>>>>>>> parent of c7c026a... email login

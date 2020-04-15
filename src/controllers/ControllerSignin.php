@@ -8,11 +8,8 @@ class ControllerSignin
     if(isset($url)&& count($url)>1){
       throw new Exception("Page introuvable");
     }
-    elseif (isset($_POST["name"]) && isset($_POST["password"])&& isset($_POST["email"])){
-     
-      var_dump(isset($_POST["name"]) && isset($_POST["password"])&& isset($_POST["email"]));
-    $this->signin();
-
+    elseif (isset($_POST["name"]) && isset($_POST["password"])){
+      $this->signin();
     }
     else {
       throw new Exception("Mauvaise Inscription");
@@ -21,6 +18,7 @@ class ControllerSignin
 
   private function signin()
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
  
 <<<<<<< HEAD
@@ -31,8 +29,10 @@ class ControllerSignin
 =======
 
 >>>>>>> parent of 09bf9da... bug
+=======
+>>>>>>> parent of c7c026a... email login
     $this->_signinManager = new SigninManager;
-    $signin = $this->_signinManager->checkEmail($_POST["email"]);
+    $signin = $this->_signinManager->createUser($_POST["name"],$_POST["password"]);
     header("Location: views/viewLogin.php");
   }
 }

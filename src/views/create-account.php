@@ -86,7 +86,7 @@
            <button type="submit" class="client-space__form__submit__button">
            CONTINUE
           </button> 
-          <a href="../views/login.php">login</a>
+          <a href="../pages/login.php">login</a>
         </div>
       </form>
     </div>
