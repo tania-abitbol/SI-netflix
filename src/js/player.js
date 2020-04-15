@@ -151,6 +151,10 @@ videoReturn.addEventListener("click", () => {
 });
 
 
+video.addEventListener("mousemove", () => {
+  if ((controller.style.opacity = "0")) {
+
+
 videoContent.addEventListener("mousemove", () => {
   if (controller.style.opacity == "0") {
 
@@ -160,6 +164,25 @@ videoContent.addEventListener("mousemove", () => {
   setTimeout(function () {
     controller.style.opacity = 0;
     bar.style.bottom = 0;
+
+
+  }, 8000);
+});
+
+document.addEventListener(
+  "keydown",
+  (e) => {
+    if (e.keyCode === 13) {
+      video.requestFullscreen();
+      videoContent.style.width = "100%";
+      videoContent.style.height = "100%";
+      console.log(videoFullScreen());
+    }
+  },
+  false
+);
+
+
 
   }, 10000);
 });
@@ -177,6 +200,12 @@ const largeur = rect.width;
 bar.addEventListener("click", (a) => {
   var x = a.clientX - rect.left;
   const widthPercent = (x * 100) / largeur;
+
+
+  const surrenTimeTrue = (widthPercent * videoContent.duration) / 100;
+  videoContent.currentTime = surrenTimeTrue;
+  progressBar.style.width = widthPercent + "%";
+
 
   const currenTimeTrue = (widthPercent * videoContent.duration) / 100;
   videoContent.currentTime = currenTimeTrue;
