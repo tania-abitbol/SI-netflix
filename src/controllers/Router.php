@@ -35,8 +35,8 @@ class Router
         }
       }
       else {
-       header("Location:views/viewLandingpage.php");
-       
+       header("Location:views/viewHome.php");
+       $this->_ctrl = new ControllerLogin($url);
       }
     }
     catch(Exception $e)

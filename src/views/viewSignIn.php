@@ -87,7 +87,7 @@
           <!-- <button type="submit" class="client-space__form__submit__button">
             START
           </button> -->
-          <a href="../views/login.html">login</a>
+          <a href="./login.html">login</a>
         </div>
       </form>
     </div>

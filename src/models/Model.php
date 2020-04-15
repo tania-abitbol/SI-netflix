@@ -31,7 +31,6 @@ abstract class Model
       
   ));
   
-
     $req->closeCursor();
   }
 

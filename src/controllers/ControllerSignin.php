@@ -1,7 +1,7 @@
 <?php
 class ControllerSignin
 {
-  private $_signinManager;
+  private $_articleManager;
   
   public function __construct($url)
   {
@@ -10,7 +10,7 @@ class ControllerSignin
     }
     elseif (isset($_POST["name"]) && isset($_POST["password"])&& isset($_POST["email"])){
      
-    
+      var_dump(isset($_POST["name"]) && isset($_POST["password"])&& isset($_POST["email"]));
     $this->signin();
 
     }
@@ -21,7 +21,12 @@ class ControllerSignin
 
   private function signin()
   {
+<<<<<<< HEAD
  
+=======
+  var_dump("f");
+
+>>>>>>> parent of c9326a9... end
     $this->_signinManager = new SigninManager;
     $signin = $this->_signinManager->checkEmail($_POST["email"]);
     // header("Location: views/viewLogin.php");
