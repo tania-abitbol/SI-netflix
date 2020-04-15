@@ -23,12 +23,16 @@ class ControllerSignin
   {
 <<<<<<< HEAD
  
+<<<<<<< HEAD
 =======
   var_dump("f");
 
 >>>>>>> parent of c9326a9... end
+=======
+
+>>>>>>> parent of 09bf9da... bug
     $this->_signinManager = new SigninManager;
     $signin = $this->_signinManager->checkEmail($_POST["email"]);
-    // header("Location: views/viewLogin.php");
+    header("Location: views/viewLogin.php");
   }
 }

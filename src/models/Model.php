@@ -22,15 +22,19 @@ abstract class Model
   
   protected function postOne($table, $obj, $name,$email, $password) //TODO change custom param in one array who will construct a string of params
   {
-    $req = $this->getBdd()->prepare("INSERT INTO " .$table. "(name,email,password) VALUES(:name,:email,:password)");
+    $req = $this->getBdd()->prepare("INSERT INTO " .$table. "(name,email,password,) VALUES(:name,:email, :password)");
 
     $req->execute(array(
       "name" => $name,
       "email" => $email,
-      "password" => $password
+      "password" => $password,
       
   ));
+<<<<<<< HEAD
   
+=======
+ 
+>>>>>>> parent of 09bf9da... bug
     $req->closeCursor();
   }
 

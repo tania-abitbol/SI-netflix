@@ -1,16 +1,5 @@
-# SI like netflix
+# SI-netflix
 
-# Groupe de Nuit/Semaine Charette Netflix like:
+# Groupe de Nuit/Semaine Charette Netflix like
 
-contributor:
-Tania
-Romain
-Yoan
-Annie
-Alexanne
-
-usage:
-clone repo
-cd into the repo
-npm install
-npm run watch-sass
+# Tania, Romain, Yoan, Annie, Guilhem, Alexanne
