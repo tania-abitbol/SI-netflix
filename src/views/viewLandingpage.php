@@ -2,7 +2,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GOFILMAX</title>
-  <link rel="stylesheet" href="../styles/css/style.css"/>
+  <link rel="stylesheet" href="styles/css/style.css"/>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/index.js" defer></script>
@@ -21,10 +21,10 @@
     <div class="head__nav__right">
 
       <button class="head__nav__right__up" type="submit">
-        <a href="../views/create-account.php"> Sign up </a>
+        <a href="index.php?url=login"> Sign up </a>
       </button> 
       <button class="head__nav_right__in" type="submit">
-        <a href="../views/login.php"> Sign in </a>
+        <a href="index.php?url=signin"> Sign in </a>
       </button>
     </div>
   </nav>

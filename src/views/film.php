@@ -10,10 +10,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -126,10 +126,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -242,10 +242,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -358,10 +358,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -474,10 +474,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -590,10 +590,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -706,10 +706,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -822,10 +822,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -938,10 +938,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
@@ -1054,10 +1054,10 @@
     <div class="container">
       <div class="slider__icon--s">
         <div class="slider__icon--container">
-          <img class="prev" src="./../assets/images/arow--prev.svg" />
+          <img class="prev" src="assets/images/arow--prev.svg" />
         </div>
         <div class="slider__icon--second">
-          <img class="next" src="./../assets/images/arrow--next.svg" />
+          <img class="next" src="assets/images/arrow--next.svg" />
         </div>
       </div>
 
